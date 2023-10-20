@@ -11,7 +11,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <Box className="min-h-screen">
+    <Box className="min-h-screen bg-zinc-50">
       <RouterProvider router={router} />
     </Box>
   )

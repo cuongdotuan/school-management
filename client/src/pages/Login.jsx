@@ -5,7 +5,7 @@ const Login = () => {
     <Box className="flex justify-center items-center h-screen">
       <Box
         component="form"
-        className="shadow-xl w-80 flex flex-col gap-3  p-8 rounded-md"
+        className="shadow-xl w-80 flex flex-col gap-3  p-8 rounded-md bg-white"
       >
         <TextField
           required
