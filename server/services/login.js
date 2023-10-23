@@ -28,6 +28,6 @@ const login = (username, password) => {
   throw new Error("Invalid request")
 }
 
-export default {
-  login,
-}
+const authService = { login }
+
+export default authService

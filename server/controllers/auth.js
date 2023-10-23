@@ -10,6 +10,6 @@ const login = async (req, res) => {
   }
 }
 
-export default {
-  login,
-}
+const authController = { login }
+
+export default authController
