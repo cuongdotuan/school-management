@@ -60,7 +60,10 @@ const appRoutes = [
   { path: "/category/create", element: <CategoryCreate /> },
   { path: "/*", element: <Navigate to="/" /> },
 ]
-const authRoutes = [{ path: "/", element: <Login /> }]
+const authRoutes = [
+  { path: "/", element: <Login /> },
+  { path: "/*", element: <Navigate to="/" /> },
+]
 const drawerWidth = 240
 
 const drawerItems = [
