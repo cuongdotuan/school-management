@@ -1,5 +1,5 @@
 import { Box } from "@mui/material"
-import { useState } from "react"
+import { useContext, useState } from "react"
 import {
   BrowserRouter,
   Navigate,
@@ -43,8 +43,10 @@ import ListItemText from "@mui/material/ListItemText"
 import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
 import { styled, useTheme } from "@mui/material/styles"
+import { UserContext } from "./context"
+import Login from "./pages/Login"
 
-const routers = [
+const appRoutes = [
   { path: "/", element: <Home /> },
   { path: "/customer", element: <CustomerList /> },
   { path: "/customer/view/:id", element: <CustomerDetail /> },
@@ -58,7 +60,7 @@ const routers = [
   { path: "/category/create", element: <CategoryCreate /> },
   { path: "/*", element: <Navigate to="/" /> },
 ]
-
+const authRoutes = [{ path: "/", element: <Login /> }]
 const drawerWidth = 240
 
 const drawerItems = [
@@ -256,14 +258,39 @@ const AppLayout = () => {
 }
 
 const App = () => {
+  const { user } = useContext(UserContext)
+  console.log(user)
+  const routes = user ? appRoutes : authRoutes
   return (
     <BrowserRouter>
       <Routes>
+        {user ? (
+          <Route
+            path="/"
+            element={<AppLayout />}
+          >
+            {appRoutes.map((route) => (
+              <Route
+                key={route.path}
+                path={route.path}
+                element={route.element}
+              />
+            ))}
+          </Route>
+        ) : (
+          authRoutes.map((route) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              element={route.element}
+            />
+          ))
+        )}
         <Route
           path="/"
           element={<AppLayout />}
         >
-          {routers.map((route) => (
+          {routes.map((route) => (
             <Route
               key={route.path}
               path={route.path}
