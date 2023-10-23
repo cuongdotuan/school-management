@@ -1,20 +1,31 @@
-import User from "../models/user.js"
-import bcrypt from "bcrypt"
+import dotenv from "dotenv"
+import jwt from "jsonwebtoken"
 
-const saltRounds = process.env.PASSWORD_SALT_ROUNDS || 10
+dotenv.config()
 
-const login = async (username, password) => {
-  try {
-    const hash = await bcrypt.hash("admin", saltRounds)
-    const newUser = new User({
-      username: "admin",
-      password: hash,
+const { PASSWORD_SALT_ROUNDS, ADMIN_USERNAME, ADMIN_PASSWORD, JWT_KEY } =
+  process.env
+
+const TOKEN_EXPIRE_IN_SECONDS = 3600
+
+const saltRounds = PASSWORD_SALT_ROUNDS || 10
+
+const login = (username, password) => {
+  if (
+    username &&
+    username === ADMIN_USERNAME &&
+    password &&
+    password === ADMIN_PASSWORD
+  ) {
+    const user = {
+      username,
+    }
+    const token = jwt.sign(user, JWT_KEY, {
+      expiresIn: TOKEN_EXPIRE_IN_SECONDS,
     })
-    await User.create(newUser)
-    console.log("create")
-  } catch (error) {
-    console.log(error)
+    return { user, token }
   }
+  throw new Error("Invalid request")
 }
 
 export default {
