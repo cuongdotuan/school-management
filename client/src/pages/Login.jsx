@@ -1,5 +1,8 @@
 import React from "react"
 import { Box, Button, TextField } from "@mui/material"
+const handleSubmit = (e) => {
+  console.log("submit")
+}
 const Login = () => {
   return (
     <Box className="flex justify-center items-center h-screen">
@@ -18,7 +21,12 @@ const Login = () => {
           type="password"
           size="small"
         />
-        <Button variant="contained">Log in</Button>
+        <Button
+          variant="contained"
+          onClick={handleSubmit}
+        >
+          Log in
+        </Button>
       </Box>
     </Box>
   )
