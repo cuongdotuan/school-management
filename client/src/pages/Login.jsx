@@ -3,6 +3,7 @@ import { Box, Button, Input, Select, TextField } from "@mui/material"
 import axios from "axios"
 import { Controller, useForm } from "react-hook-form"
 import { UserContext } from "../context"
+import { USER } from "../constants"
 
 const Login = () => {
   const { user, setUser } = useContext(UserContext)
@@ -21,6 +22,7 @@ const Login = () => {
           { username, password }
         )
         setUser(response.data.user)
+        localStorage.setItem(USER, JSON.stringify(response.data.user))
       } catch (error) {
         console.log(error)
       }
@@ -29,9 +31,13 @@ const Login = () => {
   }
 
   return (
-    <Box className="flex justify-center items-center ">
+    <Box className="flex justify-center items-center  ">
       <Box className="shadow-xl w-80 flex flex-col gap-3  p-8 rounded-md bg-white">
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <h1 className="text-center">Shop Management</h1>
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="flex flex-col gap-3"
+        >
           <Controller
             name="username"
             control={control}
@@ -61,6 +67,7 @@ const Login = () => {
           <Button
             variant="contained"
             type="submit"
+            className="mt-2 bg-red-500"
           >
             Log in
           </Button>
