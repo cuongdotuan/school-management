@@ -1,5 +1,5 @@
-import { Box } from "@mui/material"
-import { useContext, useState } from "react"
+import { Box, Button } from "@mui/material"
+import { useContext, useEffect, useState } from "react"
 import {
   BrowserRouter,
   Navigate,
@@ -45,6 +45,7 @@ import Typography from "@mui/material/Typography"
 import { styled, useTheme } from "@mui/material/styles"
 import { UserContext } from "./context"
 import Login from "./pages/Login"
+import { USER } from "./constants"
 
 const appRoutes = [
   { path: "/", element: <Home /> },
@@ -157,6 +158,7 @@ const AppLayout = () => {
   const theme = useTheme()
   const [open, setOpen] = useState(false)
   const navigate = useNavigate()
+  const { user, setUser } = useContext(UserContext)
   const handleDrawerOpen = () => {
     setOpen(true)
   }
@@ -165,6 +167,10 @@ const AppLayout = () => {
     setOpen(false)
   }
 
+  const handleLogOut = () => {
+    window.location.reload()
+    localStorage.removeItem(USER)
+  }
   return (
     <Box className="flex">
       <CssBaseline />
@@ -193,6 +199,12 @@ const AppLayout = () => {
           >
             Shop Management
           </Typography>
+          <Button
+            className="text-white"
+            onClick={handleLogOut}
+          >
+            log out
+          </Button>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -261,9 +273,25 @@ const AppLayout = () => {
 }
 
 const App = () => {
-  const { user } = useContext(UserContext)
-  console.log(user)
+  const [init, setInit] = useState(false)
+  const { user, setUser } = useContext(UserContext)
+
+  useEffect(() => {
+    const userLocal = localStorage.getItem(USER)
+
+    const parsedUser = JSON.parse(userLocal)
+
+    if (parsedUser && !user && !init) {
+      setUser(parsedUser)
+    }
+    setInit(true)
+  }, [])
+  if (!init) {
+    return null
+  }
+
   const routes = user ? appRoutes : authRoutes
+
   return (
     <BrowserRouter>
       <Routes>
