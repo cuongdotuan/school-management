@@ -1,11 +1,9 @@
+import "dotenv/config"
 import bodyParser from "body-parser"
 import cors from "cors"
-import dotenv from "dotenv"
 import express from "express"
 import mongoose from "mongoose"
 import router from "./routers/index.js"
-
-dotenv.config()
 
 const PORT = 8888
 const { MONGODB_URL } = process.env
