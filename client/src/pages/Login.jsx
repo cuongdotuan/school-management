@@ -5,8 +5,10 @@ import { Controller, useForm } from "react-hook-form"
 import { UserContext } from "../context"
 import { USER } from "../constants"
 
+import CircularProgress from "@mui/material/CircularProgress"
+
 const Login = () => {
-  const { user, setUser } = useContext(UserContext)
+  const { user, setUser, isLoading, setIsLoading } = useContext(UserContext)
   const { control, handleSubmit } = useForm({
     defaultValues: {
       username: "",
@@ -15,6 +17,7 @@ const Login = () => {
   })
   const onSubmit = (data) => {
     const { username, password } = data
+    setIsLoading(true)
     const login = async () => {
       try {
         let response = await axios.post(
@@ -25,6 +28,8 @@ const Login = () => {
         localStorage.setItem(USER, JSON.stringify(response.data.user))
       } catch (error) {
         console.log(error)
+      } finally {
+        setIsLoading(false)
       }
     }
     login()
@@ -32,6 +37,13 @@ const Login = () => {
 
   return (
     <Box className="flex justify-center items-center  ">
+      {isLoading && (
+        <div className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-50 flex justify-center items-center text-white">
+          <Box sx={{ display: "flex" }}>
+            <CircularProgress color="primary" />
+          </Box>
+        </div>
+      )}
       <Box className="shadow-xl w-80 flex flex-col gap-3  p-8 rounded-md bg-white">
         <h1 className="text-center">Shop Management</h1>
         <form
