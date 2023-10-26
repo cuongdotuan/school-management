@@ -3,7 +3,7 @@ import { Box, Button, Input, Select, TextField } from "@mui/material"
 import axios from "axios"
 import { Controller, useForm } from "react-hook-form"
 import { UserContext } from "../context"
-import { USER } from "../constants"
+import { TOKEN, USER } from "../constants"
 
 import CircularProgress from "@mui/material/CircularProgress"
 
@@ -26,6 +26,7 @@ const Login = () => {
         )
         setUser(response.data.user)
         localStorage.setItem(USER, JSON.stringify(response.data.user))
+        localStorage.setItem(TOKEN, response.data.token)
       } catch (error) {
         console.log(error)
       } finally {

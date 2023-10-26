@@ -1,4 +1,4 @@
-import { Box, Button } from "@mui/material"
+import { Box, Button, CircularProgress } from "@mui/material"
 import { useContext, useEffect, useState } from "react"
 import {
   BrowserRouter,
@@ -46,6 +46,7 @@ import { styled, useTheme } from "@mui/material/styles"
 import { UserContext } from "./context"
 import Login from "./pages/Login"
 import { USER } from "./constants"
+import handleLogOut from "./helper"
 
 const appRoutes = [
   { path: "/", element: <Home /> },
@@ -157,8 +158,9 @@ const Drawer = styled(MuiDrawer, {
 const AppLayout = () => {
   const theme = useTheme()
   const [open, setOpen] = useState(false)
+  const { isLoading, setIsLoading } = useContext(UserContext)
   const navigate = useNavigate()
-  const { user, setUser } = useContext(UserContext)
+
   const handleDrawerOpen = () => {
     setOpen(true)
   }
@@ -167,108 +169,114 @@ const AppLayout = () => {
     setOpen(false)
   }
 
-  const handleLogOut = () => {
-    window.location.reload()
-    localStorage.removeItem(USER)
-  }
   return (
-    <Box className="flex">
-      <CssBaseline />
-      <AppBar
-        position="fixed"
-        open={open}
-        className="bg-red-500"
-      >
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            sx={{
-              marginRight: 5,
-              ...(open && { display: "none" }),
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-          >
-            Shop Management
-          </Typography>
-          <Button
-            className="text-white"
-            onClick={handleLogOut}
-          >
-            log out
-          </Button>
-        </Toolbar>
-      </AppBar>
-      <Drawer
-        variant="permanent"
-        open={open}
-      >
-        <DrawerHeader className="bg-red-500">
-          <IconButton
-            onClick={handleDrawerClose}
-            className="text-white"
-          >
-            {theme.direction === "rtl" ? (
-              <ChevronRightIcon />
-            ) : (
-              <ChevronLeftIcon />
-            )}
-          </IconButton>
-        </DrawerHeader>
-        <Divider />
+    <>
+      {isLoading && (
+        <div className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-50 flex justify-center items-center text-white">
+          <Box sx={{ display: "flex" }}>
+            <CircularProgress color="primary" />
+          </Box>
+        </div>
+      )}
 
-        <List>
-          {drawerItems.map((item, index) => (
-            <ListItem
-              key={index}
-              disablePadding
-              className="block"
+      <Box className="flex">
+        <CssBaseline />
+        <AppBar
+          position="fixed"
+          open={open}
+          className="bg-red-500"
+        >
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="start"
+              sx={{
+                marginRight: 5,
+                ...(open && { display: "none" }),
+              }}
             >
-              <ListItemButton
-                sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
-                }}
-                onClick={() => {
-                  navigate(item.url)
-                }}
+              <MenuIcon />
+            </IconButton>
+            <Typography
+              variant="h6"
+              noWrap
+              component="div"
+            >
+              Shop Management
+            </Typography>
+            <Button
+              className="text-white"
+              onClick={handleLogOut}
+            >
+              log out
+            </Button>
+          </Toolbar>
+        </AppBar>
+        <Drawer
+          variant="permanent"
+          open={open}
+        >
+          <DrawerHeader className="bg-red-500">
+            <IconButton
+              onClick={handleDrawerClose}
+              className="text-white"
+            >
+              {theme.direction === "rtl" ? (
+                <ChevronRightIcon />
+              ) : (
+                <ChevronLeftIcon />
+              )}
+            </IconButton>
+          </DrawerHeader>
+          <Divider />
+
+          <List>
+            {drawerItems.map((item, index) => (
+              <ListItem
+                key={index}
+                disablePadding
+                className="block"
               >
-                <ListItemIcon
+                <ListItemButton
                   sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
+                    minHeight: 48,
+                    justifyContent: open ? "initial" : "center",
+                    px: 2.5,
+                  }}
+                  onClick={() => {
+                    navigate(item.url)
                   }}
                 >
-                  {item.icon}
-                </ListItemIcon>
-                <ListItemText
-                  primary={item.name}
-                  sx={{ opacity: open ? 1 : 0 }}
-                />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
-      </Drawer>
-      <Box
-        component="main"
-        className="flex-1 h-screen pt-16"
-      >
-        <Box className=" p-6">
-          <Outlet />
+                  <ListItemIcon
+                    sx={{
+                      minWidth: 0,
+                      mr: open ? 3 : "auto",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {item.icon}
+                  </ListItemIcon>
+                  <ListItemText
+                    primary={item.name}
+                    sx={{ opacity: open ? 1 : 0 }}
+                  />
+                </ListItemButton>
+              </ListItem>
+            ))}
+          </List>
+        </Drawer>
+        <Box
+          component="main"
+          className="flex-1 h-screen pt-16"
+        >
+          <Box className=" p-6">
+            <Outlet />
+          </Box>
         </Box>
       </Box>
-    </Box>
+    </>
   )
 }
 
@@ -317,18 +325,6 @@ const App = () => {
             />
           ))
         )}
-        <Route
-          path="/"
-          element={<AppLayout />}
-        >
-          {routes.map((route) => (
-            <Route
-              key={route.path}
-              path={route.path}
-              element={route.element}
-            />
-          ))}
-        </Route>
       </Routes>
     </BrowserRouter>
   )
