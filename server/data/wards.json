@@ -1,0 +1,7130 @@
+[
+  {
+    "id": 10000,
+    "name": "Tân Xã",
+    "fullName": "Xã Tân Xã",
+    "path": "Tân Xã, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Tân Xã, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 10003,
+    "name": "Thạch Xá",
+    "fullName": "Xã Thạch Xá",
+    "path": "Thạch Xá, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Thạch Xá, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 10006,
+    "name": "Bình Phú",
+    "fullName": "Xã Bình Phú",
+    "path": "Bình Phú, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Bình Phú, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 10009,
+    "name": "Hạ Bằng",
+    "fullName": "Xã Hạ Bằng",
+    "path": "Hạ Bằng, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Hạ Bằng, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 10012,
+    "name": "Đồng Trúc",
+    "fullName": "Xã Đồng Trúc",
+    "path": "Đồng Trúc, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Đồng Trúc, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 10015,
+    "name": "Chúc Sơn",
+    "fullName": "Thị trấn Chúc Sơn",
+    "path": "Chúc Sơn, Chương Mỹ, Hà Nội",
+    "fullPath": "Thị trấn Chúc Sơn, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10018,
+    "name": "Xuân Mai",
+    "fullName": "Thị trấn Xuân Mai",
+    "path": "Xuân Mai, Chương Mỹ, Hà Nội",
+    "fullPath": "Thị trấn Xuân Mai, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10021,
+    "name": "Phụng Châu",
+    "fullName": "Xã Phụng Châu",
+    "path": "Phụng Châu, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Phụng Châu, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10024,
+    "name": "Tiên Phương",
+    "fullName": "Xã Tiên Phương",
+    "path": "Tiên Phương, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Tiên Phương, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10027,
+    "name": "Đông Sơn",
+    "fullName": "Xã Đông Sơn",
+    "path": "Đông Sơn, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Đông Sơn, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10030,
+    "name": "Đông Phương Yên",
+    "fullName": "Xã Đông Phương Yên",
+    "path": "Đông Phương Yên, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Đông Phương Yên, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10033,
+    "name": "Phú Nghĩa",
+    "fullName": "Xã Phú Nghĩa",
+    "path": "Phú Nghĩa, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Phú Nghĩa, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10039,
+    "name": "Trường Yên",
+    "fullName": "Xã Trường Yên",
+    "path": "Trường Yên, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Trường Yên, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10042,
+    "name": "Ngọc Hòa",
+    "fullName": "Xã Ngọc Hòa",
+    "path": "Ngọc Hòa, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Ngọc Hòa, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10045,
+    "name": "Thủy Xuân Tiên",
+    "fullName": "Xã Thủy Xuân Tiên",
+    "path": "Thủy Xuân Tiên, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Thủy Xuân Tiên, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10048,
+    "name": "Thanh Bình",
+    "fullName": "Xã Thanh Bình",
+    "path": "Thanh Bình, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Thanh Bình, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10051,
+    "name": "Trung Hòa",
+    "fullName": "Xã Trung Hòa",
+    "path": "Trung Hòa, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Trung Hòa, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10054,
+    "name": "Đại Yên",
+    "fullName": "Xã Đại Yên",
+    "path": "Đại Yên, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Đại Yên, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10057,
+    "name": "Thụy Hương",
+    "fullName": "Xã Thụy Hương",
+    "path": "Thụy Hương, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Thụy Hương, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10060,
+    "name": "Tốt Động",
+    "fullName": "Xã Tốt Động",
+    "path": "Tốt Động, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Tốt Động, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10063,
+    "name": "Lam Điền",
+    "fullName": "Xã Lam Điền",
+    "path": "Lam Điền, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Lam Điền, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10066,
+    "name": "Tân Tiến",
+    "fullName": "Xã Tân Tiến",
+    "path": "Tân Tiến, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Tân Tiến, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10069,
+    "name": "Nam Phương Tiến",
+    "fullName": "Xã Nam Phương Tiến",
+    "path": "Nam Phương Tiến, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Nam Phương Tiến, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10072,
+    "name": "Hợp Đồng",
+    "fullName": "Xã Hợp Đồng",
+    "path": "Hợp Đồng, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Hợp Đồng, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10075,
+    "name": "Hoàng Văn Thụ",
+    "fullName": "Xã Hoàng Văn Thụ",
+    "path": "Hoàng Văn Thụ, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Hoàng Văn Thụ, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10078,
+    "name": "Hoàng Diệu",
+    "fullName": "Xã Hoàng Diệu",
+    "path": "Hoàng Diệu, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Hoàng Diệu, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10081,
+    "name": "Hữu Văn",
+    "fullName": "Xã Hữu Văn",
+    "path": "Hữu Văn, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Hữu Văn, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10084,
+    "name": "Quảng Bị",
+    "fullName": "Xã Quảng Bị",
+    "path": "Quảng Bị, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Quảng Bị, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10087,
+    "name": "Mỹ Lương",
+    "fullName": "Xã Mỹ Lương",
+    "path": "Mỹ Lương, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Mỹ Lương, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10090,
+    "name": "Thượng Vực",
+    "fullName": "Xã Thượng Vực",
+    "path": "Thượng Vực, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Thượng Vực, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10093,
+    "name": "Hồng Phong",
+    "fullName": "Xã Hồng Phong",
+    "path": "Hồng Phong, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Hồng Phong, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10096,
+    "name": "Đồng Phú",
+    "fullName": "Xã Đồng Phú",
+    "path": "Đồng Phú, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Đồng Phú, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10099,
+    "name": "Trần Phú",
+    "fullName": "Xã Trần Phú",
+    "path": "Trần Phú, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Trần Phú, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10102,
+    "name": "Văn Võ",
+    "fullName": "Xã Văn Võ",
+    "path": "Văn Võ, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Văn Võ, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10105,
+    "name": "Đồng Lạc",
+    "fullName": "Xã Đồng Lạc",
+    "path": "Đồng Lạc, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Đồng Lạc, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10108,
+    "name": "Hòa Chính",
+    "fullName": "Xã Hòa Chính",
+    "path": "Hòa Chính, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Hòa Chính, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10111,
+    "name": "Phú Nam An",
+    "fullName": "Xã Phú Nam An",
+    "path": "Phú Nam An, Chương Mỹ, Hà Nội",
+    "fullPath": "Xã Phú Nam An, Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 277
+  },
+  {
+    "id": 10114,
+    "name": "Kim Bài",
+    "fullName": "Thị trấn Kim Bài",
+    "path": "Kim Bài, Thanh Oai, Hà Nội",
+    "fullPath": "Thị trấn Kim Bài, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10117,
+    "name": "Đồng Mai",
+    "fullName": "Phường Đồng Mai",
+    "path": "Đồng Mai, Hà Đông, Hà Nội",
+    "fullPath": "Phường Đồng Mai, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 10120,
+    "name": "Cự Khê",
+    "fullName": "Xã Cự Khê",
+    "path": "Cự Khê, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Cự Khê, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10123,
+    "name": "Biên Giang",
+    "fullName": "Phường Biên Giang",
+    "path": "Biên Giang, Hà Đông, Hà Nội",
+    "fullPath": "Phường Biên Giang, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 10126,
+    "name": "Bích Hòa",
+    "fullName": "Xã Bích Hòa",
+    "path": "Bích Hòa, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Bích Hòa, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10129,
+    "name": "Mỹ Hưng",
+    "fullName": "Xã Mỹ Hưng",
+    "path": "Mỹ Hưng, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Mỹ Hưng, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10132,
+    "name": "Cao Viên",
+    "fullName": "Xã Cao Viên",
+    "path": "Cao Viên, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Cao Viên, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10135,
+    "name": "Bình Minh",
+    "fullName": "Xã Bình Minh",
+    "path": "Bình Minh, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Bình Minh, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10138,
+    "name": "Tam Hưng",
+    "fullName": "Xã Tam Hưng",
+    "path": "Tam Hưng, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Tam Hưng, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10141,
+    "name": "Thanh Cao",
+    "fullName": "Xã Thanh Cao",
+    "path": "Thanh Cao, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Thanh Cao, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10144,
+    "name": "Thanh Thùy",
+    "fullName": "Xã Thanh Thùy",
+    "path": "Thanh Thùy, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Thanh Thùy, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10147,
+    "name": "Thanh Mai",
+    "fullName": "Xã Thanh Mai",
+    "path": "Thanh Mai, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Thanh Mai, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10150,
+    "name": "Thanh Văn",
+    "fullName": "Xã Thanh Văn",
+    "path": "Thanh Văn, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Thanh Văn, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10153,
+    "name": "Đỗ Động",
+    "fullName": "Xã Đỗ Động",
+    "path": "Đỗ Động, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Đỗ Động, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10156,
+    "name": "Kim An",
+    "fullName": "Xã Kim An",
+    "path": "Kim An, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Kim An, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10159,
+    "name": "Kim Thư",
+    "fullName": "Xã Kim Thư",
+    "path": "Kim Thư, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Kim Thư, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10162,
+    "name": "Phương Trung",
+    "fullName": "Xã Phương Trung",
+    "path": "Phương Trung, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Phương Trung, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10165,
+    "name": "Tân Ước",
+    "fullName": "Xã Tân Ước",
+    "path": "Tân Ước, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Tân Ước, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10168,
+    "name": "Dân Hòa",
+    "fullName": "Xã Dân Hòa",
+    "path": "Dân Hòa, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Dân Hòa, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10171,
+    "name": "Liên Châu",
+    "fullName": "Xã Liên Châu",
+    "path": "Liên Châu, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Liên Châu, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10174,
+    "name": "Cao Dương",
+    "fullName": "Xã Cao Dương",
+    "path": "Cao Dương, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Cao Dương, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10177,
+    "name": "Xuân Dương",
+    "fullName": "Xã Xuân Dương",
+    "path": "Xuân Dương, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Xuân Dương, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10180,
+    "name": "Hồng Dương",
+    "fullName": "Xã Hồng Dương",
+    "path": "Hồng Dương, Thanh Oai, Hà Nội",
+    "fullPath": "Xã Hồng Dương, Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 278
+  },
+  {
+    "id": 10183,
+    "name": "Thường Tín",
+    "fullName": "Thị trấn Thường Tín",
+    "path": "Thường Tín, Thường Tín, Hà Nội",
+    "fullPath": "Thị trấn Thường Tín, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10186,
+    "name": "Ninh Sở",
+    "fullName": "Xã Ninh Sở",
+    "path": "Ninh Sở, Thường Tín, Hà Nội",
+    "fullPath": "Xã Ninh Sở, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10189,
+    "name": "Nhị Khê",
+    "fullName": "Xã Nhị Khê",
+    "path": "Nhị Khê, Thường Tín, Hà Nội",
+    "fullPath": "Xã Nhị Khê, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10192,
+    "name": "Duyên Thái",
+    "fullName": "Xã Duyên Thái",
+    "path": "Duyên Thái, Thường Tín, Hà Nội",
+    "fullPath": "Xã Duyên Thái, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10195,
+    "name": "Khánh Hà",
+    "fullName": "Xã Khánh Hà",
+    "path": "Khánh Hà, Thường Tín, Hà Nội",
+    "fullPath": "Xã Khánh Hà, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10198,
+    "name": "Hòa Bình",
+    "fullName": "Xã Hòa Bình",
+    "path": "Hòa Bình, Thường Tín, Hà Nội",
+    "fullPath": "Xã Hòa Bình, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10201,
+    "name": "Văn Bình",
+    "fullName": "Xã Văn Bình",
+    "path": "Văn Bình, Thường Tín, Hà Nội",
+    "fullPath": "Xã Văn Bình, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10204,
+    "name": "Hiền Giang",
+    "fullName": "Xã Hiền Giang",
+    "path": "Hiền Giang, Thường Tín, Hà Nội",
+    "fullPath": "Xã Hiền Giang, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10207,
+    "name": "Hồng Vân",
+    "fullName": "Xã Hồng Vân",
+    "path": "Hồng Vân, Thường Tín, Hà Nội",
+    "fullPath": "Xã Hồng Vân, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10210,
+    "name": "Vân Tảo",
+    "fullName": "Xã Vân Tảo",
+    "path": "Vân Tảo, Thường Tín, Hà Nội",
+    "fullPath": "Xã Vân Tảo, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10213,
+    "name": "Liên Phương",
+    "fullName": "Xã Liên Phương",
+    "path": "Liên Phương, Thường Tín, Hà Nội",
+    "fullPath": "Xã Liên Phương, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10216,
+    "name": "Văn Phú",
+    "fullName": "Xã Văn Phú",
+    "path": "Văn Phú, Thường Tín, Hà Nội",
+    "fullPath": "Xã Văn Phú, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10219,
+    "name": "Tự Nhiên",
+    "fullName": "Xã Tự Nhiên",
+    "path": "Tự Nhiên, Thường Tín, Hà Nội",
+    "fullPath": "Xã Tự Nhiên, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10222,
+    "name": "Tiền Phong",
+    "fullName": "Xã Tiền Phong",
+    "path": "Tiền Phong, Thường Tín, Hà Nội",
+    "fullPath": "Xã Tiền Phong, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10225,
+    "name": "Hà Hồi",
+    "fullName": "Xã Hà Hồi",
+    "path": "Hà Hồi, Thường Tín, Hà Nội",
+    "fullPath": "Xã Hà Hồi, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10228,
+    "name": "Thư Phú",
+    "fullName": "Xã Thư Phú",
+    "path": "Thư Phú, Thường Tín, Hà Nội",
+    "fullPath": "Xã Thư Phú, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10231,
+    "name": "Nguyễn Trãi",
+    "fullName": "Xã Nguyễn Trãi",
+    "path": "Nguyễn Trãi, Thường Tín, Hà Nội",
+    "fullPath": "Xã Nguyễn Trãi, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10234,
+    "name": "Quất Động",
+    "fullName": "Xã Quất Động",
+    "path": "Quất Động, Thường Tín, Hà Nội",
+    "fullPath": "Xã Quất Động, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10237,
+    "name": "Chương Dương",
+    "fullName": "Xã Chương Dương",
+    "path": "Chương Dương, Thường Tín, Hà Nội",
+    "fullPath": "Xã Chương Dương, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10240,
+    "name": "Tân Minh",
+    "fullName": "Xã Tân Minh",
+    "path": "Tân Minh, Thường Tín, Hà Nội",
+    "fullPath": "Xã Tân Minh, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10243,
+    "name": "Lê Lợi",
+    "fullName": "Xã Lê Lợi",
+    "path": "Lê Lợi, Thường Tín, Hà Nội",
+    "fullPath": "Xã Lê Lợi, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10246,
+    "name": "Thắng Lợi",
+    "fullName": "Xã Thắng Lợi",
+    "path": "Thắng Lợi, Thường Tín, Hà Nội",
+    "fullPath": "Xã Thắng Lợi, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10249,
+    "name": "Dũng Tiến",
+    "fullName": "Xã Dũng Tiến",
+    "path": "Dũng Tiến, Thường Tín, Hà Nội",
+    "fullPath": "Xã Dũng Tiến, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10252,
+    "name": "Thống Nhất",
+    "fullName": "Xã Thống Nhất",
+    "path": "Thống Nhất, Thường Tín, Hà Nội",
+    "fullPath": "Xã Thống Nhất, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10255,
+    "name": "Nghiêm Xuyên",
+    "fullName": "Xã Nghiêm Xuyên",
+    "path": "Nghiêm Xuyên, Thường Tín, Hà Nội",
+    "fullPath": "Xã Nghiêm Xuyên, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10258,
+    "name": "Tô Hiệu",
+    "fullName": "Xã Tô Hiệu",
+    "path": "Tô Hiệu, Thường Tín, Hà Nội",
+    "fullPath": "Xã Tô Hiệu, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10261,
+    "name": "Văn Tự",
+    "fullName": "Xã Văn Tự",
+    "path": "Văn Tự, Thường Tín, Hà Nội",
+    "fullPath": "Xã Văn Tự, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10264,
+    "name": "Vạn Điểm",
+    "fullName": "Xã Vạn Điểm",
+    "path": "Vạn Điểm, Thường Tín, Hà Nội",
+    "fullPath": "Xã Vạn Điểm, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10267,
+    "name": "Minh Cường",
+    "fullName": "Xã Minh Cường",
+    "path": "Minh Cường, Thường Tín, Hà Nội",
+    "fullPath": "Xã Minh Cường, Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 279
+  },
+  {
+    "id": 10270,
+    "name": "Phú Minh",
+    "fullName": "Thị trấn Phú Minh",
+    "path": "Phú Minh, Phú Xuyên, Hà Nội",
+    "fullPath": "Thị trấn Phú Minh, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10273,
+    "name": "Phú Xuyên",
+    "fullName": "Thị trấn Phú Xuyên",
+    "path": "Phú Xuyên, Phú Xuyên, Hà Nội",
+    "fullPath": "Thị trấn Phú Xuyên, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10276,
+    "name": "Hồng Minh",
+    "fullName": "Xã Hồng Minh",
+    "path": "Hồng Minh, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Hồng Minh, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10279,
+    "name": "Phượng Dực",
+    "fullName": "Xã Phượng Dực",
+    "path": "Phượng Dực, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Phượng Dực, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10282,
+    "name": "Nam Tiến",
+    "fullName": "Xã Nam Tiến",
+    "path": "Nam Tiến, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Nam Tiến, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10288,
+    "name": "Tri Trung",
+    "fullName": "Xã Tri Trung",
+    "path": "Tri Trung, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Tri Trung, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10291,
+    "name": "Đại Thắng",
+    "fullName": "Xã Đại Thắng",
+    "path": "Đại Thắng, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Đại Thắng, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10294,
+    "name": "Phú Túc",
+    "fullName": "Xã Phú Túc",
+    "path": "Phú Túc, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Phú Túc, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10297,
+    "name": "Văn Hoàng",
+    "fullName": "Xã Văn Hoàng",
+    "path": "Văn Hoàng, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Văn Hoàng, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10300,
+    "name": "Hồng Thái",
+    "fullName": "Xã Hồng Thái",
+    "path": "Hồng Thái, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Hồng Thái, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10303,
+    "name": "Hoàng Long",
+    "fullName": "Xã Hoàng Long",
+    "path": "Hoàng Long, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Hoàng Long, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10306,
+    "name": "Quang Trung",
+    "fullName": "Xã Quang Trung",
+    "path": "Quang Trung, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Quang Trung, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10309,
+    "name": "Nam Phong",
+    "fullName": "Xã Nam Phong",
+    "path": "Nam Phong, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Nam Phong, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10312,
+    "name": "Nam Triều",
+    "fullName": "Xã Nam Triều",
+    "path": "Nam Triều, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Nam Triều, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10315,
+    "name": "Tân Dân",
+    "fullName": "Xã Tân Dân",
+    "path": "Tân Dân, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Tân Dân, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10318,
+    "name": "Sơn Hà",
+    "fullName": "Xã Sơn Hà",
+    "path": "Sơn Hà, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Sơn Hà, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10321,
+    "name": "Chuyên Mỹ",
+    "fullName": "Xã Chuyên Mỹ",
+    "path": "Chuyên Mỹ, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Chuyên Mỹ, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10324,
+    "name": "Khai Thái",
+    "fullName": "Xã Khai Thái",
+    "path": "Khai Thái, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Khai Thái, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10327,
+    "name": "Phúc Tiến",
+    "fullName": "Xã Phúc Tiến",
+    "path": "Phúc Tiến, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Phúc Tiến, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10330,
+    "name": "Vân Từ",
+    "fullName": "Xã Vân Từ",
+    "path": "Vân Từ, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Vân Từ, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10333,
+    "name": "Tri Thủy",
+    "fullName": "Xã Tri Thủy",
+    "path": "Tri Thủy, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Tri Thủy, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10336,
+    "name": "Đại Xuyên",
+    "fullName": "Xã Đại Xuyên",
+    "path": "Đại Xuyên, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Đại Xuyên, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10339,
+    "name": "Phú Yên",
+    "fullName": "Xã Phú Yên",
+    "path": "Phú Yên, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Phú Yên, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10342,
+    "name": "Bạch Hạ",
+    "fullName": "Xã Bạch Hạ",
+    "path": "Bạch Hạ, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10345,
+    "name": "Quang Lãng",
+    "fullName": "Xã Quang Lãng",
+    "path": "Quang Lãng, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Quang Lãng, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10348,
+    "name": "Châu Can",
+    "fullName": "Xã Châu Can",
+    "path": "Châu Can, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Châu Can, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10351,
+    "name": "Minh Tân",
+    "fullName": "Xã Minh Tân",
+    "path": "Minh Tân, Phú Xuyên, Hà Nội",
+    "fullPath": "Xã Minh Tân, Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 280
+  },
+  {
+    "id": 10354,
+    "name": "Vân Đình",
+    "fullName": "Thị trấn Vân Đình",
+    "path": "Vân Đình, Ứng Hòa, Hà Nội",
+    "fullPath": "Thị trấn Vân Đình, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10357,
+    "name": "Viên An",
+    "fullName": "Xã Viên An",
+    "path": "Viên An, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Viên An, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10360,
+    "name": "Viên Nội",
+    "fullName": "Xã Viên Nội",
+    "path": "Viên Nội, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Viên Nội, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10363,
+    "name": "Hoa Sơn",
+    "fullName": "Xã Hoa Sơn",
+    "path": "Hoa Sơn, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Hoa Sơn, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10366,
+    "name": "Quảng Phú Cầu",
+    "fullName": "Xã Quảng Phú Cầu",
+    "path": "Quảng Phú Cầu, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Quảng Phú Cầu, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10369,
+    "name": "Trường Thịnh",
+    "fullName": "Xã Trường Thịnh",
+    "path": "Trường Thịnh, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Trường Thịnh, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10372,
+    "name": "Cao Thành",
+    "fullName": "Xã Cao Thành",
+    "path": "Cao Thành, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Cao Thành, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10375,
+    "name": "Liên Bạt",
+    "fullName": "Xã Liên Bạt",
+    "path": "Liên Bạt, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Liên Bạt, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10378,
+    "name": "Sơn Công",
+    "fullName": "Xã Sơn Công",
+    "path": "Sơn Công, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Sơn Công, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10381,
+    "name": "Đồng Tiến",
+    "fullName": "Xã Đồng Tiến",
+    "path": "Đồng Tiến, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Đồng Tiến, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10384,
+    "name": "Phương Tú",
+    "fullName": "Xã Phương Tú",
+    "path": "Phương Tú, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Phương Tú, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10387,
+    "name": "Trung Tú",
+    "fullName": "Xã Trung Tú",
+    "path": "Trung Tú, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Trung Tú, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10390,
+    "name": "Đồng Tân",
+    "fullName": "Xã Đồng Tân",
+    "path": "Đồng Tân, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Đồng Tân, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10393,
+    "name": "Tảo Dương Văn",
+    "fullName": "Xã Tảo Dương Văn",
+    "path": "Tảo Dương Văn, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Tảo Dương Văn, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10396,
+    "name": "Vạn Thái",
+    "fullName": "Xã Vạn Thái",
+    "path": "Vạn Thái, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Vạn Thái, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10399,
+    "name": "Minh Đức",
+    "fullName": "Xã Minh Đức",
+    "path": "Minh Đức, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Minh Đức, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10402,
+    "name": "Hòa Lâm",
+    "fullName": "Xã Hòa Lâm",
+    "path": "Hòa Lâm, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Hòa Lâm, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10405,
+    "name": "Hòa Xá",
+    "fullName": "Xã Hòa Xá",
+    "path": "Hòa Xá, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Hòa Xá, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10408,
+    "name": "Trầm Lộng",
+    "fullName": "Xã Trầm Lộng",
+    "path": "Trầm Lộng, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Trầm Lộng, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10411,
+    "name": "Kim Đường",
+    "fullName": "Xã Kim Đường",
+    "path": "Kim Đường, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Kim Đường, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10414,
+    "name": "Hòa Nam",
+    "fullName": "Xã Hòa Nam",
+    "path": "Hòa Nam, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Hòa Nam, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10417,
+    "name": "Hòa Phú",
+    "fullName": "Xã Hòa Phú",
+    "path": "Hòa Phú, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Hòa Phú, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10420,
+    "name": "Đội Bình",
+    "fullName": "Xã Đội Bình",
+    "path": "Đội Bình, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Đội Bình, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10423,
+    "name": "Đại Hùng",
+    "fullName": "Xã Đại Hùng",
+    "path": "Đại Hùng, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Đại Hùng, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10426,
+    "name": "Đông Lỗ",
+    "fullName": "Xã Đông Lỗ",
+    "path": "Đông Lỗ, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Đông Lỗ, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10429,
+    "name": "Phù Lưu",
+    "fullName": "Xã Phù Lưu",
+    "path": "Phù Lưu, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Phù Lưu, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10432,
+    "name": "Đại Cường",
+    "fullName": "Xã Đại Cường",
+    "path": "Đại Cường, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Đại Cường, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10435,
+    "name": "Lưu Hoàng",
+    "fullName": "Xã Lưu Hoàng",
+    "path": "Lưu Hoàng, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Lưu Hoàng, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10438,
+    "name": "Hồng Quang",
+    "fullName": "Xã Hồng Quang",
+    "path": "Hồng Quang, Ứng Hòa, Hà Nội",
+    "fullPath": "Xã Hồng Quang, Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 281
+  },
+  {
+    "id": 10441,
+    "name": "Đại Nghĩa",
+    "fullName": "Thị trấn Đại Nghĩa",
+    "path": "Đại Nghĩa, Mỹ Đức, Hà Nội",
+    "fullPath": "Thị trấn Đại Nghĩa, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10444,
+    "name": "Đồng Tâm",
+    "fullName": "Xã Đồng Tâm",
+    "path": "Đồng Tâm, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Đồng Tâm, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10447,
+    "name": "Thượng Lâm",
+    "fullName": "Xã Thượng Lâm",
+    "path": "Thượng Lâm, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Thượng Lâm, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10450,
+    "name": "Tuy Lai",
+    "fullName": "Xã Tuy Lai",
+    "path": "Tuy Lai, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Tuy Lai, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10453,
+    "name": "Phúc Lâm",
+    "fullName": "Xã Phúc Lâm",
+    "path": "Phúc Lâm, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Phúc Lâm, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10456,
+    "name": "Mỹ Thành",
+    "fullName": "Xã Mỹ Thành",
+    "path": "Mỹ Thành, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Mỹ Thành, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10459,
+    "name": "Bột Xuyên",
+    "fullName": "Xã Bột Xuyên",
+    "path": "Bột Xuyên, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Bột Xuyên, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10462,
+    "name": "An Mỹ",
+    "fullName": "Xã An Mỹ",
+    "path": "An Mỹ, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã An Mỹ, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10465,
+    "name": "Hồng Sơn",
+    "fullName": "Xã Hồng Sơn",
+    "path": "Hồng Sơn, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Hồng Sơn, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10468,
+    "name": "Lê Thanh",
+    "fullName": "Xã Lê Thanh",
+    "path": "Lê Thanh, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Lê Thanh, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10471,
+    "name": "Xuy Xá",
+    "fullName": "Xã Xuy Xá",
+    "path": "Xuy Xá, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Xuy Xá, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10474,
+    "name": "Phùng Xá",
+    "fullName": "Xã Phùng Xá",
+    "path": "Phùng Xá, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Phùng Xá, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10477,
+    "name": "Phù Lưu Tế",
+    "fullName": "Xã Phù Lưu Tế",
+    "path": "Phù Lưu Tế, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Phù Lưu Tế, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10480,
+    "name": "Đại Hưng",
+    "fullName": "Xã Đại Hưng",
+    "path": "Đại Hưng, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Đại Hưng, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10483,
+    "name": "Vạn Kim",
+    "fullName": "Xã Vạn Kim",
+    "path": "Vạn Kim, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Vạn Kim, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10486,
+    "name": "Đốc Tín",
+    "fullName": "Xã Đốc Tín",
+    "path": "Đốc Tín, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Đốc Tín, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10489,
+    "name": "Hương Sơn",
+    "fullName": "Xã Hương Sơn",
+    "path": "Hương Sơn, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Hương Sơn, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10492,
+    "name": "Hùng Tiến",
+    "fullName": "Xã Hùng Tiến",
+    "path": "Hùng Tiến, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Hùng Tiến, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10495,
+    "name": "An Tiến",
+    "fullName": "Xã An Tiến",
+    "path": "An Tiến, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã An Tiến, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10498,
+    "name": "Hợp Tiến",
+    "fullName": "Xã Hợp Tiến",
+    "path": "Hợp Tiến, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Hợp Tiến, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10501,
+    "name": "Hợp Thanh",
+    "fullName": "Xã Hợp Thanh",
+    "path": "Hợp Thanh, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã Hợp Thanh, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 10504,
+    "name": "An Phú",
+    "fullName": "Xã An Phú",
+    "path": "An Phú, Mỹ Đức, Hà Nội",
+    "fullPath": "Xã An Phú, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 282
+  },
+  {
+    "id": 26734,
+    "name": "Tân Định",
+    "fullName": "Phường Tân Định",
+    "path": "Tân Định, 1, Hồ Chí Minh",
+    "fullPath": "Phường Tân Định, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26737,
+    "name": "Đa Kao",
+    "fullName": "Phường Đa Kao",
+    "path": "Đa Kao, 1, Hồ Chí Minh",
+    "fullPath": "Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26740,
+    "name": "Bến Nghé",
+    "fullName": "Phường Bến Nghé",
+    "path": "Bến Nghé, 1, Hồ Chí Minh",
+    "fullPath": "Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26743,
+    "name": "Bến Thành",
+    "fullName": "Phường Bến Thành",
+    "path": "Bến Thành, 1, Hồ Chí Minh",
+    "fullPath": "Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26746,
+    "name": "Nguyễn Thái Bình",
+    "fullName": "Phường Nguyễn Thái Bình",
+    "path": "Nguyễn Thái Bình, 1, Hồ Chí Minh",
+    "fullPath": "Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26749,
+    "name": "Phạm Ngũ Lão",
+    "fullName": "Phường Phạm Ngũ Lão",
+    "path": "Phạm Ngũ Lão, 1, Hồ Chí Minh",
+    "fullPath": "Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26752,
+    "name": "Cầu Ông Lãnh",
+    "fullName": "Phường Cầu Ông Lãnh",
+    "path": "Cầu Ông Lãnh, 1, Hồ Chí Minh",
+    "fullPath": "Phường Cầu Ông Lãnh, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26755,
+    "name": "Cô Giang",
+    "fullName": "Phường Cô Giang",
+    "path": "Cô Giang, 1, Hồ Chí Minh",
+    "fullPath": "Phường Cô Giang, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26758,
+    "name": "Nguyễn Cư Trinh",
+    "fullName": "Phường Nguyễn Cư Trinh",
+    "path": "Nguyễn Cư Trinh, 1, Hồ Chí Minh",
+    "fullPath": "Phường Nguyễn Cư Trinh, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26761,
+    "name": "Cầu Kho",
+    "fullName": "Phường Cầu Kho",
+    "path": "Cầu Kho, 1, Hồ Chí Minh",
+    "fullPath": "Phường Cầu Kho, Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 760
+  },
+  {
+    "id": 26764,
+    "name": "Thạnh Xuân",
+    "fullName": "Phường Thạnh Xuân",
+    "path": "Thạnh Xuân, 12, Hồ Chí Minh",
+    "fullPath": "Phường Thạnh Xuân, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26767,
+    "name": "Thạnh Lộc",
+    "fullName": "Phường Thạnh Lộc",
+    "path": "Thạnh Lộc, 12, Hồ Chí Minh",
+    "fullPath": "Phường Thạnh Lộc, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26770,
+    "name": "Hiệp Thành",
+    "fullName": "Phường Hiệp Thành",
+    "path": "Hiệp Thành, 12, Hồ Chí Minh",
+    "fullPath": "Phường Hiệp Thành, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26773,
+    "name": "Thới An",
+    "fullName": "Phường Thới An",
+    "path": "Thới An, 12, Hồ Chí Minh",
+    "fullPath": "Phường Thới An, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26776,
+    "name": "Tân Chánh Hiệp",
+    "fullName": "Phường Tân Chánh Hiệp",
+    "path": "Tân Chánh Hiệp, 12, Hồ Chí Minh",
+    "fullPath": "Phường Tân Chánh Hiệp, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26779,
+    "name": "An Phú Đông",
+    "fullName": "Phường An Phú Đông",
+    "path": "An Phú Đông, 12, Hồ Chí Minh",
+    "fullPath": "Phường An Phú Đông, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26782,
+    "name": "Tân Thới Hiệp",
+    "fullName": "Phường Tân Thới Hiệp",
+    "path": "Tân Thới Hiệp, 12, Hồ Chí Minh",
+    "fullPath": "Phường Tân Thới Hiệp, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26785,
+    "name": "Trung Mỹ Tây",
+    "fullName": "Phường Trung Mỹ Tây",
+    "path": "Trung Mỹ Tây, 12, Hồ Chí Minh",
+    "fullPath": "Phường Trung Mỹ Tây, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26787,
+    "name": "Tân Hưng Thuận",
+    "fullName": "Phường Tân Hưng Thuận",
+    "path": "Tân Hưng Thuận, 12, Hồ Chí Minh",
+    "fullPath": "Phường Tân Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26788,
+    "name": "Đông Hưng Thuận",
+    "fullName": "Phường Đông Hưng Thuận",
+    "path": "Đông Hưng Thuận, 12, Hồ Chí Minh",
+    "fullPath": "Phường Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26791,
+    "name": "Tân Thới Nhất",
+    "fullName": "Phường Tân Thới Nhất",
+    "path": "Tân Thới Nhất, 12, Hồ Chí Minh",
+    "fullPath": "Phường Tân Thới Nhất, Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 761
+  },
+  {
+    "id": 26794,
+    "name": "Linh Xuân",
+    "fullName": "Phường Linh Xuân",
+    "path": "Linh Xuân, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Linh Xuân, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26797,
+    "name": "Bình Chiểu",
+    "fullName": "Phường Bình Chiểu",
+    "path": "Bình Chiểu, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Bình Chiểu, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26800,
+    "name": "Linh Trung",
+    "fullName": "Phường Linh Trung",
+    "path": "Linh Trung, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Linh Trung, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26803,
+    "name": "Tam Bình",
+    "fullName": "Phường Tam Bình",
+    "path": "Tam Bình, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Tam Bình, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26806,
+    "name": "Tam Phú",
+    "fullName": "Phường Tam Phú",
+    "path": "Tam Phú, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Tam Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26809,
+    "name": "Hiệp Bình Phước",
+    "fullName": "Phường Hiệp Bình Phước",
+    "path": "Hiệp Bình Phước, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Hiệp Bình Phước, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26812,
+    "name": "Hiệp Bình Chánh",
+    "fullName": "Phường Hiệp Bình Chánh",
+    "path": "Hiệp Bình Chánh, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Hiệp Bình Chánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26815,
+    "name": "Linh Chiểu",
+    "fullName": "Phường Linh Chiểu",
+    "path": "Linh Chiểu, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Linh Chiểu, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26818,
+    "name": "Linh Tây",
+    "fullName": "Phường Linh Tây",
+    "path": "Linh Tây, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Linh Tây, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26821,
+    "name": "Linh Đông",
+    "fullName": "Phường Linh Đông",
+    "path": "Linh Đông, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Linh Đông, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26824,
+    "name": "Bình Thọ",
+    "fullName": "Phường Bình Thọ",
+    "path": "Bình Thọ, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Bình Thọ, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26827,
+    "name": "Trường Thọ",
+    "fullName": "Phường Trường Thọ",
+    "path": "Trường Thọ, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Trường Thọ, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26830,
+    "name": "Long Bình",
+    "fullName": "Phường Long Bình",
+    "path": "Long Bình, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Long Bình, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26833,
+    "name": "Long Thạnh Mỹ",
+    "fullName": "Phường Long Thạnh Mỹ",
+    "path": "Long Thạnh Mỹ, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Long Thạnh Mỹ, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26836,
+    "name": "Tân Phú",
+    "fullName": "Phường Tân Phú",
+    "path": "Tân Phú, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Tân Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26839,
+    "name": "Hiệp Phú",
+    "fullName": "Phường Hiệp Phú",
+    "path": "Hiệp Phú, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Hiệp Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26842,
+    "name": "Tăng Nhơn Phú A",
+    "fullName": "Phường Tăng Nhơn Phú A",
+    "path": "Tăng Nhơn Phú A, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Tăng Nhơn Phú A, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26845,
+    "name": "Tăng Nhơn Phú B",
+    "fullName": "Phường Tăng Nhơn Phú B",
+    "path": "Tăng Nhơn Phú B, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Tăng Nhơn Phú B, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26848,
+    "name": "Phước Long B",
+    "fullName": "Phường Phước Long B",
+    "path": "Phước Long B, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Phước Long B, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26851,
+    "name": "Phước Long A",
+    "fullName": "Phường Phước Long A",
+    "path": "Phước Long A, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Phước Long A, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26854,
+    "name": "Trường Thạnh",
+    "fullName": "Phường Trường Thạnh",
+    "path": "Trường Thạnh, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Trường Thạnh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26857,
+    "name": "Long Phước",
+    "fullName": "Phường Long Phước",
+    "path": "Long Phước, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Long Phước, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26860,
+    "name": "Long Trường",
+    "fullName": "Phường Long Trường",
+    "path": "Long Trường, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Long Trường, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26863,
+    "name": "Phước Bình",
+    "fullName": "Phường Phước Bình",
+    "path": "Phước Bình, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Phước Bình, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26866,
+    "name": "Phú Hữu",
+    "fullName": "Phường Phú Hữu",
+    "path": "Phú Hữu, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Phú Hữu, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 26869,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26872,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26875,
+    "name": "17",
+    "fullName": "Phường 17",
+    "path": "17, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 17, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26876,
+    "name": "6",
+    "fullName": "Phường 6",
+    "path": "6, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 6, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26878,
+    "name": "16",
+    "fullName": "Phường 16",
+    "path": "16, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 16, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26881,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26882,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26884,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26887,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26890,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26893,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26896,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26897,
+    "name": "9",
+    "fullName": "Phường 9",
+    "path": "9, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 9, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26898,
+    "name": "8",
+    "fullName": "Phường 8",
+    "path": "8, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 8, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26899,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26902,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 764
+  },
+  {
+    "id": 26905,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26908,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26911,
+    "name": "27",
+    "fullName": "Phường 27",
+    "path": "27, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 27, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26914,
+    "name": "26",
+    "fullName": "Phường 26",
+    "path": "26, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 26, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26917,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26920,
+    "name": "25",
+    "fullName": "Phường 25",
+    "path": "25, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 25, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26923,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26926,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26929,
+    "name": "24",
+    "fullName": "Phường 24",
+    "path": "24, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 24, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26932,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26935,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26938,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26941,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26944,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26947,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26950,
+    "name": "17",
+    "fullName": "Phường 17",
+    "path": "17, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 17, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26953,
+    "name": "21",
+    "fullName": "Phường 21",
+    "path": "21, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 21, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26956,
+    "name": "22",
+    "fullName": "Phường 22",
+    "path": "22, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 22, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26959,
+    "name": "19",
+    "fullName": "Phường 19",
+    "path": "19, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 19, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26962,
+    "name": "28",
+    "fullName": "Phường 28",
+    "path": "28, Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Phường 28, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 765
+  },
+  {
+    "id": 26965,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26968,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26971,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26974,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26977,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26980,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26983,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26986,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26989,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26992,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26995,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 26998,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 27001,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 27004,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 27007,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, Tân Bình, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 766
+  },
+  {
+    "id": 27010,
+    "name": "Tân Sơn Nhì",
+    "fullName": "Phường Tân Sơn Nhì",
+    "path": "Tân Sơn Nhì, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Tân Sơn Nhì, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27013,
+    "name": "Tây Thạnh",
+    "fullName": "Phường Tây Thạnh",
+    "path": "Tây Thạnh, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Tây Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27016,
+    "name": "Sơn Kỳ",
+    "fullName": "Phường Sơn Kỳ",
+    "path": "Sơn Kỳ, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Sơn Kỳ, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27019,
+    "name": "Tân Quý",
+    "fullName": "Phường Tân Quý",
+    "path": "Tân Quý, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Tân Quý, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27022,
+    "name": "Tân Thành",
+    "fullName": "Phường Tân Thành",
+    "path": "Tân Thành, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Tân Thành, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27025,
+    "name": "Phú Thọ Hòa",
+    "fullName": "Phường Phú Thọ Hòa",
+    "path": "Phú Thọ Hòa, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Phú Thọ Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27028,
+    "name": "Phú Thạnh",
+    "fullName": "Phường Phú Thạnh",
+    "path": "Phú Thạnh, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Phú Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27031,
+    "name": "Phú Trung",
+    "fullName": "Phường Phú Trung",
+    "path": "Phú Trung, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Phú Trung, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27034,
+    "name": "Hòa Thạnh",
+    "fullName": "Phường Hòa Thạnh",
+    "path": "Hòa Thạnh, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Hòa Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27037,
+    "name": "Hiệp Tân",
+    "fullName": "Phường Hiệp Tân",
+    "path": "Hiệp Tân, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Hiệp Tân, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27040,
+    "name": "Tân Thới Hòa",
+    "fullName": "Phường Tân Thới Hòa",
+    "path": "Tân Thới Hòa, Tân Phú, Hồ Chí Minh",
+    "fullPath": "Phường Tân Thới Hòa, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 767
+  },
+  {
+    "id": 27043,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27046,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27049,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27052,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27055,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27058,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27061,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27064,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27067,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27070,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27073,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27076,
+    "name": "17",
+    "fullName": "Phường 17",
+    "path": "17, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 17, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27085,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 768
+  },
+  {
+    "id": 27088,
+    "name": "Thảo Điền",
+    "fullName": "Phường Thảo Điền",
+    "path": "Thảo Điền, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Thảo Điền, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27091,
+    "name": "An Phú",
+    "fullName": "Phường An Phú",
+    "path": "An Phú, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường An Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27094,
+    "name": "An Khánh",
+    "fullName": "Phường An Khánh",
+    "path": "An Khánh, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường An Khánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27097,
+    "name": "Bình Trưng Đông",
+    "fullName": "Phường Bình Trưng Đông",
+    "path": "Bình Trưng Đông, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Bình Trưng Đông, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27100,
+    "name": "Bình Trưng Tây",
+    "fullName": "Phường Bình Trưng Tây",
+    "path": "Bình Trưng Tây, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Bình Trưng Tây, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27109,
+    "name": "Cát Lái",
+    "fullName": "Phường Cát Lái",
+    "path": "Cát Lái, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Cát Lái, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27112,
+    "name": "Thạnh Mỹ Lợi",
+    "fullName": "Phường Thạnh Mỹ Lợi",
+    "path": "Thạnh Mỹ Lợi, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Thạnh Mỹ Lợi, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27115,
+    "name": "An Lợi Đông",
+    "fullName": "Phường An Lợi Đông",
+    "path": "An Lợi Đông, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường An Lợi Đông, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27118,
+    "name": "Thủ Thiêm",
+    "fullName": "Phường Thủ Thiêm",
+    "path": "Thủ Thiêm, Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Phường Thủ Thiêm, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 769
+  },
+  {
+    "id": 27127,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 3, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27130,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, 3, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27133,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, 3, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27136,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 3, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27139,
+    "name": "Võ Thị Sáu",
+    "fullName": "Phường Võ Thị Sáu",
+    "path": "Võ Thị Sáu, 3, Hồ Chí Minh",
+    "fullPath": "Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27142,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 3, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27145,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 3, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27148,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 3, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27151,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, 3, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27154,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, 3, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27157,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 3, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27160,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 3, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 770
+  },
+  {
+    "id": 27163,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, 10, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27166,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 10, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27169,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 10, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27172,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, 10, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27175,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, 10, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27178,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 10, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27181,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 10, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27184,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 10, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27187,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, 10, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27190,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 10, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27193,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 10, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27196,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, 10, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27199,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, 10, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27202,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, 10, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 771
+  },
+  {
+    "id": 27208,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, 11, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27211,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, 11, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27214,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 11, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27217,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, 11, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27220,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, 11, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27223,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 11, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27226,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 11, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27229,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, 11, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27232,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 11, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27235,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, 11, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27238,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, 11, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27241,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, 11, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27244,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 11, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27247,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 11, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27250,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 11, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27253,
+    "name": "16",
+    "fullName": "Phường 16",
+    "path": "16, 11, Hồ Chí Minh",
+    "fullPath": "Phường 16, Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 772
+  },
+  {
+    "id": 27259,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 4, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27262,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 4, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27265,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, 4, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27268,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, 4, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27271,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 4, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27277,
+    "name": "18",
+    "fullName": "Phường 18",
+    "path": "18, 4, Hồ Chí Minh",
+    "fullPath": "Phường 18, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27280,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 4, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27283,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 4, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27286,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, 4, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27289,
+    "name": "16",
+    "fullName": "Phường 16",
+    "path": "16, 4, Hồ Chí Minh",
+    "fullPath": "Phường 16, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27292,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 4, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27295,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, 4, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27298,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 4, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 773
+  },
+  {
+    "id": 27301,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 5, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27304,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 5, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27307,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, 5, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27310,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, 5, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27313,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 5, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27316,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, 5, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27322,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, 5, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27325,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 5, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27328,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, 5, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27331,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 5, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27334,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, 5, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27337,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, 5, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27340,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 5, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27343,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 5, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 774
+  },
+  {
+    "id": 27346,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 6, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27349,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 6, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27352,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 6, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27355,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, 6, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27358,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, 6, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27361,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, 6, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27364,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, 6, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27367,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 6, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27370,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 6, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27373,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 6, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27376,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, 6, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27379,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, 6, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27382,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, 6, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27385,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 6, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 775
+  },
+  {
+    "id": 27388,
+    "name": "08",
+    "fullName": "Phường 08",
+    "path": "08, 8, Hồ Chí Minh",
+    "fullPath": "Phường 08, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27391,
+    "name": "02",
+    "fullName": "Phường 02",
+    "path": "02, 8, Hồ Chí Minh",
+    "fullPath": "Phường 02, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27394,
+    "name": "01",
+    "fullName": "Phường 01",
+    "path": "01, 8, Hồ Chí Minh",
+    "fullPath": "Phường 01, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27397,
+    "name": "03",
+    "fullName": "Phường 03",
+    "path": "03, 8, Hồ Chí Minh",
+    "fullPath": "Phường 03, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27400,
+    "name": "11",
+    "fullName": "Phường 11",
+    "path": "11, 8, Hồ Chí Minh",
+    "fullPath": "Phường 11, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27403,
+    "name": "09",
+    "fullName": "Phường 09",
+    "path": "09, 8, Hồ Chí Minh",
+    "fullPath": "Phường 09, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27406,
+    "name": "10",
+    "fullName": "Phường 10",
+    "path": "10, 8, Hồ Chí Minh",
+    "fullPath": "Phường 10, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27409,
+    "name": "04",
+    "fullName": "Phường 04",
+    "path": "04, 8, Hồ Chí Minh",
+    "fullPath": "Phường 04, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27412,
+    "name": "13",
+    "fullName": "Phường 13",
+    "path": "13, 8, Hồ Chí Minh",
+    "fullPath": "Phường 13, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27415,
+    "name": "12",
+    "fullName": "Phường 12",
+    "path": "12, 8, Hồ Chí Minh",
+    "fullPath": "Phường 12, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27418,
+    "name": "05",
+    "fullName": "Phường 05",
+    "path": "05, 8, Hồ Chí Minh",
+    "fullPath": "Phường 05, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27421,
+    "name": "14",
+    "fullName": "Phường 14",
+    "path": "14, 8, Hồ Chí Minh",
+    "fullPath": "Phường 14, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27424,
+    "name": "06",
+    "fullName": "Phường 06",
+    "path": "06, 8, Hồ Chí Minh",
+    "fullPath": "Phường 06, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27427,
+    "name": "15",
+    "fullName": "Phường 15",
+    "path": "15, 8, Hồ Chí Minh",
+    "fullPath": "Phường 15, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27430,
+    "name": "16",
+    "fullName": "Phường 16",
+    "path": "16, 8, Hồ Chí Minh",
+    "fullPath": "Phường 16, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27433,
+    "name": "07",
+    "fullName": "Phường 07",
+    "path": "07, 8, Hồ Chí Minh",
+    "fullPath": "Phường 07, Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 776
+  },
+  {
+    "id": 27436,
+    "name": "Bình Hưng Hòa",
+    "fullName": "Phường Bình Hưng Hòa",
+    "path": "Bình Hưng Hòa, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Bình Hưng Hòa, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27439,
+    "name": "Bình Hưng Hoà A",
+    "fullName": "Phường Bình Hưng Hoà A",
+    "path": "Bình Hưng Hoà A, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Bình Hưng Hoà A, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27442,
+    "name": "Bình Hưng Hoà B",
+    "fullName": "Phường Bình Hưng Hoà B",
+    "path": "Bình Hưng Hoà B, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Bình Hưng Hoà B, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27445,
+    "name": "Bình Trị Đông",
+    "fullName": "Phường Bình Trị Đông",
+    "path": "Bình Trị Đông, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Bình Trị Đông, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27448,
+    "name": "Bình Trị Đông A",
+    "fullName": "Phường Bình Trị Đông A",
+    "path": "Bình Trị Đông A, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Bình Trị Đông A, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27451,
+    "name": "Bình Trị Đông B",
+    "fullName": "Phường Bình Trị Đông B",
+    "path": "Bình Trị Đông B, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Bình Trị Đông B, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27454,
+    "name": "Tân Tạo",
+    "fullName": "Phường Tân Tạo",
+    "path": "Tân Tạo, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Tân Tạo, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27457,
+    "name": "Tân Tạo A",
+    "fullName": "Phường Tân Tạo A",
+    "path": "Tân Tạo A, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường Tân Tạo A, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27460,
+    "name": "An Lạc",
+    "fullName": "Phường  An Lạc",
+    "path": "An Lạc, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường  An Lạc, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27463,
+    "name": "An Lạc A",
+    "fullName": "Phường An Lạc A",
+    "path": "An Lạc A, Bình Tân, Hồ Chí Minh",
+    "fullPath": "Phường An Lạc A, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 777
+  },
+  {
+    "id": 27466,
+    "name": "Tân Thuận Đông",
+    "fullName": "Phường Tân Thuận Đông",
+    "path": "Tân Thuận Đông, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Thuận Đông, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27469,
+    "name": "Tân Thuận Tây",
+    "fullName": "Phường Tân Thuận Tây",
+    "path": "Tân Thuận Tây, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Thuận Tây, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27472,
+    "name": "Tân Kiểng",
+    "fullName": "Phường Tân Kiểng",
+    "path": "Tân Kiểng, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Kiểng, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27475,
+    "name": "Tân Hưng",
+    "fullName": "Phường Tân Hưng",
+    "path": "Tân Hưng, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Hưng, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27478,
+    "name": "Bình Thuận",
+    "fullName": "Phường Bình Thuận",
+    "path": "Bình Thuận, 7, Hồ Chí Minh",
+    "fullPath": "Phường Bình Thuận, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27481,
+    "name": "Tân Quy",
+    "fullName": "Phường Tân Quy",
+    "path": "Tân Quy, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Quy, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27484,
+    "name": "Phú Thuận",
+    "fullName": "Phường Phú Thuận",
+    "path": "Phú Thuận, 7, Hồ Chí Minh",
+    "fullPath": "Phường Phú Thuận, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27487,
+    "name": "Tân Phú",
+    "fullName": "Phường Tân Phú",
+    "path": "Tân Phú, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27490,
+    "name": "Tân Phong",
+    "fullName": "Phường Tân Phong",
+    "path": "Tân Phong, 7, Hồ Chí Minh",
+    "fullPath": "Phường Tân Phong, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27493,
+    "name": "Phú Mỹ",
+    "fullName": "Phường Phú Mỹ",
+    "path": "Phú Mỹ, 7, Hồ Chí Minh",
+    "fullPath": "Phường Phú Mỹ, Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 778
+  },
+  {
+    "id": 27496,
+    "name": "Củ Chi",
+    "fullName": "Thị trấn Củ Chi",
+    "path": "Củ Chi, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Thị trấn Củ Chi, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27499,
+    "name": "Phú Mỹ Hưng",
+    "fullName": "Xã Phú Mỹ Hưng",
+    "path": "Phú Mỹ Hưng, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Phú Mỹ Hưng, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27502,
+    "name": "An Phú",
+    "fullName": "Xã An Phú",
+    "path": "An Phú, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã An Phú, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27505,
+    "name": "Trung Lập Thượng",
+    "fullName": "Xã Trung Lập Thượng",
+    "path": "Trung Lập Thượng, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Trung Lập Thượng, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27508,
+    "name": "An Nhơn Tây",
+    "fullName": "Xã An Nhơn Tây",
+    "path": "An Nhơn Tây, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã An Nhơn Tây, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27511,
+    "name": "Nhuận Đức",
+    "fullName": "Xã Nhuận Đức",
+    "path": "Nhuận Đức, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Nhuận Đức, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27514,
+    "name": "Phạm Văn Cội",
+    "fullName": "Xã Phạm Văn Cội",
+    "path": "Phạm Văn Cội, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Phạm Văn Cội, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27517,
+    "name": "Phú Hòa Đông",
+    "fullName": "Xã Phú Hòa Đông",
+    "path": "Phú Hòa Đông, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Phú Hòa Đông, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27520,
+    "name": "Trung Lập Hạ",
+    "fullName": "Xã Trung Lập Hạ",
+    "path": "Trung Lập Hạ, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Trung Lập Hạ, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27523,
+    "name": "Trung An",
+    "fullName": "Xã Trung An",
+    "path": "Trung An, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Trung An, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27526,
+    "name": "Phước Thạnh",
+    "fullName": "Xã Phước Thạnh",
+    "path": "Phước Thạnh, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Phước Thạnh, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27529,
+    "name": "Phước Hiệp",
+    "fullName": "Xã Phước Hiệp",
+    "path": "Phước Hiệp, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Phước Hiệp, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27532,
+    "name": "Tân An Hội",
+    "fullName": "Xã Tân An Hội",
+    "path": "Tân An Hội, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Tân An Hội, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27535,
+    "name": "Phước Vĩnh An",
+    "fullName": "Xã Phước Vĩnh An",
+    "path": "Phước Vĩnh An, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Phước Vĩnh An, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27538,
+    "name": "Thái Mỹ",
+    "fullName": "Xã Thái Mỹ",
+    "path": "Thái Mỹ, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Thái Mỹ, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27541,
+    "name": "Tân Thạnh Tây",
+    "fullName": "Xã Tân Thạnh Tây",
+    "path": "Tân Thạnh Tây, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Tân Thạnh Tây, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27544,
+    "name": "Hòa Phú",
+    "fullName": "Xã Hòa Phú",
+    "path": "Hòa Phú, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Hòa Phú, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27547,
+    "name": "Tân Thạnh Đông",
+    "fullName": "Xã Tân Thạnh Đông",
+    "path": "Tân Thạnh Đông, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Tân Thạnh Đông, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27550,
+    "name": "Bình Mỹ",
+    "fullName": "Xã Bình Mỹ",
+    "path": "Bình Mỹ, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Bình Mỹ, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27553,
+    "name": "Tân Phú Trung",
+    "fullName": "Xã Tân Phú Trung",
+    "path": "Tân Phú Trung, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Tân Phú Trung, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27556,
+    "name": "Tân Thông Hội",
+    "fullName": "Xã Tân Thông Hội",
+    "path": "Tân Thông Hội, Củ Chi, Hồ Chí Minh",
+    "fullPath": "Xã Tân Thông Hội, Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 783
+  },
+  {
+    "id": 27559,
+    "name": "Hóc Môn",
+    "fullName": "Thị trấn Hóc Môn",
+    "path": "Hóc Môn, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Thị trấn Hóc Môn, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27562,
+    "name": "Tân Hiệp",
+    "fullName": "Xã Tân Hiệp",
+    "path": "Tân Hiệp, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Tân Hiệp, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27565,
+    "name": "Nhị Bình",
+    "fullName": "Xã Nhị Bình",
+    "path": "Nhị Bình, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Nhị Bình, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27568,
+    "name": "Đông Thạnh",
+    "fullName": "Xã Đông Thạnh",
+    "path": "Đông Thạnh, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Đông Thạnh, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27571,
+    "name": "Tân Thới Nhì",
+    "fullName": "Xã Tân Thới Nhì",
+    "path": "Tân Thới Nhì, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Tân Thới Nhì, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27574,
+    "name": "Thới Tam Thôn",
+    "fullName": "Xã Thới Tam Thôn",
+    "path": "Thới Tam Thôn, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Thới Tam Thôn, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27577,
+    "name": "Xuân Thới Sơn",
+    "fullName": "Xã Xuân Thới Sơn",
+    "path": "Xuân Thới Sơn, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Xuân Thới Sơn, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27580,
+    "name": "Tân Xuân",
+    "fullName": "Xã Tân Xuân",
+    "path": "Tân Xuân, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Tân Xuân, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27583,
+    "name": "Xuân Thới Đông",
+    "fullName": "Xã Xuân Thới Đông",
+    "path": "Xuân Thới Đông, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Xuân Thới Đông, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27586,
+    "name": "Trung Chánh",
+    "fullName": "Xã Trung Chánh",
+    "path": "Trung Chánh, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Trung Chánh, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27589,
+    "name": "Xuân Thới Thượng",
+    "fullName": "Xã Xuân Thới Thượng",
+    "path": "Xuân Thới Thượng, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Xuân Thới Thượng, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27592,
+    "name": "Bà Điểm",
+    "fullName": "Xã Bà Điểm",
+    "path": "Bà Điểm, Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Xã Bà Điểm, Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 784
+  },
+  {
+    "id": 27595,
+    "name": "Tân Túc",
+    "fullName": "Thị trấn Tân Túc",
+    "path": "Tân Túc, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Thị trấn Tân Túc, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27598,
+    "name": "Phạm Văn Hai",
+    "fullName": "Xã Phạm Văn Hai",
+    "path": "Phạm Văn Hai, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Phạm Văn Hai, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27601,
+    "name": "Vĩnh Lộc A",
+    "fullName": "Xã Vĩnh Lộc A",
+    "path": "Vĩnh Lộc A, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Vĩnh Lộc A, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27604,
+    "name": "Vĩnh Lộc B",
+    "fullName": "Xã Vĩnh Lộc B",
+    "path": "Vĩnh Lộc B, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Vĩnh Lộc B, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27607,
+    "name": "Bình Lợi",
+    "fullName": "Xã Bình Lợi",
+    "path": "Bình Lợi, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Bình Lợi, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27610,
+    "name": "Lê Minh Xuân",
+    "fullName": "Xã Lê Minh Xuân",
+    "path": "Lê Minh Xuân, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Lê Minh Xuân, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27613,
+    "name": "Tân Nhựt",
+    "fullName": "Xã Tân Nhựt",
+    "path": "Tân Nhựt, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Tân Nhựt, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27616,
+    "name": "Tân Kiên",
+    "fullName": "Xã Tân Kiên",
+    "path": "Tân Kiên, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Tân Kiên, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27619,
+    "name": "Bình Hưng",
+    "fullName": "Xã Bình Hưng",
+    "path": "Bình Hưng, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Bình Hưng, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27622,
+    "name": "Phong Phú",
+    "fullName": "Xã Phong Phú",
+    "path": "Phong Phú, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Phong Phú, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27625,
+    "name": "An Phú Tây",
+    "fullName": "Xã An Phú Tây",
+    "path": "An Phú Tây, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã An Phú Tây, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27628,
+    "name": "Hưng Long",
+    "fullName": "Xã Hưng Long",
+    "path": "Hưng Long, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Hưng Long, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27631,
+    "name": "Đa Phước",
+    "fullName": "Xã Đa Phước",
+    "path": "Đa Phước, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Đa Phước, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27634,
+    "name": "Tân Quý Tây",
+    "fullName": "Xã Tân Quý Tây",
+    "path": "Tân Quý Tây, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Tân Quý Tây, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27637,
+    "name": "Bình Chánh",
+    "fullName": "Xã Bình Chánh",
+    "path": "Bình Chánh, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Bình Chánh, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27640,
+    "name": "Quy Đức",
+    "fullName": "Xã Quy Đức",
+    "path": "Quy Đức, Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Xã Quy Đức, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 785
+  },
+  {
+    "id": 27643,
+    "name": "Nhà Bè",
+    "fullName": "Thị trấn Nhà Bè",
+    "path": "Nhà Bè, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Thị trấn Nhà Bè, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27646,
+    "name": "Phước Kiển",
+    "fullName": "Xã Phước Kiển",
+    "path": "Phước Kiển, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Xã Phước Kiển, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27649,
+    "name": "Phước Lộc",
+    "fullName": "Xã Phước Lộc",
+    "path": "Phước Lộc, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Xã Phước Lộc, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27652,
+    "name": "Nhơn Đức",
+    "fullName": "Xã Nhơn Đức",
+    "path": "Nhơn Đức, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Xã Nhơn Đức, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27655,
+    "name": "Phú Xuân",
+    "fullName": "Xã Phú Xuân",
+    "path": "Phú Xuân, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Xã Phú Xuân, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27658,
+    "name": "Long Thới",
+    "fullName": "Xã Long Thới",
+    "path": "Long Thới, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Xã Long Thới, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27661,
+    "name": "Hiệp Phước",
+    "fullName": "Xã Hiệp Phước",
+    "path": "Hiệp Phước, Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Xã Hiệp Phước, Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 786
+  },
+  {
+    "id": 27664,
+    "name": "Cần Thạnh",
+    "fullName": "Thị trấn Cần Thạnh",
+    "path": "Cần Thạnh, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Thị trấn Cần Thạnh, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 27667,
+    "name": "Bình Khánh",
+    "fullName": "Xã Bình Khánh",
+    "path": "Bình Khánh, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Xã Bình Khánh, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 27670,
+    "name": "Tam Thôn Hiệp",
+    "fullName": "Xã Tam Thôn Hiệp",
+    "path": "Tam Thôn Hiệp, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Xã Tam Thôn Hiệp, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 27673,
+    "name": "An Thới Đông",
+    "fullName": "Xã An Thới Đông",
+    "path": "An Thới Đông, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Xã An Thới Đông, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 27676,
+    "name": "Thạnh An",
+    "fullName": "Xã Thạnh An",
+    "path": "Thạnh An, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Xã Thạnh An, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 27679,
+    "name": "Long Hòa",
+    "fullName": "Xã Long Hòa",
+    "path": "Long Hòa, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Xã Long Hòa, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 27682,
+    "name": "Lý Nhơn",
+    "fullName": "Xã Lý Nhơn",
+    "path": "Lý Nhơn, Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Xã Lý Nhơn, Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 787
+  },
+  {
+    "id": 1,
+    "name": "Phúc Xá",
+    "fullName": "Phường Phúc Xá",
+    "path": "Phúc Xá, Ba Đình, Hà Nội",
+    "fullPath": "Phường Phúc Xá, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 4,
+    "name": "Trúc Bạch",
+    "fullName": "Phường Trúc Bạch",
+    "path": "Trúc Bạch, Ba Đình, Hà Nội",
+    "fullPath": "Phường Trúc Bạch, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 6,
+    "name": "Vĩnh Phúc",
+    "fullName": "Phường Vĩnh Phúc",
+    "path": "Vĩnh Phúc, Ba Đình, Hà Nội",
+    "fullPath": "Phường Vĩnh Phúc, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 7,
+    "name": "Cống Vị",
+    "fullName": "Phường Cống Vị",
+    "path": "Cống Vị, Ba Đình, Hà Nội",
+    "fullPath": "Phường Cống Vị, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 8,
+    "name": "Liễu Giai",
+    "fullName": "Phường Liễu Giai",
+    "path": "Liễu Giai, Ba Đình, Hà Nội",
+    "fullPath": "Phường Liễu Giai, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 10,
+    "name": "Nguyễn Trung Trực",
+    "fullName": "Phường Nguyễn Trung Trực",
+    "path": "Nguyễn Trung Trực, Ba Đình, Hà Nội",
+    "fullPath": "Phường Nguyễn Trung Trực, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 13,
+    "name": "Quán Thánh",
+    "fullName": "Phường Quán Thánh",
+    "path": "Quán Thánh, Ba Đình, Hà Nội",
+    "fullPath": "Phường Quán Thánh, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 16,
+    "name": "Ngọc Hà",
+    "fullName": "Phường Ngọc Hà",
+    "path": "Ngọc Hà, Ba Đình, Hà Nội",
+    "fullPath": "Phường Ngọc Hà, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 19,
+    "name": "Điện Biên",
+    "fullName": "Phường Điện Biên",
+    "path": "Điện Biên, Ba Đình, Hà Nội",
+    "fullPath": "Phường Điện Biên, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 22,
+    "name": "Đội Cấn",
+    "fullName": "Phường Đội Cấn",
+    "path": "Đội Cấn, Ba Đình, Hà Nội",
+    "fullPath": "Phường Đội Cấn, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 25,
+    "name": "Ngọc Khánh",
+    "fullName": "Phường Ngọc Khánh",
+    "path": "Ngọc Khánh, Ba Đình, Hà Nội",
+    "fullPath": "Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 28,
+    "name": "Kim Mã",
+    "fullName": "Phường Kim Mã",
+    "path": "Kim Mã, Ba Đình, Hà Nội",
+    "fullPath": "Phường Kim Mã, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 31,
+    "name": "Giảng Võ",
+    "fullName": "Phường Giảng Võ",
+    "path": "Giảng Võ, Ba Đình, Hà Nội",
+    "fullPath": "Phường Giảng Võ, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 34,
+    "name": "Thành Công",
+    "fullName": "Phường Thành Công",
+    "path": "Thành Công, Ba Đình, Hà Nội",
+    "fullPath": "Phường Thành Công, Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 37,
+    "name": "Phúc Tân",
+    "fullName": "Phường Phúc Tân",
+    "path": "Phúc Tân, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Phúc Tân, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 40,
+    "name": "Đồng Xuân",
+    "fullName": "Phường Đồng Xuân",
+    "path": "Đồng Xuân, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Đồng Xuân, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 43,
+    "name": "Hàng Mã",
+    "fullName": "Phường Hàng Mã",
+    "path": "Hàng Mã, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Mã, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 46,
+    "name": "Hàng Buồm",
+    "fullName": "Phường Hàng Buồm",
+    "path": "Hàng Buồm, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Buồm, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 49,
+    "name": "Hàng Đào",
+    "fullName": "Phường Hàng Đào",
+    "path": "Hàng Đào, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Đào, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 52,
+    "name": "Hàng Bồ",
+    "fullName": "Phường Hàng Bồ",
+    "path": "Hàng Bồ, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Bồ, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 55,
+    "name": "Cửa Đông",
+    "fullName": "Phường Cửa Đông",
+    "path": "Cửa Đông, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Cửa Đông, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 58,
+    "name": "Lý Thái Tổ",
+    "fullName": "Phường Lý Thái Tổ",
+    "path": "Lý Thái Tổ, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Lý Thái Tổ, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 61,
+    "name": "Hàng Bạc",
+    "fullName": "Phường Hàng Bạc",
+    "path": "Hàng Bạc, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Bạc, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 64,
+    "name": "Hàng Gai",
+    "fullName": "Phường Hàng Gai",
+    "path": "Hàng Gai, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Gai, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 67,
+    "name": "Chương Dương",
+    "fullName": "Phường Chương Dương",
+    "path": "Chương Dương, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Chương Dương, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 70,
+    "name": "Hàng Trống",
+    "fullName": "Phường Hàng Trống",
+    "path": "Hàng Trống, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Trống, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 73,
+    "name": "Cửa Nam",
+    "fullName": "Phường Cửa Nam",
+    "path": "Cửa Nam, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Cửa Nam, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 76,
+    "name": "Hàng Bông",
+    "fullName": "Phường Hàng Bông",
+    "path": "Hàng Bông, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Bông, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 79,
+    "name": "Tràng Tiền",
+    "fullName": "Phường Tràng Tiền",
+    "path": "Tràng Tiền, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Tràng Tiền, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 82,
+    "name": "Trần Hưng Đạo",
+    "fullName": "Phường Trần Hưng Đạo",
+    "path": "Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Trần Hưng Đạo, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 85,
+    "name": "Phan Chu Trinh",
+    "fullName": "Phường Phan Chu Trinh",
+    "path": "Phan Chu Trinh, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Phan Chu Trinh, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 88,
+    "name": "Hàng Bài",
+    "fullName": "Phường Hàng Bài",
+    "path": "Hàng Bài, Hoàn Kiếm, Hà Nội",
+    "fullPath": "Phường Hàng Bài, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 2
+  },
+  {
+    "id": 91,
+    "name": "Phú Thượng",
+    "fullName": "Phường Phú Thượng",
+    "path": "Phú Thượng, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Phú Thượng, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 94,
+    "name": "Nhật Tân",
+    "fullName": "Phường Nhật Tân",
+    "path": "Nhật Tân, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Nhật Tân, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 97,
+    "name": "Tứ Liên",
+    "fullName": "Phường Tứ Liên",
+    "path": "Tứ Liên, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Tứ Liên, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 100,
+    "name": "Quảng An",
+    "fullName": "Phường Quảng An",
+    "path": "Quảng An, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Quảng An, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 103,
+    "name": "Xuân La",
+    "fullName": "Phường Xuân La",
+    "path": "Xuân La, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Xuân La, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 106,
+    "name": "Yên Phụ",
+    "fullName": "Phường Yên Phụ",
+    "path": "Yên Phụ, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Yên Phụ, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 109,
+    "name": "Bưởi",
+    "fullName": "Phường Bưởi",
+    "path": "Bưởi, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Bưởi, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 112,
+    "name": "Thụy Khuê",
+    "fullName": "Phường Thụy Khuê",
+    "path": "Thụy Khuê, Tây Hồ, Hà Nội",
+    "fullPath": "Phường Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 3
+  },
+  {
+    "id": 115,
+    "name": "Thượng Thanh",
+    "fullName": "Phường Thượng Thanh",
+    "path": "Thượng Thanh, Long Biên, Hà Nội",
+    "fullPath": "Phường Thượng Thanh, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 118,
+    "name": "Ngọc Thụy",
+    "fullName": "Phường Ngọc Thụy",
+    "path": "Ngọc Thụy, Long Biên, Hà Nội",
+    "fullPath": "Phường Ngọc Thụy, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 121,
+    "name": "Giang Biên",
+    "fullName": "Phường Giang Biên",
+    "path": "Giang Biên, Long Biên, Hà Nội",
+    "fullPath": "Phường Giang Biên, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 124,
+    "name": "Đức Giang",
+    "fullName": "Phường Đức Giang",
+    "path": "Đức Giang, Long Biên, Hà Nội",
+    "fullPath": "Phường Đức Giang, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 127,
+    "name": "Việt Hưng",
+    "fullName": "Phường Việt Hưng",
+    "path": "Việt Hưng, Long Biên, Hà Nội",
+    "fullPath": "Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 130,
+    "name": "Gia Thụy",
+    "fullName": "Phường Gia Thụy",
+    "path": "Gia Thụy, Long Biên, Hà Nội",
+    "fullPath": "Phường Gia Thụy, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 133,
+    "name": "Ngọc Lâm",
+    "fullName": "Phường Ngọc Lâm",
+    "path": "Ngọc Lâm, Long Biên, Hà Nội",
+    "fullPath": "Phường Ngọc Lâm, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 136,
+    "name": "Phúc Lợi",
+    "fullName": "Phường Phúc Lợi",
+    "path": "Phúc Lợi, Long Biên, Hà Nội",
+    "fullPath": "Phường Phúc Lợi, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 139,
+    "name": "Bồ Đề",
+    "fullName": "Phường Bồ Đề",
+    "path": "Bồ Đề, Long Biên, Hà Nội",
+    "fullPath": "Phường Bồ Đề, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 142,
+    "name": "Sài Đồng",
+    "fullName": "Phường Sài Đồng",
+    "path": "Sài Đồng, Long Biên, Hà Nội",
+    "fullPath": "Phường Sài Đồng, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 145,
+    "name": "Long Biên",
+    "fullName": "Phường Long Biên",
+    "path": "Long Biên, Long Biên, Hà Nội",
+    "fullPath": "Phường Long Biên, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 148,
+    "name": "Thạch Bàn",
+    "fullName": "Phường Thạch Bàn",
+    "path": "Thạch Bàn, Long Biên, Hà Nội",
+    "fullPath": "Phường Thạch Bàn, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 151,
+    "name": "Phúc Đồng",
+    "fullName": "Phường Phúc Đồng",
+    "path": "Phúc Đồng, Long Biên, Hà Nội",
+    "fullPath": "Phường Phúc Đồng, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 154,
+    "name": "Cự Khối",
+    "fullName": "Phường Cự Khối",
+    "path": "Cự Khối, Long Biên, Hà Nội",
+    "fullPath": "Phường Cự Khối, Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 4
+  },
+  {
+    "id": 157,
+    "name": "Nghĩa Đô",
+    "fullName": "Phường Nghĩa Đô",
+    "path": "Nghĩa Đô, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Nghĩa Đô, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 160,
+    "name": "Nghĩa Tân",
+    "fullName": "Phường Nghĩa Tân",
+    "path": "Nghĩa Tân, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 163,
+    "name": "Mai Dịch",
+    "fullName": "Phường Mai Dịch",
+    "path": "Mai Dịch, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 166,
+    "name": "Dịch Vọng",
+    "fullName": "Phường Dịch Vọng",
+    "path": "Dịch Vọng, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Dịch Vọng, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 167,
+    "name": "Dịch Vọng Hậu",
+    "fullName": "Phường Dịch Vọng Hậu",
+    "path": "Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 169,
+    "name": "Quan Hoa",
+    "fullName": "Phường Quan Hoa",
+    "path": "Quan Hoa, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Quan Hoa, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 172,
+    "name": "Yên Hoà",
+    "fullName": "Phường Yên Hoà",
+    "path": "Yên Hoà, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Yên Hoà, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 175,
+    "name": "Trung Hoà",
+    "fullName": "Phường Trung Hoà",
+    "path": "Trung Hoà, Cầu Giấy, Hà Nội",
+    "fullPath": "Phường Trung Hoà, Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 5
+  },
+  {
+    "id": 178,
+    "name": "Cát Linh",
+    "fullName": "Phường Cát Linh",
+    "path": "Cát Linh, Đống Đa, Hà Nội",
+    "fullPath": "Phường Cát Linh, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 181,
+    "name": "Văn Miếu",
+    "fullName": "Phường Văn Miếu",
+    "path": "Văn Miếu, Đống Đa, Hà Nội",
+    "fullPath": "Phường Văn Miếu, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 184,
+    "name": "Quốc Tử Giám",
+    "fullName": "Phường Quốc Tử Giám",
+    "path": "Quốc Tử Giám, Đống Đa, Hà Nội",
+    "fullPath": "Phường Quốc Tử Giám, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 187,
+    "name": "Láng Thượng",
+    "fullName": "Phường Láng Thượng",
+    "path": "Láng Thượng, Đống Đa, Hà Nội",
+    "fullPath": "Phường Láng Thượng, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 190,
+    "name": "Ô Chợ Dừa",
+    "fullName": "Phường Ô Chợ Dừa",
+    "path": "Ô Chợ Dừa, Đống Đa, Hà Nội",
+    "fullPath": "Phường Ô Chợ Dừa, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 193,
+    "name": "Văn Chương",
+    "fullName": "Phường Văn Chương",
+    "path": "Văn Chương, Đống Đa, Hà Nội",
+    "fullPath": "Phường Văn Chương, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 196,
+    "name": "Hàng Bột",
+    "fullName": "Phường Hàng Bột",
+    "path": "Hàng Bột, Đống Đa, Hà Nội",
+    "fullPath": "Phường Hàng Bột, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 199,
+    "name": "Láng Hạ",
+    "fullName": "Phường Láng Hạ",
+    "path": "Láng Hạ, Đống Đa, Hà Nội",
+    "fullPath": "Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 202,
+    "name": "Khâm Thiên",
+    "fullName": "Phường Khâm Thiên",
+    "path": "Khâm Thiên, Đống Đa, Hà Nội",
+    "fullPath": "Phường Khâm Thiên, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 205,
+    "name": "Thổ Quan",
+    "fullName": "Phường Thổ Quan",
+    "path": "Thổ Quan, Đống Đa, Hà Nội",
+    "fullPath": "Phường Thổ Quan, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 208,
+    "name": "Nam Đồng",
+    "fullName": "Phường Nam Đồng",
+    "path": "Nam Đồng, Đống Đa, Hà Nội",
+    "fullPath": "Phường Nam Đồng, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 211,
+    "name": "Trung Phụng",
+    "fullName": "Phường Trung Phụng",
+    "path": "Trung Phụng, Đống Đa, Hà Nội",
+    "fullPath": "Phường Trung Phụng, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 214,
+    "name": "Quang Trung",
+    "fullName": "Phường Quang Trung",
+    "path": "Quang Trung, Đống Đa, Hà Nội",
+    "fullPath": "Phường Quang Trung, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 217,
+    "name": "Trung Liệt",
+    "fullName": "Phường Trung Liệt",
+    "path": "Trung Liệt, Đống Đa, Hà Nội",
+    "fullPath": "Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 220,
+    "name": "Phương Liên",
+    "fullName": "Phường Phương Liên",
+    "path": "Phương Liên, Đống Đa, Hà Nội",
+    "fullPath": "Phường Phương Liên, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 223,
+    "name": "Thịnh Quang",
+    "fullName": "Phường Thịnh Quang",
+    "path": "Thịnh Quang, Đống Đa, Hà Nội",
+    "fullPath": "Phường Thịnh Quang, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 226,
+    "name": "Trung Tự",
+    "fullName": "Phường Trung Tự",
+    "path": "Trung Tự, Đống Đa, Hà Nội",
+    "fullPath": "Phường Trung Tự, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 229,
+    "name": "Kim Liên",
+    "fullName": "Phường Kim Liên",
+    "path": "Kim Liên, Đống Đa, Hà Nội",
+    "fullPath": "Phường Kim Liên, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 232,
+    "name": "Phương Mai",
+    "fullName": "Phường Phương Mai",
+    "path": "Phương Mai, Đống Đa, Hà Nội",
+    "fullPath": "Phường Phương Mai, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 235,
+    "name": "Ngã Tư Sở",
+    "fullName": "Phường Ngã Tư Sở",
+    "path": "Ngã Tư Sở, Đống Đa, Hà Nội",
+    "fullPath": "Phường Ngã Tư Sở, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 238,
+    "name": "Khương Thượng",
+    "fullName": "Phường Khương Thượng",
+    "path": "Khương Thượng, Đống Đa, Hà Nội",
+    "fullPath": "Phường Khương Thượng, Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 6
+  },
+  {
+    "id": 241,
+    "name": "Nguyễn Du",
+    "fullName": "Phường Nguyễn Du",
+    "path": "Nguyễn Du, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Nguyễn Du, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 244,
+    "name": "Bạch Đằng",
+    "fullName": "Phường Bạch Đằng",
+    "path": "Bạch Đằng, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Bạch Đằng, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 247,
+    "name": "Phạm Đình Hổ",
+    "fullName": "Phường Phạm Đình Hổ",
+    "path": "Phạm Đình Hổ, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Phạm Đình Hổ, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 256,
+    "name": "Lê Đại Hành",
+    "fullName": "Phường Lê Đại Hành",
+    "path": "Lê Đại Hành, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Lê Đại Hành, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 259,
+    "name": "Đồng Nhân",
+    "fullName": "Phường Đồng Nhân",
+    "path": "Đồng Nhân, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 262,
+    "name": "Phố Huế",
+    "fullName": "Phường Phố Huế",
+    "path": "Phố Huế, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Phố Huế, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 265,
+    "name": "Đống Mác",
+    "fullName": "Phường Đống Mác",
+    "path": "Đống Mác, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Đống Mác, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 268,
+    "name": "Thanh Lương",
+    "fullName": "Phường Thanh Lương",
+    "path": "Thanh Lương, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Thanh Lương, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 271,
+    "name": "Thanh Nhàn",
+    "fullName": "Phường Thanh Nhàn",
+    "path": "Thanh Nhàn, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Thanh Nhàn, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 274,
+    "name": "Cầu Dền",
+    "fullName": "Phường Cầu Dền",
+    "path": "Cầu Dền, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Cầu Dền, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 277,
+    "name": "Bách Khoa",
+    "fullName": "Phường Bách Khoa",
+    "path": "Bách Khoa, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Bách Khoa, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 280,
+    "name": "Đồng Tâm",
+    "fullName": "Phường Đồng Tâm",
+    "path": "Đồng Tâm, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Đồng Tâm, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 283,
+    "name": "Vĩnh Tuy",
+    "fullName": "Phường Vĩnh Tuy",
+    "path": "Vĩnh Tuy, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 286,
+    "name": "Bạch Mai",
+    "fullName": "Phường Bạch Mai",
+    "path": "Bạch Mai, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Bạch Mai, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 289,
+    "name": "Quỳnh Mai",
+    "fullName": "Phường Quỳnh Mai",
+    "path": "Quỳnh Mai, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Quỳnh Mai, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 292,
+    "name": "Quỳnh Lôi",
+    "fullName": "Phường Quỳnh Lôi",
+    "path": "Quỳnh Lôi, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Quỳnh Lôi, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 295,
+    "name": "Minh Khai",
+    "fullName": "Phường Minh Khai",
+    "path": "Minh Khai, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 298,
+    "name": "Trương Định",
+    "fullName": "Phường Trương Định",
+    "path": "Trương Định, Hai Bà Trưng, Hà Nội",
+    "fullPath": "Phường Trương Định, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 7
+  },
+  {
+    "id": 301,
+    "name": "Thanh Trì",
+    "fullName": "Phường Thanh Trì",
+    "path": "Thanh Trì, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Thanh Trì, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 304,
+    "name": "Vĩnh Hưng",
+    "fullName": "Phường Vĩnh Hưng",
+    "path": "Vĩnh Hưng, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Vĩnh Hưng, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 307,
+    "name": "Định Công",
+    "fullName": "Phường Định Công",
+    "path": "Định Công, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Định Công, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 310,
+    "name": "Mai Động",
+    "fullName": "Phường Mai Động",
+    "path": "Mai Động, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Mai Động, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 313,
+    "name": "Tương Mai",
+    "fullName": "Phường Tương Mai",
+    "path": "Tương Mai, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Tương Mai, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 316,
+    "name": "Đại Kim",
+    "fullName": "Phường Đại Kim",
+    "path": "Đại Kim, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Đại Kim, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 319,
+    "name": "Tân Mai",
+    "fullName": "Phường Tân Mai",
+    "path": "Tân Mai, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Tân Mai, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 322,
+    "name": "Hoàng Văn Thụ",
+    "fullName": "Phường Hoàng Văn Thụ",
+    "path": "Hoàng Văn Thụ, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Hoàng Văn Thụ, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 325,
+    "name": "Giáp Bát",
+    "fullName": "Phường Giáp Bát",
+    "path": "Giáp Bát, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Giáp Bát, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 328,
+    "name": "Lĩnh Nam",
+    "fullName": "Phường Lĩnh Nam",
+    "path": "Lĩnh Nam, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Lĩnh Nam, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 331,
+    "name": "Thịnh Liệt",
+    "fullName": "Phường Thịnh Liệt",
+    "path": "Thịnh Liệt, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Thịnh Liệt, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 334,
+    "name": "Trần Phú",
+    "fullName": "Phường Trần Phú",
+    "path": "Trần Phú, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Trần Phú, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 337,
+    "name": "Hoàng Liệt",
+    "fullName": "Phường Hoàng Liệt",
+    "path": "Hoàng Liệt, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Hoàng Liệt, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 340,
+    "name": "Yên Sở",
+    "fullName": "Phường Yên Sở",
+    "path": "Yên Sở, Hoàng Mai, Hà Nội",
+    "fullPath": "Phường Yên Sở, Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 8
+  },
+  {
+    "id": 343,
+    "name": "Nhân Chính",
+    "fullName": "Phường Nhân Chính",
+    "path": "Nhân Chính, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 346,
+    "name": "Thượng Đình",
+    "fullName": "Phường Thượng Đình",
+    "path": "Thượng Đình, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Thượng Đình, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 349,
+    "name": "Khương Trung",
+    "fullName": "Phường Khương Trung",
+    "path": "Khương Trung, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Khương Trung, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 352,
+    "name": "Khương Mai",
+    "fullName": "Phường Khương Mai",
+    "path": "Khương Mai, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Khương Mai, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 355,
+    "name": "Thanh Xuân Trung",
+    "fullName": "Phường Thanh Xuân Trung",
+    "path": "Thanh Xuân Trung, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Thanh Xuân Trung, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 358,
+    "name": "Phương Liệt",
+    "fullName": "Phường Phương Liệt",
+    "path": "Phương Liệt, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Phương Liệt, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 361,
+    "name": "Hạ Đình",
+    "fullName": "Phường Hạ Đình",
+    "path": "Hạ Đình, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Hạ Đình, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 364,
+    "name": "Khương Đình",
+    "fullName": "Phường Khương Đình",
+    "path": "Khương Đình, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Khương Đình, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 367,
+    "name": "Thanh Xuân Bắc",
+    "fullName": "Phường Thanh Xuân Bắc",
+    "path": "Thanh Xuân Bắc, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 370,
+    "name": "Thanh Xuân Nam",
+    "fullName": "Phường Thanh Xuân Nam",
+    "path": "Thanh Xuân Nam, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Thanh Xuân Nam, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 373,
+    "name": "Kim Giang",
+    "fullName": "Phường Kim Giang",
+    "path": "Kim Giang, Thanh Xuân, Hà Nội",
+    "fullPath": "Phường Kim Giang, Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 9
+  },
+  {
+    "id": 376,
+    "name": "Sóc Sơn",
+    "fullName": "Thị trấn Sóc Sơn",
+    "path": "Sóc Sơn, Sóc Sơn, Hà Nội",
+    "fullPath": "Thị trấn Sóc Sơn, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 379,
+    "name": "Bắc Sơn",
+    "fullName": "Xã Bắc Sơn",
+    "path": "Bắc Sơn, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Bắc Sơn, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 382,
+    "name": "Minh Trí",
+    "fullName": "Xã Minh Trí",
+    "path": "Minh Trí, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Minh Trí, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 385,
+    "name": "Hồng Kỳ",
+    "fullName": "Xã Hồng Kỳ",
+    "path": "Hồng Kỳ, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Hồng Kỳ, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 388,
+    "name": "Nam Sơn",
+    "fullName": "Xã Nam Sơn",
+    "path": "Nam Sơn, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Nam Sơn, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 391,
+    "name": "Trung Giã",
+    "fullName": "Xã Trung Giã",
+    "path": "Trung Giã, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Trung Giã, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 394,
+    "name": "Tân Hưng",
+    "fullName": "Xã Tân Hưng",
+    "path": "Tân Hưng, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Tân Hưng, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 397,
+    "name": "Minh Phú",
+    "fullName": "Xã Minh Phú",
+    "path": "Minh Phú, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Minh Phú, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 400,
+    "name": "Phù Linh",
+    "fullName": "Xã Phù Linh",
+    "path": "Phù Linh, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Phù Linh, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 403,
+    "name": "Bắc Phú",
+    "fullName": "Xã Bắc Phú",
+    "path": "Bắc Phú, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Bắc Phú, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 406,
+    "name": "Tân Minh",
+    "fullName": "Xã Tân Minh",
+    "path": "Tân Minh, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Tân Minh, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 409,
+    "name": "Quang Tiến",
+    "fullName": "Xã Quang Tiến",
+    "path": "Quang Tiến, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Quang Tiến, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 412,
+    "name": "Hiền Ninh",
+    "fullName": "Xã Hiền Ninh",
+    "path": "Hiền Ninh, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Hiền Ninh, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 415,
+    "name": "Tân Dân",
+    "fullName": "Xã Tân Dân",
+    "path": "Tân Dân, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Tân Dân, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 418,
+    "name": "Tiên Dược",
+    "fullName": "Xã Tiên Dược",
+    "path": "Tiên Dược, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Tiên Dược, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 421,
+    "name": "Việt Long",
+    "fullName": "Xã Việt Long",
+    "path": "Việt Long, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Việt Long, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 424,
+    "name": "Xuân Giang",
+    "fullName": "Xã Xuân Giang",
+    "path": "Xuân Giang, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Xuân Giang, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 427,
+    "name": "Mai Đình",
+    "fullName": "Xã Mai Đình",
+    "path": "Mai Đình, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Mai Đình, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 430,
+    "name": "Đức Hoà",
+    "fullName": "Xã Đức Hoà",
+    "path": "Đức Hoà, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Đức Hoà, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 433,
+    "name": "Thanh Xuân",
+    "fullName": "Xã Thanh Xuân",
+    "path": "Thanh Xuân, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Thanh Xuân, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 436,
+    "name": "Đông Xuân",
+    "fullName": "Xã Đông Xuân",
+    "path": "Đông Xuân, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Đông Xuân, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 439,
+    "name": "Kim Lũ",
+    "fullName": "Xã Kim Lũ",
+    "path": "Kim Lũ, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Kim Lũ, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 442,
+    "name": "Phú Cường",
+    "fullName": "Xã Phú Cường",
+    "path": "Phú Cường, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Phú Cường, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 445,
+    "name": "Phú Minh",
+    "fullName": "Xã Phú Minh",
+    "path": "Phú Minh, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Phú Minh, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 448,
+    "name": "Phù Lỗ",
+    "fullName": "Xã Phù Lỗ",
+    "path": "Phù Lỗ, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Phù Lỗ, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 451,
+    "name": "Xuân Thu",
+    "fullName": "Xã Xuân Thu",
+    "path": "Xuân Thu, Sóc Sơn, Hà Nội",
+    "fullPath": "Xã Xuân Thu, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 16
+  },
+  {
+    "id": 454,
+    "name": "Đông Anh",
+    "fullName": "Thị trấn Đông Anh",
+    "path": "Đông Anh, Đông Anh, Hà Nội",
+    "fullPath": "Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 457,
+    "name": "Xuân Nộn",
+    "fullName": "Xã Xuân Nộn",
+    "path": "Xuân Nộn, Đông Anh, Hà Nội",
+    "fullPath": "Xã Xuân Nộn, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 460,
+    "name": "Thuỵ Lâm",
+    "fullName": "Xã Thuỵ Lâm",
+    "path": "Thuỵ Lâm, Đông Anh, Hà Nội",
+    "fullPath": "Xã Thuỵ Lâm, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 463,
+    "name": "Bắc Hồng",
+    "fullName": "Xã Bắc Hồng",
+    "path": "Bắc Hồng, Đông Anh, Hà Nội",
+    "fullPath": "Xã Bắc Hồng, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 466,
+    "name": "Nguyên Khê",
+    "fullName": "Xã Nguyên Khê",
+    "path": "Nguyên Khê, Đông Anh, Hà Nội",
+    "fullPath": "Xã Nguyên Khê, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 469,
+    "name": "Nam Hồng",
+    "fullName": "Xã Nam Hồng",
+    "path": "Nam Hồng, Đông Anh, Hà Nội",
+    "fullPath": "Xã Nam Hồng, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 472,
+    "name": "Tiên Dương",
+    "fullName": "Xã Tiên Dương",
+    "path": "Tiên Dương, Đông Anh, Hà Nội",
+    "fullPath": "Xã Tiên Dương, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 475,
+    "name": "Vân Hà",
+    "fullName": "Xã Vân Hà",
+    "path": "Vân Hà, Đông Anh, Hà Nội",
+    "fullPath": "Xã Vân Hà, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 478,
+    "name": "Uy Nỗ",
+    "fullName": "Xã Uy Nỗ",
+    "path": "Uy Nỗ, Đông Anh, Hà Nội",
+    "fullPath": "Xã Uy Nỗ, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 481,
+    "name": "Vân Nội",
+    "fullName": "Xã Vân Nội",
+    "path": "Vân Nội, Đông Anh, Hà Nội",
+    "fullPath": "Xã Vân Nội, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 484,
+    "name": "Liên Hà",
+    "fullName": "Xã Liên Hà",
+    "path": "Liên Hà, Đông Anh, Hà Nội",
+    "fullPath": "Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 487,
+    "name": "Việt Hùng",
+    "fullName": "Xã Việt Hùng",
+    "path": "Việt Hùng, Đông Anh, Hà Nội",
+    "fullPath": "Xã Việt Hùng, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 490,
+    "name": "Kim Nỗ",
+    "fullName": "Xã Kim Nỗ",
+    "path": "Kim Nỗ, Đông Anh, Hà Nội",
+    "fullPath": "Xã Kim Nỗ, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 493,
+    "name": "Kim Chung",
+    "fullName": "Xã Kim Chung",
+    "path": "Kim Chung, Đông Anh, Hà Nội",
+    "fullPath": "Xã Kim Chung, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 496,
+    "name": "Dục Tú",
+    "fullName": "Xã Dục Tú",
+    "path": "Dục Tú, Đông Anh, Hà Nội",
+    "fullPath": "Xã Dục Tú, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 499,
+    "name": "Đại Mạch",
+    "fullName": "Xã Đại Mạch",
+    "path": "Đại Mạch, Đông Anh, Hà Nội",
+    "fullPath": "Xã Đại Mạch, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 502,
+    "name": "Vĩnh Ngọc",
+    "fullName": "Xã Vĩnh Ngọc",
+    "path": "Vĩnh Ngọc, Đông Anh, Hà Nội",
+    "fullPath": "Xã Vĩnh Ngọc, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 505,
+    "name": "Cổ Loa",
+    "fullName": "Xã Cổ Loa",
+    "path": "Cổ Loa, Đông Anh, Hà Nội",
+    "fullPath": "Xã Cổ Loa, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 508,
+    "name": "Hải Bối",
+    "fullName": "Xã Hải Bối",
+    "path": "Hải Bối, Đông Anh, Hà Nội",
+    "fullPath": "Xã Hải Bối, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 511,
+    "name": "Xuân Canh",
+    "fullName": "Xã Xuân Canh",
+    "path": "Xuân Canh, Đông Anh, Hà Nội",
+    "fullPath": "Xã Xuân Canh, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 514,
+    "name": "Võng La",
+    "fullName": "Xã Võng La",
+    "path": "Võng La, Đông Anh, Hà Nội",
+    "fullPath": "Xã Võng La, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 517,
+    "name": "Tàm Xá",
+    "fullName": "Xã Tàm Xá",
+    "path": "Tàm Xá, Đông Anh, Hà Nội",
+    "fullPath": "Xã Tàm Xá, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 520,
+    "name": "Mai Lâm",
+    "fullName": "Xã Mai Lâm",
+    "path": "Mai Lâm, Đông Anh, Hà Nội",
+    "fullPath": "Xã Mai Lâm, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 523,
+    "name": "Đông Hội",
+    "fullName": "Xã Đông Hội",
+    "path": "Đông Hội, Đông Anh, Hà Nội",
+    "fullPath": "Xã Đông Hội, Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 17
+  },
+  {
+    "id": 526,
+    "name": "Yên Viên",
+    "fullName": "Thị trấn Yên Viên",
+    "path": "Yên Viên, Gia Lâm, Hà Nội",
+    "fullPath": "Thị trấn Yên Viên, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 529,
+    "name": "Yên Thường",
+    "fullName": "Xã Yên Thường",
+    "path": "Yên Thường, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Yên Thường, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 532,
+    "name": "Yên Viên",
+    "fullName": "Xã Yên Viên",
+    "path": "Yên Viên, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Yên Viên, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 535,
+    "name": "Ninh Hiệp",
+    "fullName": "Xã Ninh Hiệp",
+    "path": "Ninh Hiệp, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Ninh Hiệp, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 538,
+    "name": "Đình Xuyên",
+    "fullName": "Xã Đình Xuyên",
+    "path": "Đình Xuyên, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Đình Xuyên, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 541,
+    "name": "Dương Hà",
+    "fullName": "Xã Dương Hà",
+    "path": "Dương Hà, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Dương Hà, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 544,
+    "name": "Phù Đổng",
+    "fullName": "Xã Phù Đổng",
+    "path": "Phù Đổng, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Phù Đổng, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 547,
+    "name": "Trung Mầu",
+    "fullName": "Xã Trung Mầu",
+    "path": "Trung Mầu, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Trung Mầu, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 550,
+    "name": "Lệ Chi",
+    "fullName": "Xã Lệ Chi",
+    "path": "Lệ Chi, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 553,
+    "name": "Cổ Bi",
+    "fullName": "Xã Cổ Bi",
+    "path": "Cổ Bi, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Cổ Bi, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 556,
+    "name": "Đặng Xá",
+    "fullName": "Xã Đặng Xá",
+    "path": "Đặng Xá, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Đặng Xá, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 559,
+    "name": "Phú Thị",
+    "fullName": "Xã Phú Thị",
+    "path": "Phú Thị, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Phú Thị, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 562,
+    "name": "Kim Sơn",
+    "fullName": "Xã Kim Sơn",
+    "path": "Kim Sơn, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Kim Sơn, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 565,
+    "name": "Trâu Quỳ",
+    "fullName": "Thị trấn Trâu Quỳ",
+    "path": "Trâu Quỳ, Gia Lâm, Hà Nội",
+    "fullPath": "Thị trấn Trâu Quỳ, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 568,
+    "name": "Dương Quang",
+    "fullName": "Xã Dương Quang",
+    "path": "Dương Quang, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Dương Quang, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 571,
+    "name": "Dương Xá",
+    "fullName": "Xã Dương Xá",
+    "path": "Dương Xá, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Dương Xá, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 574,
+    "name": "Đông Dư",
+    "fullName": "Xã Đông Dư",
+    "path": "Đông Dư, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Đông Dư, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 577,
+    "name": "Đa Tốn",
+    "fullName": "Xã Đa Tốn",
+    "path": "Đa Tốn, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Đa Tốn, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 580,
+    "name": "Kiêu Kỵ",
+    "fullName": "Xã Kiêu Kỵ",
+    "path": "Kiêu Kỵ, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Kiêu Kỵ, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 583,
+    "name": "Bát Tràng",
+    "fullName": "Xã Bát Tràng",
+    "path": "Bát Tràng, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Bát Tràng, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 586,
+    "name": "Kim Lan",
+    "fullName": "Xã Kim Lan",
+    "path": "Kim Lan, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Kim Lan, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 589,
+    "name": "Văn Đức",
+    "fullName": "Xã Văn Đức",
+    "path": "Văn Đức, Gia Lâm, Hà Nội",
+    "fullPath": "Xã Văn Đức, Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 18
+  },
+  {
+    "id": 592,
+    "name": "Cầu Diễn",
+    "fullName": "Phường Cầu Diễn",
+    "path": "Cầu Diễn, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Cầu Diễn, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 595,
+    "name": "Thượng Cát",
+    "fullName": "Phường Thượng Cát",
+    "path": "Thượng Cát, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Thượng Cát, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 598,
+    "name": "Liên Mạc",
+    "fullName": "Phường Liên Mạc",
+    "path": "Liên Mạc, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Liên Mạc, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 601,
+    "name": "Đông Ngạc",
+    "fullName": "Phường Đông Ngạc",
+    "path": "Đông Ngạc, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Đông Ngạc, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 602,
+    "name": "Đức Thắng",
+    "fullName": "Phường Đức Thắng",
+    "path": "Đức Thắng, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Đức Thắng, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 604,
+    "name": "Thụy Phương",
+    "fullName": "Phường Thụy Phương",
+    "path": "Thụy Phương, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Thụy Phương, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 607,
+    "name": "Tây Tựu",
+    "fullName": "Phường Tây Tựu",
+    "path": "Tây Tựu, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Tây Tựu, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 610,
+    "name": "Xuân Đỉnh",
+    "fullName": "Phường Xuân Đỉnh",
+    "path": "Xuân Đỉnh, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 611,
+    "name": "Xuân Tảo",
+    "fullName": "Phường Xuân Tảo",
+    "path": "Xuân Tảo, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Xuân Tảo, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 613,
+    "name": "Minh Khai",
+    "fullName": "Phường Minh Khai",
+    "path": "Minh Khai, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Minh Khai, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 616,
+    "name": "Cổ Nhuế 1",
+    "fullName": "Phường Cổ Nhuế 1",
+    "path": "Cổ Nhuế 1, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 617,
+    "name": "Cổ Nhuế 2",
+    "fullName": "Phường Cổ Nhuế 2",
+    "path": "Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Cổ Nhuế 2, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 619,
+    "name": "Phú Diễn",
+    "fullName": "Phường Phú Diễn",
+    "path": "Phú Diễn, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Phú Diễn, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 620,
+    "name": "Phúc Diễn",
+    "fullName": "Phường Phúc Diễn",
+    "path": "Phúc Diễn, Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Phường Phúc Diễn, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 21
+  },
+  {
+    "id": 622,
+    "name": "Xuân Phương",
+    "fullName": "Phường Xuân Phương",
+    "path": "Xuân Phương, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Xuân Phương, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 623,
+    "name": "Phương Canh",
+    "fullName": "Phường Phương Canh",
+    "path": "Phương Canh, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Phương Canh, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 625,
+    "name": "Mỹ Đình 1",
+    "fullName": "Phường Mỹ Đình 1",
+    "path": "Mỹ Đình 1, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Mỹ Đình 1, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 626,
+    "name": "Mỹ Đình 2",
+    "fullName": "Phường Mỹ Đình 2",
+    "path": "Mỹ Đình 2, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 628,
+    "name": "Tây Mỗ",
+    "fullName": "Phường Tây Mỗ",
+    "path": "Tây Mỗ, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 631,
+    "name": "Mễ Trì",
+    "fullName": "Phường Mễ Trì",
+    "path": "Mễ Trì, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 632,
+    "name": "Phú Đô",
+    "fullName": "Phường Phú Đô",
+    "path": "Phú Đô, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Phú Đô, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 634,
+    "name": "Đại Mỗ",
+    "fullName": "Phường Đại Mỗ",
+    "path": "Đại Mỗ, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Đại Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 637,
+    "name": "Trung Văn",
+    "fullName": "Phường Trung Văn",
+    "path": "Trung Văn, Nam Từ Liêm, Hà Nội",
+    "fullPath": "Phường Trung Văn, Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 19
+  },
+  {
+    "id": 640,
+    "name": "Văn Điển",
+    "fullName": "Thị trấn Văn Điển",
+    "path": "Văn Điển, Thanh Trì, Hà Nội",
+    "fullPath": "Thị trấn Văn Điển, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 643,
+    "name": "Tân Triều",
+    "fullName": "Xã Tân Triều",
+    "path": "Tân Triều, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 646,
+    "name": "Thanh Liệt",
+    "fullName": "Xã Thanh Liệt",
+    "path": "Thanh Liệt, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Thanh Liệt, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 649,
+    "name": "Tả Thanh Oai",
+    "fullName": "Xã Tả Thanh Oai",
+    "path": "Tả Thanh Oai, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Tả Thanh Oai, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 652,
+    "name": "Hữu Hoà",
+    "fullName": "Xã Hữu Hoà",
+    "path": "Hữu Hoà, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Hữu Hoà, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 655,
+    "name": "Tam Hiệp",
+    "fullName": "Xã Tam Hiệp",
+    "path": "Tam Hiệp, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Tam Hiệp, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 658,
+    "name": "Tứ Hiệp",
+    "fullName": "Xã Tứ Hiệp",
+    "path": "Tứ Hiệp, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Tứ Hiệp, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 661,
+    "name": "Yên Mỹ",
+    "fullName": "Xã Yên Mỹ",
+    "path": "Yên Mỹ, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Yên Mỹ, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 664,
+    "name": "Vĩnh Quỳnh",
+    "fullName": "Xã Vĩnh Quỳnh",
+    "path": "Vĩnh Quỳnh, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Vĩnh Quỳnh, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 667,
+    "name": "Ngũ Hiệp",
+    "fullName": "Xã Ngũ Hiệp",
+    "path": "Ngũ Hiệp, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Ngũ Hiệp, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 670,
+    "name": "Duyên Hà",
+    "fullName": "Xã Duyên Hà",
+    "path": "Duyên Hà, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Duyên Hà, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 673,
+    "name": "Ngọc Hồi",
+    "fullName": "Xã Ngọc Hồi",
+    "path": "Ngọc Hồi, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Ngọc Hồi, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 676,
+    "name": "Vạn Phúc",
+    "fullName": "Xã Vạn Phúc",
+    "path": "Vạn Phúc, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Vạn Phúc, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 679,
+    "name": "Đại áng",
+    "fullName": "Xã Đại áng",
+    "path": "Đại áng, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Đại áng, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 682,
+    "name": "Liên Ninh",
+    "fullName": "Xã Liên Ninh",
+    "path": "Liên Ninh, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Liên Ninh, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 685,
+    "name": "Đông Mỹ",
+    "fullName": "Xã Đông Mỹ",
+    "path": "Đông Mỹ, Thanh Trì, Hà Nội",
+    "fullPath": "Xã Đông Mỹ, Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 20
+  },
+  {
+    "id": 4927,
+    "name": "Yên Trung",
+    "fullName": "Xã Yên Trung",
+    "path": "Yên Trung, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Yên Trung, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 4930,
+    "name": "Yên Bình",
+    "fullName": "Xã Yên Bình",
+    "path": "Yên Bình, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Yên Bình, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 4936,
+    "name": "Tiến Xuân",
+    "fullName": "Xã Tiến Xuân",
+    "path": "Tiến Xuân, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Tiến Xuân, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 4939,
+    "name": "Đông Xuân",
+    "fullName": "Xã Đông Xuân",
+    "path": "Đông Xuân, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Đông Xuân, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 8973,
+    "name": "Chi Đông",
+    "fullName": "Thị trấn Chi Đông",
+    "path": "Chi Đông, Mê Linh, Hà Nội",
+    "fullPath": "Thị trấn Chi Đông, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8974,
+    "name": "Đại Thịnh",
+    "fullName": "Xã Đại Thịnh",
+    "path": "Đại Thịnh, Mê Linh, Hà Nội",
+    "fullPath": "Xã Đại Thịnh, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8977,
+    "name": "Kim Hoa",
+    "fullName": "Xã Kim Hoa",
+    "path": "Kim Hoa, Mê Linh, Hà Nội",
+    "fullPath": "Xã Kim Hoa, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8980,
+    "name": "Thạch Đà",
+    "fullName": "Xã Thạch Đà",
+    "path": "Thạch Đà, Mê Linh, Hà Nội",
+    "fullPath": "Xã Thạch Đà, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8983,
+    "name": "Tiến Thắng",
+    "fullName": "Xã Tiến Thắng",
+    "path": "Tiến Thắng, Mê Linh, Hà Nội",
+    "fullPath": "Xã Tiến Thắng, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8986,
+    "name": "Tự Lập",
+    "fullName": "Xã Tự Lập",
+    "path": "Tự Lập, Mê Linh, Hà Nội",
+    "fullPath": "Xã Tự Lập, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8989,
+    "name": "Quang Minh",
+    "fullName": "Thị trấn Quang Minh",
+    "path": "Quang Minh, Mê Linh, Hà Nội",
+    "fullPath": "Thị trấn Quang Minh, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8992,
+    "name": "Thanh Lâm",
+    "fullName": "Xã Thanh Lâm",
+    "path": "Thanh Lâm, Mê Linh, Hà Nội",
+    "fullPath": "Xã Thanh Lâm, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8995,
+    "name": "Tam Đồng",
+    "fullName": "Xã Tam Đồng",
+    "path": "Tam Đồng, Mê Linh, Hà Nội",
+    "fullPath": "Xã Tam Đồng, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 8998,
+    "name": "Liên Mạc",
+    "fullName": "Xã Liên Mạc",
+    "path": "Liên Mạc, Mê Linh, Hà Nội",
+    "fullPath": "Xã Liên Mạc, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9001,
+    "name": "Vạn Yên",
+    "fullName": "Xã Vạn Yên",
+    "path": "Vạn Yên, Mê Linh, Hà Nội",
+    "fullPath": "Xã Vạn Yên, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9004,
+    "name": "Chu Phan",
+    "fullName": "Xã Chu Phan",
+    "path": "Chu Phan, Mê Linh, Hà Nội",
+    "fullPath": "Xã Chu Phan, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9007,
+    "name": "Tiến Thịnh",
+    "fullName": "Xã Tiến Thịnh",
+    "path": "Tiến Thịnh, Mê Linh, Hà Nội",
+    "fullPath": "Xã Tiến Thịnh, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9010,
+    "name": "Mê Linh",
+    "fullName": "Xã Mê Linh",
+    "path": "Mê Linh, Mê Linh, Hà Nội",
+    "fullPath": "Xã Mê Linh, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9013,
+    "name": "Văn Khê",
+    "fullName": "Xã Văn Khê",
+    "path": "Văn Khê, Mê Linh, Hà Nội",
+    "fullPath": "Xã Văn Khê, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9016,
+    "name": "Hoàng Kim",
+    "fullName": "Xã Hoàng Kim",
+    "path": "Hoàng Kim, Mê Linh, Hà Nội",
+    "fullPath": "Xã Hoàng Kim, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9019,
+    "name": "Tiền Phong",
+    "fullName": "Xã Tiền Phong",
+    "path": "Tiền Phong, Mê Linh, Hà Nội",
+    "fullPath": "Xã Tiền Phong, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9022,
+    "name": "Tráng Việt",
+    "fullName": "Xã Tráng Việt",
+    "path": "Tráng Việt, Mê Linh, Hà Nội",
+    "fullPath": "Xã Tráng Việt, Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 250
+  },
+  {
+    "id": 9538,
+    "name": "Nguyễn Trãi",
+    "fullName": "Phường Nguyễn Trãi",
+    "path": "Nguyễn Trãi, Hà Đông, Hà Nội",
+    "fullPath": "Phường Nguyễn Trãi, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9541,
+    "name": "Mộ Lao",
+    "fullName": "Phường Mộ Lao",
+    "path": "Mộ Lao, Hà Đông, Hà Nội",
+    "fullPath": "Phường Mộ Lao, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9542,
+    "name": "Văn Quán",
+    "fullName": "Phường Văn Quán",
+    "path": "Văn Quán, Hà Đông, Hà Nội",
+    "fullPath": "Phường Văn Quán, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9544,
+    "name": "Vạn Phúc",
+    "fullName": "Phường Vạn Phúc",
+    "path": "Vạn Phúc, Hà Đông, Hà Nội",
+    "fullPath": "Phường Vạn Phúc, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9547,
+    "name": "Yết Kiêu",
+    "fullName": "Phường Yết Kiêu",
+    "path": "Yết Kiêu, Hà Đông, Hà Nội",
+    "fullPath": "Phường Yết Kiêu, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9550,
+    "name": "Quang Trung",
+    "fullName": "Phường Quang Trung",
+    "path": "Quang Trung, Hà Đông, Hà Nội",
+    "fullPath": "Phường Quang Trung, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9551,
+    "name": "La Khê",
+    "fullName": "Phường La Khê",
+    "path": "La Khê, Hà Đông, Hà Nội",
+    "fullPath": "Phường La Khê, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9552,
+    "name": "Phú La",
+    "fullName": "Phường Phú La",
+    "path": "Phú La, Hà Đông, Hà Nội",
+    "fullPath": "Phường Phú La, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9553,
+    "name": "Phúc La",
+    "fullName": "Phường Phúc La",
+    "path": "Phúc La, Hà Đông, Hà Nội",
+    "fullPath": "Phường Phúc La, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9556,
+    "name": "Hà Cầu",
+    "fullName": "Phường Hà Cầu",
+    "path": "Hà Cầu, Hà Đông, Hà Nội",
+    "fullPath": "Phường Hà Cầu, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9562,
+    "name": "Yên Nghĩa",
+    "fullName": "Phường Yên Nghĩa",
+    "path": "Yên Nghĩa, Hà Đông, Hà Nội",
+    "fullPath": "Phường Yên Nghĩa, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9565,
+    "name": "Kiến Hưng",
+    "fullName": "Phường Kiến Hưng",
+    "path": "Kiến Hưng, Hà Đông, Hà Nội",
+    "fullPath": "Phường Kiến Hưng, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9568,
+    "name": "Phú Lãm",
+    "fullName": "Phường Phú Lãm",
+    "path": "Phú Lãm, Hà Đông, Hà Nội",
+    "fullPath": "Phường Phú Lãm, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9571,
+    "name": "Phú Lương",
+    "fullName": "Phường Phú Lương",
+    "path": "Phú Lương, Hà Đông, Hà Nội",
+    "fullPath": "Phường Phú Lương, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9574,
+    "name": "Lê Lợi",
+    "fullName": "Phường Lê Lợi",
+    "path": "Lê Lợi, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Lê Lợi, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9577,
+    "name": "Phú Thịnh",
+    "fullName": "Phường Phú Thịnh",
+    "path": "Phú Thịnh, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Phú Thịnh, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9580,
+    "name": "Ngô Quyền",
+    "fullName": "Phường Ngô Quyền",
+    "path": "Ngô Quyền, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Ngô Quyền, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9583,
+    "name": "Quang Trung",
+    "fullName": "Phường Quang Trung",
+    "path": "Quang Trung, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Quang Trung, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9586,
+    "name": "Sơn Lộc",
+    "fullName": "Phường Sơn Lộc",
+    "path": "Sơn Lộc, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Sơn Lộc, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9589,
+    "name": "Xuân Khanh",
+    "fullName": "Phường Xuân Khanh",
+    "path": "Xuân Khanh, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Xuân Khanh, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9592,
+    "name": "Đường Lâm",
+    "fullName": "Xã Đường Lâm",
+    "path": "Đường Lâm, Sơn Tây, Hà Nội",
+    "fullPath": "Xã Đường Lâm, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9595,
+    "name": "Viên Sơn",
+    "fullName": "Phường Viên Sơn",
+    "path": "Viên Sơn, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Viên Sơn, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9598,
+    "name": "Xuân Sơn",
+    "fullName": "Xã Xuân Sơn",
+    "path": "Xuân Sơn, Sơn Tây, Hà Nội",
+    "fullPath": "Xã Xuân Sơn, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9601,
+    "name": "Trung Hưng",
+    "fullName": "Phường Trung Hưng",
+    "path": "Trung Hưng, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Trung Hưng, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9604,
+    "name": "Thanh Mỹ",
+    "fullName": "Xã Thanh Mỹ",
+    "path": "Thanh Mỹ, Sơn Tây, Hà Nội",
+    "fullPath": "Xã Thanh Mỹ, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9607,
+    "name": "Trung Sơn Trầm",
+    "fullName": "Phường Trung Sơn Trầm",
+    "path": "Trung Sơn Trầm, Sơn Tây, Hà Nội",
+    "fullPath": "Phường Trung Sơn Trầm, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9610,
+    "name": "Kim Sơn",
+    "fullName": "Xã Kim Sơn",
+    "path": "Kim Sơn, Sơn Tây, Hà Nội",
+    "fullPath": "Xã Kim Sơn, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9613,
+    "name": "Sơn Đông",
+    "fullName": "Xã Sơn Đông",
+    "path": "Sơn Đông, Sơn Tây, Hà Nội",
+    "fullPath": "Xã Sơn Đông, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9616,
+    "name": "Cổ Đông",
+    "fullName": "Xã Cổ Đông",
+    "path": "Cổ Đông, Sơn Tây, Hà Nội",
+    "fullPath": "Xã Cổ Đông, Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 269
+  },
+  {
+    "id": 9619,
+    "name": "Tây Đằng",
+    "fullName": "Thị trấn Tây Đằng",
+    "path": "Tây Đằng, Ba Vì, Hà Nội",
+    "fullPath": "Thị trấn Tây Đằng, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9625,
+    "name": "Phú Cường",
+    "fullName": "Xã Phú Cường",
+    "path": "Phú Cường, Ba Vì, Hà Nội",
+    "fullPath": "Xã Phú Cường, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9628,
+    "name": "Cổ Đô",
+    "fullName": "Xã Cổ Đô",
+    "path": "Cổ Đô, Ba Vì, Hà Nội",
+    "fullPath": "Xã Cổ Đô, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9631,
+    "name": "Tản Hồng",
+    "fullName": "Xã Tản Hồng",
+    "path": "Tản Hồng, Ba Vì, Hà Nội",
+    "fullPath": "Xã Tản Hồng, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9634,
+    "name": "Vạn Thắng",
+    "fullName": "Xã Vạn Thắng",
+    "path": "Vạn Thắng, Ba Vì, Hà Nội",
+    "fullPath": "Xã Vạn Thắng, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9637,
+    "name": "Châu Sơn",
+    "fullName": "Xã Châu Sơn",
+    "path": "Châu Sơn, Ba Vì, Hà Nội",
+    "fullPath": "Xã Châu Sơn, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9640,
+    "name": "Phong Vân",
+    "fullName": "Xã Phong Vân",
+    "path": "Phong Vân, Ba Vì, Hà Nội",
+    "fullPath": "Xã Phong Vân, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9643,
+    "name": "Phú Đông",
+    "fullName": "Xã Phú Đông",
+    "path": "Phú Đông, Ba Vì, Hà Nội",
+    "fullPath": "Xã Phú Đông, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9646,
+    "name": "Phú Phương",
+    "fullName": "Xã Phú Phương",
+    "path": "Phú Phương, Ba Vì, Hà Nội",
+    "fullPath": "Xã Phú Phương, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9649,
+    "name": "Phú Châu",
+    "fullName": "Xã Phú Châu",
+    "path": "Phú Châu, Ba Vì, Hà Nội",
+    "fullPath": "Xã Phú Châu, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9652,
+    "name": "Thái Hòa",
+    "fullName": "Xã Thái Hòa",
+    "path": "Thái Hòa, Ba Vì, Hà Nội",
+    "fullPath": "Xã Thái Hòa, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9655,
+    "name": "Đồng Thái",
+    "fullName": "Xã Đồng Thái",
+    "path": "Đồng Thái, Ba Vì, Hà Nội",
+    "fullPath": "Xã Đồng Thái, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9658,
+    "name": "Phú Sơn",
+    "fullName": "Xã Phú Sơn",
+    "path": "Phú Sơn, Ba Vì, Hà Nội",
+    "fullPath": "Xã Phú Sơn, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9661,
+    "name": "Minh Châu",
+    "fullName": "Xã Minh Châu",
+    "path": "Minh Châu, Ba Vì, Hà Nội",
+    "fullPath": "Xã Minh Châu, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9664,
+    "name": "Vật Lại",
+    "fullName": "Xã Vật Lại",
+    "path": "Vật Lại, Ba Vì, Hà Nội",
+    "fullPath": "Xã Vật Lại, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9667,
+    "name": "Chu Minh",
+    "fullName": "Xã Chu Minh",
+    "path": "Chu Minh, Ba Vì, Hà Nội",
+    "fullPath": "Xã Chu Minh, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9670,
+    "name": "Tòng Bạt",
+    "fullName": "Xã Tòng Bạt",
+    "path": "Tòng Bạt, Ba Vì, Hà Nội",
+    "fullPath": "Xã Tòng Bạt, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9673,
+    "name": "Cẩm Lĩnh",
+    "fullName": "Xã Cẩm Lĩnh",
+    "path": "Cẩm Lĩnh, Ba Vì, Hà Nội",
+    "fullPath": "Xã Cẩm Lĩnh, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9676,
+    "name": "Sơn Đà",
+    "fullName": "Xã Sơn Đà",
+    "path": "Sơn Đà, Ba Vì, Hà Nội",
+    "fullPath": "Xã Sơn Đà, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9679,
+    "name": "Đông Quang",
+    "fullName": "Xã Đông Quang",
+    "path": "Đông Quang, Ba Vì, Hà Nội",
+    "fullPath": "Xã Đông Quang, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9682,
+    "name": "Tiên Phong",
+    "fullName": "Xã Tiên Phong",
+    "path": "Tiên Phong, Ba Vì, Hà Nội",
+    "fullPath": "Xã Tiên Phong, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9685,
+    "name": "Thụy An",
+    "fullName": "Xã Thụy An",
+    "path": "Thụy An, Ba Vì, Hà Nội",
+    "fullPath": "Xã Thụy An, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9688,
+    "name": "Cam Thượng",
+    "fullName": "Xã Cam Thượng",
+    "path": "Cam Thượng, Ba Vì, Hà Nội",
+    "fullPath": "Xã Cam Thượng, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9691,
+    "name": "Thuần Mỹ",
+    "fullName": "Xã Thuần Mỹ",
+    "path": "Thuần Mỹ, Ba Vì, Hà Nội",
+    "fullPath": "Xã Thuần Mỹ, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9694,
+    "name": "Tản Lĩnh",
+    "fullName": "Xã Tản Lĩnh",
+    "path": "Tản Lĩnh, Ba Vì, Hà Nội",
+    "fullPath": "Xã Tản Lĩnh, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9697,
+    "name": "Ba Trại",
+    "fullName": "Xã Ba Trại",
+    "path": "Ba Trại, Ba Vì, Hà Nội",
+    "fullPath": "Xã Ba Trại, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9700,
+    "name": "Minh Quang",
+    "fullName": "Xã Minh Quang",
+    "path": "Minh Quang, Ba Vì, Hà Nội",
+    "fullPath": "Xã Minh Quang, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9703,
+    "name": "Ba Vì",
+    "fullName": "Xã Ba Vì",
+    "path": "Ba Vì, Ba Vì, Hà Nội",
+    "fullPath": "Xã Ba Vì, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9706,
+    "name": "Vân Hòa",
+    "fullName": "Xã Vân Hòa",
+    "path": "Vân Hòa, Ba Vì, Hà Nội",
+    "fullPath": "Xã Vân Hòa, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9709,
+    "name": "Yên Bài",
+    "fullName": "Xã Yên Bài",
+    "path": "Yên Bài, Ba Vì, Hà Nội",
+    "fullPath": "Xã Yên Bài, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9712,
+    "name": "Khánh Thượng",
+    "fullName": "Xã Khánh Thượng",
+    "path": "Khánh Thượng, Ba Vì, Hà Nội",
+    "fullPath": "Xã Khánh Thượng, Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 271
+  },
+  {
+    "id": 9715,
+    "name": "Phúc Thọ",
+    "fullName": "Thị trấn Phúc Thọ",
+    "path": "Phúc Thọ, Phúc Thọ, Hà Nội",
+    "fullPath": "Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9718,
+    "name": "Vân Hà",
+    "fullName": "Xã Vân Hà",
+    "path": "Vân Hà, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Vân Hà, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9721,
+    "name": "Vân Phúc",
+    "fullName": "Xã Vân Phúc",
+    "path": "Vân Phúc, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Vân Phúc, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9724,
+    "name": "Vân Nam",
+    "fullName": "Xã Vân Nam",
+    "path": "Vân Nam, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Vân Nam, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9727,
+    "name": "Xuân Đình",
+    "fullName": "Xã Xuân Đình",
+    "path": "Xuân Đình, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Xuân Đình, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9733,
+    "name": "Sen Phương",
+    "fullName": "Xã Sen Phương",
+    "path": "Sen Phương, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Sen Phương, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9739,
+    "name": "Võng Xuyên",
+    "fullName": "Xã Võng Xuyên",
+    "path": "Võng Xuyên, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Võng Xuyên, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9742,
+    "name": "Thọ Lộc",
+    "fullName": "Xã Thọ Lộc",
+    "path": "Thọ Lộc, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Thọ Lộc, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9745,
+    "name": "Long Xuyên",
+    "fullName": "Xã Long Xuyên",
+    "path": "Long Xuyên, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Long Xuyên, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9748,
+    "name": "Thượng Cốc",
+    "fullName": "Xã Thượng Cốc",
+    "path": "Thượng Cốc, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Thượng Cốc, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9751,
+    "name": "Hát Môn",
+    "fullName": "Xã Hát Môn",
+    "path": "Hát Môn, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Hát Môn, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9754,
+    "name": "Tích Giang",
+    "fullName": "Xã Tích Giang",
+    "path": "Tích Giang, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Tích Giang, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9757,
+    "name": "Thanh Đa",
+    "fullName": "Xã Thanh Đa",
+    "path": "Thanh Đa, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Thanh Đa, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9760,
+    "name": "Trạch Mỹ Lộc",
+    "fullName": "Xã Trạch Mỹ Lộc",
+    "path": "Trạch Mỹ Lộc, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Trạch Mỹ Lộc, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9763,
+    "name": "Phúc Hòa",
+    "fullName": "Xã Phúc Hòa",
+    "path": "Phúc Hòa, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Phúc Hòa, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9766,
+    "name": "Ngọc Tảo",
+    "fullName": "Xã Ngọc Tảo",
+    "path": "Ngọc Tảo, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Ngọc Tảo, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9769,
+    "name": "Phụng Thượng",
+    "fullName": "Xã Phụng Thượng",
+    "path": "Phụng Thượng, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Phụng Thượng, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9772,
+    "name": "Tam Thuấn",
+    "fullName": "Xã Tam Thuấn",
+    "path": "Tam Thuấn, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Tam Thuấn, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9775,
+    "name": "Tam Hiệp",
+    "fullName": "Xã Tam Hiệp",
+    "path": "Tam Hiệp, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Tam Hiệp, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9778,
+    "name": "Hiệp Thuận",
+    "fullName": "Xã Hiệp Thuận",
+    "path": "Hiệp Thuận, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Hiệp Thuận, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9781,
+    "name": "Liên Hiệp",
+    "fullName": "Xã Liên Hiệp",
+    "path": "Liên Hiệp, Phúc Thọ, Hà Nội",
+    "fullPath": "Xã Liên Hiệp, Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 272
+  },
+  {
+    "id": 9784,
+    "name": "Phùng",
+    "fullName": "Thị trấn Phùng",
+    "path": "Phùng, Đan Phượng, Hà Nội",
+    "fullPath": "Thị trấn Phùng, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9787,
+    "name": "Trung Châu",
+    "fullName": "Xã Trung Châu",
+    "path": "Trung Châu, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Trung Châu, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9790,
+    "name": "Thọ An",
+    "fullName": "Xã Thọ An",
+    "path": "Thọ An, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Thọ An, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9793,
+    "name": "Thọ Xuân",
+    "fullName": "Xã Thọ Xuân",
+    "path": "Thọ Xuân, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Thọ Xuân, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9796,
+    "name": "Hồng Hà",
+    "fullName": "Xã Hồng Hà",
+    "path": "Hồng Hà, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Hồng Hà, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9799,
+    "name": "Liên Hồng",
+    "fullName": "Xã Liên Hồng",
+    "path": "Liên Hồng, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Liên Hồng, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9802,
+    "name": "Liên Hà",
+    "fullName": "Xã Liên Hà",
+    "path": "Liên Hà, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Liên Hà, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9805,
+    "name": "Hạ Mỗ",
+    "fullName": "Xã Hạ Mỗ",
+    "path": "Hạ Mỗ, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Hạ Mỗ, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9808,
+    "name": "Liên Trung",
+    "fullName": "Xã Liên Trung",
+    "path": "Liên Trung, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Liên Trung, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9811,
+    "name": "Phương Đình",
+    "fullName": "Xã Phương Đình",
+    "path": "Phương Đình, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Phương Đình, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9814,
+    "name": "Thượng Mỗ",
+    "fullName": "Xã Thượng Mỗ",
+    "path": "Thượng Mỗ, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Thượng Mỗ, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9817,
+    "name": "Tân Hội",
+    "fullName": "Xã Tân Hội",
+    "path": "Tân Hội, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Tân Hội, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9820,
+    "name": "Tân Lập",
+    "fullName": "Xã Tân Lập",
+    "path": "Tân Lập, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Tân Lập, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9823,
+    "name": "Đan Phượng",
+    "fullName": "Xã Đan Phượng",
+    "path": "Đan Phượng, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Đan Phượng, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9826,
+    "name": "Đồng Tháp",
+    "fullName": "Xã Đồng Tháp",
+    "path": "Đồng Tháp, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Đồng Tháp, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9829,
+    "name": "Song Phượng",
+    "fullName": "Xã Song Phượng",
+    "path": "Song Phượng, Đan Phượng, Hà Nội",
+    "fullPath": "Xã Song Phượng, Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 273
+  },
+  {
+    "id": 9832,
+    "name": "Trạm Trôi",
+    "fullName": "Thị trấn Trạm Trôi",
+    "path": "Trạm Trôi, Hoài Đức, Hà Nội",
+    "fullPath": "Thị trấn Trạm Trôi, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9835,
+    "name": "Đức Thượng",
+    "fullName": "Xã Đức Thượng",
+    "path": "Đức Thượng, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Đức Thượng, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9838,
+    "name": "Minh Khai",
+    "fullName": "Xã Minh Khai",
+    "path": "Minh Khai, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Minh Khai, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9841,
+    "name": "Dương Liễu",
+    "fullName": "Xã Dương Liễu",
+    "path": "Dương Liễu, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Dương Liễu, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9844,
+    "name": "Di Trạch",
+    "fullName": "Xã Di Trạch",
+    "path": "Di Trạch, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Di Trạch, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9847,
+    "name": "Đức Giang",
+    "fullName": "Xã Đức Giang",
+    "path": "Đức Giang, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Đức Giang, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9850,
+    "name": "Cát Quế",
+    "fullName": "Xã Cát Quế",
+    "path": "Cát Quế, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Cát Quế, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9853,
+    "name": "Kim Chung",
+    "fullName": "Xã Kim Chung",
+    "path": "Kim Chung, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Kim Chung, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9856,
+    "name": "Yên Sở",
+    "fullName": "Xã Yên Sở",
+    "path": "Yên Sở, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Yên Sở, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9859,
+    "name": "Sơn Đồng",
+    "fullName": "Xã Sơn Đồng",
+    "path": "Sơn Đồng, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Sơn Đồng, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9862,
+    "name": "Vân Canh",
+    "fullName": "Xã Vân Canh",
+    "path": "Vân Canh, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Vân Canh, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9865,
+    "name": "Đắc Sở",
+    "fullName": "Xã Đắc Sở",
+    "path": "Đắc Sở, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Đắc Sở, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9868,
+    "name": "Lại Yên",
+    "fullName": "Xã Lại Yên",
+    "path": "Lại Yên, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Lại Yên, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9871,
+    "name": "Tiền Yên",
+    "fullName": "Xã Tiền Yên",
+    "path": "Tiền Yên, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Tiền Yên, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9874,
+    "name": "Song Phương",
+    "fullName": "Xã Song Phương",
+    "path": "Song Phương, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Song Phương, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9877,
+    "name": "An Khánh",
+    "fullName": "Xã An Khánh",
+    "path": "An Khánh, Hoài Đức, Hà Nội",
+    "fullPath": "Xã An Khánh, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9880,
+    "name": "An Thượng",
+    "fullName": "Xã An Thượng",
+    "path": "An Thượng, Hoài Đức, Hà Nội",
+    "fullPath": "Xã An Thượng, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9883,
+    "name": "Vân Côn",
+    "fullName": "Xã Vân Côn",
+    "path": "Vân Côn, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Vân Côn, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9886,
+    "name": "Dương Nội",
+    "fullName": "Phường Dương Nội",
+    "path": "Dương Nội, Hà Đông, Hà Nội",
+    "fullPath": "Phường Dương Nội, Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 268
+  },
+  {
+    "id": 9889,
+    "name": "La Phù",
+    "fullName": "Xã La Phù",
+    "path": "La Phù, Hoài Đức, Hà Nội",
+    "fullPath": "Xã La Phù, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9892,
+    "name": "Đông La",
+    "fullName": "Xã Đông La",
+    "path": "Đông La, Hoài Đức, Hà Nội",
+    "fullPath": "Xã Đông La, Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 274
+  },
+  {
+    "id": 9895,
+    "name": "Quốc Oai",
+    "fullName": "Thị trấn Quốc Oai",
+    "path": "Quốc Oai, Quốc Oai, Hà Nội",
+    "fullPath": "Thị trấn Quốc Oai, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9898,
+    "name": "Sài Sơn",
+    "fullName": "Xã Sài Sơn",
+    "path": "Sài Sơn, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Sài Sơn, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9901,
+    "name": "Phượng Cách",
+    "fullName": "Xã Phượng Cách",
+    "path": "Phượng Cách, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Phượng Cách, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9904,
+    "name": "Yên Sơn",
+    "fullName": "Xã Yên Sơn",
+    "path": "Yên Sơn, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Yên Sơn, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9907,
+    "name": "Ngọc Liệp",
+    "fullName": "Xã Ngọc Liệp",
+    "path": "Ngọc Liệp, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Ngọc Liệp, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9910,
+    "name": "Ngọc Mỹ",
+    "fullName": "Xã Ngọc Mỹ",
+    "path": "Ngọc Mỹ, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Ngọc Mỹ, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9913,
+    "name": "Liệp Tuyết",
+    "fullName": "Xã Liệp Tuyết",
+    "path": "Liệp Tuyết, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Liệp Tuyết, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9916,
+    "name": "Thạch Thán",
+    "fullName": "Xã Thạch Thán",
+    "path": "Thạch Thán, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Thạch Thán, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9919,
+    "name": "Đồng Quang",
+    "fullName": "Xã Đồng Quang",
+    "path": "Đồng Quang, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Đồng Quang, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9922,
+    "name": "Phú Cát",
+    "fullName": "Xã Phú Cát",
+    "path": "Phú Cát, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Phú Cát, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9925,
+    "name": "Tuyết Nghĩa",
+    "fullName": "Xã Tuyết Nghĩa",
+    "path": "Tuyết Nghĩa, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Tuyết Nghĩa, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9928,
+    "name": "Nghĩa Hương",
+    "fullName": "Xã Nghĩa Hương",
+    "path": "Nghĩa Hương, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Nghĩa Hương, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9931,
+    "name": "Cộng Hòa",
+    "fullName": "Xã Cộng Hòa",
+    "path": "Cộng Hòa, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Cộng Hòa, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9934,
+    "name": "Tân Phú",
+    "fullName": "Xã Tân Phú",
+    "path": "Tân Phú, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Tân Phú, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9937,
+    "name": "Đại Thành",
+    "fullName": "Xã Đại Thành",
+    "path": "Đại Thành, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Đại Thành, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9940,
+    "name": "Phú Mãn",
+    "fullName": "Xã Phú Mãn",
+    "path": "Phú Mãn, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Phú Mãn, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9943,
+    "name": "Cấn Hữu",
+    "fullName": "Xã Cấn Hữu",
+    "path": "Cấn Hữu, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Cấn Hữu, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9946,
+    "name": "Tân Hòa",
+    "fullName": "Xã Tân Hòa",
+    "path": "Tân Hòa, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Tân Hòa, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9949,
+    "name": "Hòa Thạch",
+    "fullName": "Xã Hòa Thạch",
+    "path": "Hòa Thạch, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Hòa Thạch, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9952,
+    "name": "Đông Yên",
+    "fullName": "Xã Đông Yên",
+    "path": "Đông Yên, Quốc Oai, Hà Nội",
+    "fullPath": "Xã Đông Yên, Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 275
+  },
+  {
+    "id": 9955,
+    "name": "Liên Quan",
+    "fullName": "Thị trấn Liên Quan",
+    "path": "Liên Quan, Thạch Thất, Hà Nội",
+    "fullPath": "Thị trấn Liên Quan, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9958,
+    "name": "Đại Đồng",
+    "fullName": "Xã Đại Đồng",
+    "path": "Đại Đồng, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Đại Đồng, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9961,
+    "name": "Cẩm Yên",
+    "fullName": "Xã Cẩm Yên",
+    "path": "Cẩm Yên, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Cẩm Yên, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9964,
+    "name": "Lại Thượng",
+    "fullName": "Xã Lại Thượng",
+    "path": "Lại Thượng, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Lại Thượng, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9967,
+    "name": "Phú Kim",
+    "fullName": "Xã Phú Kim",
+    "path": "Phú Kim, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Phú Kim, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9970,
+    "name": "Hương Ngải",
+    "fullName": "Xã Hương Ngải",
+    "path": "Hương Ngải, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Hương Ngải, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9973,
+    "name": "Canh Nậu",
+    "fullName": "Xã Canh Nậu",
+    "path": "Canh Nậu, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Canh Nậu, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9976,
+    "name": "Kim Quan",
+    "fullName": "Xã Kim Quan",
+    "path": "Kim Quan, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Kim Quan, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9979,
+    "name": "Dị Nậu",
+    "fullName": "Xã Dị Nậu",
+    "path": "Dị Nậu, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Dị Nậu, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9982,
+    "name": "Bình Yên",
+    "fullName": "Xã Bình Yên",
+    "path": "Bình Yên, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Bình Yên, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9985,
+    "name": "Chàng Sơn",
+    "fullName": "Xã Chàng Sơn",
+    "path": "Chàng Sơn, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Chàng Sơn, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9988,
+    "name": "Thạch Hoà",
+    "fullName": "Xã Thạch Hoà",
+    "path": "Thạch Hoà, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Thạch Hoà, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9991,
+    "name": "Cần Kiệm",
+    "fullName": "Xã Cần Kiệm",
+    "path": "Cần Kiệm, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Cần Kiệm, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9994,
+    "name": "Hữu Bằng",
+    "fullName": "Xã Hữu Bằng",
+    "path": "Hữu Bằng, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Hữu Bằng, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  },
+  {
+    "id": 9997,
+    "name": "Phùng Xá",
+    "fullName": "Xã Phùng Xá",
+    "path": "Phùng Xá, Thạch Thất, Hà Nội",
+    "fullPath": "Xã Phùng Xá, Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 276
+  }
+]

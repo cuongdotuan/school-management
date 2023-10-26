@@ -1,0 +1,418 @@
+[
+  {
+    "id": 250,
+    "name": "Mê Linh",
+    "fullName": "Huyện Mê Linh",
+    "path": "Mê Linh, Hà Nội",
+    "fullPath": "Huyện Mê Linh, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 268,
+    "name": "Hà Đông",
+    "fullName": "Quận Hà Đông",
+    "path": "Hà Đông, Hà Nội",
+    "fullPath": "Quận Hà Đông, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 269,
+    "name": "Sơn Tây",
+    "fullName": "Thị xã Sơn Tây",
+    "path": "Sơn Tây, Hà Nội",
+    "fullPath": "Thị xã Sơn Tây, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 271,
+    "name": "Ba Vì",
+    "fullName": "Huyện Ba Vì",
+    "path": "Ba Vì, Hà Nội",
+    "fullPath": "Huyện Ba Vì, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 272,
+    "name": "Phúc Thọ",
+    "fullName": "Huyện Phúc Thọ",
+    "path": "Phúc Thọ, Hà Nội",
+    "fullPath": "Huyện Phúc Thọ, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 273,
+    "name": "Đan Phượng",
+    "fullName": "Huyện Đan Phượng",
+    "path": "Đan Phượng, Hà Nội",
+    "fullPath": "Huyện Đan Phượng, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 274,
+    "name": "Hoài Đức",
+    "fullName": "Huyện Hoài Đức",
+    "path": "Hoài Đức, Hà Nội",
+    "fullPath": "Huyện Hoài Đức, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 275,
+    "name": "Quốc Oai",
+    "fullName": "Huyện Quốc Oai",
+    "path": "Quốc Oai, Hà Nội",
+    "fullPath": "Huyện Quốc Oai, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 276,
+    "name": "Thạch Thất",
+    "fullName": "Huyện Thạch Thất",
+    "path": "Thạch Thất, Hà Nội",
+    "fullPath": "Huyện Thạch Thất, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 277,
+    "name": "Chương Mỹ",
+    "fullName": "Huyện Chương Mỹ",
+    "path": "Chương Mỹ, Hà Nội",
+    "fullPath": "Huyện Chương Mỹ, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 278,
+    "name": "Thanh Oai",
+    "fullName": "Huyện Thanh Oai",
+    "path": "Thanh Oai, Hà Nội",
+    "fullPath": "Huyện Thanh Oai, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 279,
+    "name": "Thường Tín",
+    "fullName": "Huyện Thường Tín",
+    "path": "Thường Tín, Hà Nội",
+    "fullPath": "Huyện Thường Tín, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 280,
+    "name": "Phú Xuyên",
+    "fullName": "Huyện Phú Xuyên",
+    "path": "Phú Xuyên, Hà Nội",
+    "fullPath": "Huyện Phú Xuyên, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 281,
+    "name": "Ứng Hòa",
+    "fullName": "Huyện Ứng Hòa",
+    "path": "Ứng Hòa, Hà Nội",
+    "fullPath": "Huyện Ứng Hòa, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 282,
+    "name": "Mỹ Đức",
+    "fullName": "Huyện Mỹ Đức",
+    "path": "Mỹ Đức, Hà Nội",
+    "fullPath": "Huyện Mỹ Đức, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 760,
+    "name": "1",
+    "fullName": "Quận 1",
+    "path": "1, Hồ Chí Minh",
+    "fullPath": "Quận 1, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 761,
+    "name": "12",
+    "fullName": "Quận 12",
+    "path": "12, Hồ Chí Minh",
+    "fullPath": "Quận 12, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 764,
+    "name": "Gò Vấp",
+    "fullName": "Quận Gò Vấp",
+    "path": "Gò Vấp, Hồ Chí Minh",
+    "fullPath": "Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 765,
+    "name": "Bình Thạnh",
+    "fullName": "Quận Bình Thạnh",
+    "path": "Bình Thạnh, Hồ Chí Minh",
+    "fullPath": "Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 766,
+    "name": "Tân Bình",
+    "fullName": "Quận Tân Bình",
+    "path": "Tân Bình, Hồ Chí Minh",
+    "fullPath": "Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 767,
+    "name": "Tân Phú",
+    "fullName": "Quận Tân Phú",
+    "path": "Tân Phú, Hồ Chí Minh",
+    "fullPath": "Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 768,
+    "name": "Phú Nhuận",
+    "fullName": "Quận Phú Nhuận",
+    "path": "Phú Nhuận, Hồ Chí Minh",
+    "fullPath": "Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 769,
+    "name": "Thủ Đức",
+    "fullName": "Thành phố Thủ Đức",
+    "path": "Thủ Đức, Hồ Chí Minh",
+    "fullPath": "Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 770,
+    "name": "3",
+    "fullName": "Quận 3",
+    "path": "3, Hồ Chí Minh",
+    "fullPath": "Quận 3, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 771,
+    "name": "10",
+    "fullName": "Quận 10",
+    "path": "10, Hồ Chí Minh",
+    "fullPath": "Quận 10, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 772,
+    "name": "11",
+    "fullName": "Quận 11",
+    "path": "11, Hồ Chí Minh",
+    "fullPath": "Quận 11, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 773,
+    "name": "4",
+    "fullName": "Quận 4",
+    "path": "4, Hồ Chí Minh",
+    "fullPath": "Quận 4, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 774,
+    "name": "5",
+    "fullName": "Quận 5",
+    "path": "5, Hồ Chí Minh",
+    "fullPath": "Quận 5, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 775,
+    "name": "6",
+    "fullName": "Quận 6",
+    "path": "6, Hồ Chí Minh",
+    "fullPath": "Quận 6, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 776,
+    "name": "8",
+    "fullName": "Quận 8",
+    "path": "8, Hồ Chí Minh",
+    "fullPath": "Quận 8, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 777,
+    "name": "Bình Tân",
+    "fullName": "Quận Bình Tân",
+    "path": "Bình Tân, Hồ Chí Minh",
+    "fullPath": "Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 778,
+    "name": "7",
+    "fullName": "Quận 7",
+    "path": "7, Hồ Chí Minh",
+    "fullPath": "Quận 7, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 783,
+    "name": "Củ Chi",
+    "fullName": "Huyện Củ Chi",
+    "path": "Củ Chi, Hồ Chí Minh",
+    "fullPath": "Huyện Củ Chi, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 784,
+    "name": "Hóc Môn",
+    "fullName": "Huyện Hóc Môn",
+    "path": "Hóc Môn, Hồ Chí Minh",
+    "fullPath": "Huyện Hóc Môn, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 785,
+    "name": "Bình Chánh",
+    "fullName": "Huyện Bình Chánh",
+    "path": "Bình Chánh, Hồ Chí Minh",
+    "fullPath": "Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 786,
+    "name": "Nhà Bè",
+    "fullName": "Huyện Nhà Bè",
+    "path": "Nhà Bè, Hồ Chí Minh",
+    "fullPath": "Huyện Nhà Bè, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 787,
+    "name": "Cần Giờ",
+    "fullName": "Huyện Cần Giờ",
+    "path": "Cần Giờ, Hồ Chí Minh",
+    "fullPath": "Huyện Cần Giờ, Thành phố Hồ Chí Minh",
+    "provinceId": 79
+  },
+  {
+    "id": 1,
+    "name": "Ba Đình",
+    "fullName": "Quận Ba Đình",
+    "path": "Ba Đình, Hà Nội",
+    "fullPath": "Quận Ba Đình, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 2,
+    "name": "Hoàn Kiếm",
+    "fullName": "Quận Hoàn Kiếm",
+    "path": "Hoàn Kiếm, Hà Nội",
+    "fullPath": "Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 3,
+    "name": "Tây Hồ",
+    "fullName": "Quận Tây Hồ",
+    "path": "Tây Hồ, Hà Nội",
+    "fullPath": "Quận Tây Hồ, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 4,
+    "name": "Long Biên",
+    "fullName": "Quận Long Biên",
+    "path": "Long Biên, Hà Nội",
+    "fullPath": "Quận Long Biên, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 5,
+    "name": "Cầu Giấy",
+    "fullName": "Quận Cầu Giấy",
+    "path": "Cầu Giấy, Hà Nội",
+    "fullPath": "Quận Cầu Giấy, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 6,
+    "name": "Đống Đa",
+    "fullName": "Quận Đống Đa",
+    "path": "Đống Đa, Hà Nội",
+    "fullPath": "Quận Đống Đa, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 7,
+    "name": "Hai Bà Trưng",
+    "fullName": "Quận Hai Bà Trưng",
+    "path": "Hai Bà Trưng, Hà Nội",
+    "fullPath": "Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 8,
+    "name": "Hoàng Mai",
+    "fullName": "Quận Hoàng Mai",
+    "path": "Hoàng Mai, Hà Nội",
+    "fullPath": "Quận Hoàng Mai, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 9,
+    "name": "Thanh Xuân",
+    "fullName": "Quận Thanh Xuân",
+    "path": "Thanh Xuân, Hà Nội",
+    "fullPath": "Quận Thanh Xuân, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 16,
+    "name": "Sóc Sơn",
+    "fullName": "Huyện Sóc Sơn",
+    "path": "Sóc Sơn, Hà Nội",
+    "fullPath": "Huyện Sóc Sơn, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 17,
+    "name": "Đông Anh",
+    "fullName": "Huyện Đông Anh",
+    "path": "Đông Anh, Hà Nội",
+    "fullPath": "Huyện Đông Anh, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 18,
+    "name": "Gia Lâm",
+    "fullName": "Huyện Gia Lâm",
+    "path": "Gia Lâm, Hà Nội",
+    "fullPath": "Huyện Gia Lâm, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 19,
+    "name": "Nam Từ Liêm",
+    "fullName": "Quận Nam Từ Liêm",
+    "path": "Nam Từ Liêm, Hà Nội",
+    "fullPath": "Quận Nam Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 20,
+    "name": "Thanh Trì",
+    "fullName": "Huyện Thanh Trì",
+    "path": "Thanh Trì, Hà Nội",
+    "fullPath": "Huyện Thanh Trì, Thành phố Hà Nội",
+    "provinceId": 1
+  },
+  {
+    "id": 21,
+    "name": "Bắc Từ Liêm",
+    "fullName": "Quận Bắc Từ Liêm",
+    "path": "Bắc Từ Liêm, Hà Nội",
+    "fullPath": "Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "provinceId": 1
+  }
+]
