@@ -1,7 +1,7 @@
 import axios from "axios"
 import React, { useContext, useEffect, useState } from "react"
 import { UserContext } from "../../context"
-import { Box, Button, CircularProgress, Link } from "@mui/material"
+import { Button } from "@mui/material"
 
 import { styled } from "@mui/material/styles"
 import Table from "@mui/material/Table"
@@ -59,7 +59,10 @@ const CategoryList = () => {
         <>
           <h1>Table Category</h1>
           <div className="flex justify-end mb-3">
-            <Button className="bg-green-500 text-white text-base">
+            <Button
+              className="bg-green-500 text-white text-base"
+              onClick={() => navigate(`/category/create`)}
+            >
               Create Category
             </Button>
           </div>
