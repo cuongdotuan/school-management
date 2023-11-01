@@ -35,14 +35,16 @@ const get = async (query) => {
 
   const response = products.map((p) => {
     const initVersion = versions.find(
-      (v) => v.product.toString() === p.id && v.version === DEFAULT_VERSION
+      (v) =>
+        v.product.toString() === p.id &&
+        v.version === DEFAULT_VERSION
     )
     const latestVersion = versions
       .filter((v) => v.product.toString() === p.id)
       .sort((v1, v2) => v2.version - v1.version)[0]
 
     return {
-      _id: p.id,
+      _id: p._id,
       originalPrice: initVersion?.price,
       name: latestVersion?.name,
       description: latestVersion?.description,
@@ -108,11 +110,11 @@ const create = async (payload) => {
     session.startTransaction()
     const newProducts = await Product.create([{}], { session })
     const newPrd = newProducts[0]
-    await ProductVersion.create([{ ...payload, product: newPrd?.id }], {
+    await ProductVersion.create([{ ...payload, product: newPrd?._id }], {
       session,
     })
     await session.commitTransaction()
-    return newPrd.id
+    return newPrd._id
   } catch (error) {
     await session.abortTransaction()
     throw error
@@ -137,7 +139,7 @@ const update = async (id, payload) => {
 
 const remove = async (id) => {
   const result = await Product.findByIdAndDelete(id).exec()
-  return result.id
+  return result._id
 }
 
 const productService = { get, getDetail, create, update, remove }

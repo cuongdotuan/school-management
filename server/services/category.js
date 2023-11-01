@@ -37,19 +37,19 @@ const create = async (payload) => {
   if (exist) throw new Error("Duplicate name")
   const newCategory = { name }
   const result = await Category.create(newCategory)
-  return result.id
+  return result._id
 }
 
 const update = async (id, payload) => {
   const { name } = payload
   if (!name) throw new Error("Name is required")
   const result = await Category.findByIdAndUpdate(id, { name }).exec()
-  return result.id
+  return result._id
 }
 
 const remove = async (id) => {
   const result = await Category.findByIdAndDelete(id).exec()
-  return result.id
+  return result._id
 }
 
 const categoryService = { get, getDetail, create, update, remove }
