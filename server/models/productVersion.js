@@ -1,3 +1,4 @@
+import { DEFAULT_VERSION } from "../constants.js"
 import mongoose from "mongoose"
 const { Schema } = mongoose
 
@@ -27,7 +28,11 @@ const ProductVersionSchema = new Schema({
   version: {
     type: Number,
     required: true,
-    default: 1,
+    default: DEFAULT_VERSION,
+  },
+  createdDate: {
+    type: Date,
+    default: new Date(),
   },
 })
 
