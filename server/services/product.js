@@ -21,22 +21,17 @@ const get = async (query) => {
   const skipItemsCount = (pageNumber - 1) * pageSize
 
   const products = await Product.find()
-    // .populate("categories", "name")
     .skip(skipItemsCount)
     .limit(pageSize)
     .exec()
 
-  // console.log("item", items)
-
   const productIds = products.map((p) => p.id)
-
-  // console.log("item", productIds)
 
   const versions = await ProductVersion.find({
     product: { $in: productIds },
-  }).exec()
-
-  console.log("versions", versions)
+  })
+  .populate("categories", "name")
+  .exec()
 
   const response = products.map((p) => {
     const initVersion = versions.find(
@@ -45,8 +40,6 @@ const get = async (query) => {
     const latestVersion = versions
       .filter((v) => v.product.toString() === p.id)
       .sort((v1, v2) => v2.version - v1.version)[0]
-
-    console.log(initVersion, latestVersion)
 
     return {
       _id: p.id,
@@ -134,8 +127,8 @@ const update = async (id, payload) => {
     .sort("-version")
     .populate("categories", "name")
     .exec()
-  console.log(latestVersion)
-  const nextVersion = latestVersion?.version
+
+    const nextVersion = latestVersion?.version
     ? latestVersion.version + 1
     : DEFAULT_VERSION
 

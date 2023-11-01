@@ -13,7 +13,6 @@ const get = async (req, res) => {
 
 const getDetail = async (req, res) => {
   const { id } = req.params
-  console.log(id)
   try {
     const item = await productService.getDetail(id)
     if (!item) throw new Error()
@@ -28,7 +27,6 @@ const create = async (req, res) => {
     const result = await productService.create(req.body)
     res.status(201).json({ id: result })
   } catch (error) {
-    console.log("error", JSON.stringify(error))
     res.status(400).json({ code: 400, message: error.message })
   }
 }
