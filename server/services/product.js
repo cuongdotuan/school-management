@@ -27,7 +27,7 @@ const get = async (query) => {
     .limit(pageSize)
     .exec()
 
-  const productIds = products.map((p) => p.id)
+  const productIds = products.map((p) => p._id.toString())
 
   const versions = await ProductVersion.find({
     product: { $in: productIds },
@@ -40,7 +40,7 @@ const get = async (query) => {
       (v) => v.product.toString() === p.id && v.version === DEFAULT_VERSION
     )
     const latestVersion = versions
-      .filter((v) => v.product.toString() === p.id)
+      .filter((v) => v.product.toString() === p._id.toString())
       .sort((v1, v2) => v2.version - v1.version)[0]
 
     return {
