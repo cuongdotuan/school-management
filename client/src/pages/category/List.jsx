@@ -1,4 +1,3 @@
-import axios from "axios"
 import React, { useContext, useEffect, useState } from "react"
 import { AppContext } from "../../context"
 import { useNavigate } from "react-router-dom"
@@ -21,6 +20,7 @@ import Select from "@mui/material/Select"
 import NavigateNextIcon from "@mui/icons-material/NavigateNext"
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore"
 import { DEFAULT_PAGINATION, PAGE_SIZE_OPTIONS } from "../../constants"
+import api from "../../api"
 
 let totalCategories
 let totalPages
@@ -57,8 +57,8 @@ const CategoryList = () => {
     let ignore = false
     const getCategory = async () => {
       try {
-        const respone = await axios.get(
-          `http://127.0.0.1:8888/api/categories?pageSize=${pageSize}&pageNumber=${pageNumber}`
+        const respone = await api.get(
+          `/categories?pageSize=${pageSize}&pageNumber=${pageNumber}`
         )
         if (!ignore) {
           setCategories(respone.data.items)
@@ -101,7 +101,6 @@ const CategoryList = () => {
   const handleSetPageNumber = (e) => {
     if (e.keyCode === 13) {
       if (parseInt(pageInput) > totalPages) {
-        console.log(111)
         setPageNumber(1)
         return
       }
