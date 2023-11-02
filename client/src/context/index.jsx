@@ -1,21 +1,32 @@
 import { createContext, useState } from "react"
 
-export const UserContext = createContext(null)
+export const AppContext = createContext(null)
 
-const UserProvider = ({ children }) => {
+const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
+  const [header, setHeader] = useState("Shop management")
+  const [snackbar, setSnackbar] = useState({
+    openSnackbar: false,
+    snackbarMessage: "",
+    snackbarSeverity: undefined,
+  })
+
   return (
-    <UserContext.Provider
+    <AppContext.Provider
       value={{
         user,
         setUser,
         isLoading,
         setIsLoading,
+        header,
+        setHeader,
+        snackbar,
+        setSnackbar,
       }}
     >
       {children}
-    </UserContext.Provider>
+    </AppContext.Provider>
   )
 }
-export default UserProvider
+export default AppProvider
