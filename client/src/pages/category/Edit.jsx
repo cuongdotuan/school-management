@@ -1,13 +1,13 @@
-import { Button, Input, TextField } from "@mui/material"
+import { Button, TextField } from "@mui/material"
 import React, { useContext, useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import api from "../../api"
-import { UserContext } from "../../context"
+import { AppContext } from "../../context"
 
 const CategoryEdit = () => {
   const [detail, setDetail] = useState(null)
   const data = useParams()
-  const { setIsLoading } = useContext(UserContext)
+  const { setIsLoading, setSnackbar } = useContext(AppContext)
   const navigate = useNavigate()
   useEffect(() => {
     const getDetail = async () => {
@@ -17,7 +17,7 @@ const CategoryEdit = () => {
     getDetail()
   }, [])
 
-  const handleChangeInput = (e) => {
+  const handleChangeName = (e) => {
     setDetail({ ...detail, name: e.target.value })
   }
   const onSubmit = () => {
@@ -25,6 +25,11 @@ const CategoryEdit = () => {
     const putUpdate = async () => {
       try {
         await api.put(`/categories/${data.id}`, detail)
+        setSnackbar({
+          openSnackbar: true,
+          snackbarMessage: "Success",
+          snackbarSeverity: "success",
+        })
         navigate(`/category`)
       } catch (error) {
         console.log(error)
@@ -44,7 +49,7 @@ const CategoryEdit = () => {
           type="text"
           className="w-full"
           value={detail?.name || ""}
-          onChange={handleChangeInput}
+          onChange={handleChangeName}
         />
 
         <Button
@@ -60,3 +65,6 @@ const CategoryEdit = () => {
 }
 
 export default CategoryEdit
+function setSnackbar(arg0) {
+  throw new Error("Function not implemented.")
+}

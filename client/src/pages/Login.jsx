@@ -2,13 +2,14 @@ import React, { useContext } from "react"
 import { Box, Button, Input, Select, TextField } from "@mui/material"
 import axios from "axios"
 import { Controller, useForm } from "react-hook-form"
-import { UserContext } from "../context"
+import { AppContext } from "../context"
 import { TOKEN, USER } from "../constants"
 
 import CircularProgress from "@mui/material/CircularProgress"
+import api from "../api"
 
 const Login = () => {
-  const { user, setUser, isLoading, setIsLoading } = useContext(UserContext)
+  const { setUser, isLoading, setIsLoading } = useContext(AppContext)
   const { control, handleSubmit } = useForm({
     defaultValues: {
       username: "",
@@ -20,10 +21,7 @@ const Login = () => {
     setIsLoading(true)
     const login = async () => {
       try {
-        let response = await axios.post(
-          "http://127.0.0.1:8888/api/auth/login",
-          { username, password }
-        )
+        let response = await api.post("/auth/login", { username, password })
         setUser(response.data.user)
         localStorage.setItem(USER, JSON.stringify(response.data.user))
         localStorage.setItem(TOKEN, response.data.token)
@@ -39,11 +37,11 @@ const Login = () => {
   return (
     <Box className="flex justify-center items-center  ">
       {isLoading && (
-        <div className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-50 flex justify-center items-center text-white">
+        <Box className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-50 flex justify-center items-center text-white">
           <Box sx={{ display: "flex" }}>
             <CircularProgress color="primary" />
           </Box>
-        </div>
+        </Box>
       )}
       <Box className="shadow-xl w-80 flex flex-col gap-3  p-8 rounded-md bg-white">
         <h1 className="text-center">Shop Management</h1>

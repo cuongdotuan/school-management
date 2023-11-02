@@ -1,15 +1,23 @@
 import { Button, TextField } from "@mui/material"
 import React, { useContext, useState } from "react"
-import { UserContext } from "../../context"
+import { AppContext } from "../../context"
 import api from "../../api"
 import { useNavigate } from "react-router-dom"
+import { useEffect } from "react"
 
 const CategoryCreate = () => {
   const [input, setInput] = useState("")
-  const { setIsLoading } = useContext(UserContext)
+  const { setIsLoading, setHeader, setSnackbar } = useContext(AppContext)
+
   const navigate = useNavigate()
 
-  const handleChangeInput = (e) => {
+  useEffect(() => {
+    setHeader("Create Category")
+    return () => {
+      setHeader(" Shop Management")
+    }
+  }, [])
+  const handleChangeNameInput = (e) => {
     setInput(e.target.value)
   }
 
@@ -21,6 +29,11 @@ const CategoryCreate = () => {
           name: input,
         }
         await api.post("/categories", newItem)
+        setSnackbar({
+          openSnackbar: true,
+          snackbarMessage: "Success",
+          snackbarSeverity: "success",
+        })
         navigate("/category")
       } catch (error) {
         console.log(error)
@@ -42,7 +55,7 @@ const CategoryCreate = () => {
           type="text"
           className="w-full"
           value={input}
-          onChange={handleChangeInput}
+          onChange={handleChangeNameInput}
         />
         <Button
           variant="contained"

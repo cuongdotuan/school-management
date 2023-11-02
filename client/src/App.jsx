@@ -1,4 +1,12 @@
-import { Box, Button, CircularProgress } from "@mui/material"
+import {
+  Alert,
+  Box,
+  Button,
+  CircularProgress,
+  Menu,
+  MenuItem,
+  Snackbar,
+} from "@mui/material"
 import { useContext, useEffect, useState } from "react"
 import {
   BrowserRouter,
@@ -43,10 +51,11 @@ import ListItemText from "@mui/material/ListItemText"
 import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
 import { styled, useTheme } from "@mui/material/styles"
-import { UserContext } from "./context"
+import { AppContext } from "./context"
 import Login from "./pages/Login"
 import { USER } from "./constants"
 import handleLogOut from "./helper"
+import AccountCircleIcon from "@mui/icons-material/AccountCircle"
 
 const appRoutes = [
   { path: "/", element: <Home /> },
@@ -62,6 +71,7 @@ const appRoutes = [
   { path: "/category/create", element: <CategoryCreate /> },
   { path: "/*", element: <Navigate to="/" /> },
 ]
+
 const authRoutes = [
   { path: "/", element: <Login /> },
   { path: "/*", element: <Navigate to="/" /> },
@@ -157,16 +167,36 @@ const Drawer = styled(MuiDrawer, {
 
 const AppLayout = () => {
   const theme = useTheme()
-  const [open, setOpen] = useState(false)
-  const { isLoading, setIsLoading } = useContext(UserContext)
+  const [openLeftPanel, setOpenLeftPanel] = useState(false)
+  const { isLoading, header, snackbar, setSnackbar } = useContext(AppContext)
   const navigate = useNavigate()
+  const [anchorEl, setAnchorEl] = useState(null)
+  const openAccout = Boolean(anchorEl)
+
+  const openSnackbar = snackbar.openSnackbar
+  const snackbarMessage = snackbar.snackbarMessage
+  const snackbarSeverity = snackbar.snackbarSeverity
 
   const handleDrawerOpen = () => {
-    setOpen(true)
+    setOpenLeftPanel(true)
+  }
+  const handleDrawerClose = () => {
+    setOpenLeftPanel(false)
   }
 
-  const handleDrawerClose = () => {
-    setOpen(false)
+  const handleAccountLogoClick = (event) => {
+    setAnchorEl(event.currentTarget)
+  }
+  const handleAccountLogoClose = () => {
+    setAnchorEl(null)
+  }
+
+  const handleCloseSnackbar = () => {
+    setSnackbar({
+      openSnackbar: false,
+      snackbarMessage: "",
+      snackbarSeverity: undefined,
+    })
   }
 
   return (
@@ -179,11 +209,25 @@ const AppLayout = () => {
         </div>
       )}
 
+      <Snackbar
+        anchorOrigin={{ vertical: "top", horizontal: "right" }}
+        open={openSnackbar}
+        onClose={handleCloseSnackbar}
+        className="top-20 min-w-[10%]"
+      >
+        <Alert
+          severity={snackbarSeverity}
+          className="w-full"
+        >
+          {snackbarMessage}
+        </Alert>
+      </Snackbar>
+
       <Box className="flex">
         <CssBaseline />
         <AppBar
           position="fixed"
-          open={open}
+          open={openLeftPanel}
           className="bg-red-500"
         >
           <Toolbar>
@@ -199,24 +243,53 @@ const AppLayout = () => {
             >
               <MenuIcon />
             </IconButton>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-            >
-              Shop Management
-            </Typography>
-            <Button
-              className="text-white"
-              onClick={handleLogOut}
-            >
-              log out
-            </Button>
+            <Box className="flex justify-between items-center flex-1">
+              <Typography
+                variant="h6"
+                noWrap
+                component="div"
+              >
+                Shop Management
+              </Typography>
+              <Box>
+                <Button
+                  id="basic-button"
+                  aria-controls={openAccout ? "basic-menu" : undefined}
+                  aria-haspopup="true"
+                  aria-expanded={openAccout ? "true" : undefined}
+                  onClick={handleAccountLogoClick}
+                >
+                  <AccountCircleIcon className="text-white" />
+                </Button>
+                <Menu
+                  id="basic-menu"
+                  anchorEl={anchorEl}
+                  open={openAccout}
+                  onClose={handleAccountLogoClose}
+                  MenuListProps={{
+                    "aria-labelledby": "basic-button",
+                  }}
+                >
+                  <MenuItem onClick={handleAccountLogoClose}>Profile</MenuItem>
+                  <MenuItem onClick={handleAccountLogoClose}>
+                    My account
+                  </MenuItem>
+                  <MenuItem
+                    onClick={() => {
+                      handleAccountLogoClose()
+                      handleLogOut()
+                    }}
+                  >
+                    Logout
+                  </MenuItem>
+                </Menu>
+              </Box>
+            </Box>
           </Toolbar>
         </AppBar>
         <Drawer
           variant="permanent"
-          open={open}
+          open={openLeftPanel}
         >
           <DrawerHeader className="bg-red-500">
             <IconButton
@@ -272,6 +345,13 @@ const AppLayout = () => {
           className="flex-1 h-screen pt-16"
         >
           <Box className=" p-6">
+            <Typography
+              variant="h4"
+              gutterBottom
+            >
+              {header}
+            </Typography>
+            <Divider />
             <Outlet />
           </Box>
         </Box>
@@ -282,23 +362,20 @@ const AppLayout = () => {
 
 const App = () => {
   const [init, setInit] = useState(false)
-  const { user, setUser } = useContext(UserContext)
+  const { user, setUser } = useContext(AppContext)
 
   useEffect(() => {
     const userLocal = localStorage.getItem(USER)
-
     const parsedUser = JSON.parse(userLocal)
-
     if (parsedUser && !user && !init) {
       setUser(parsedUser)
     }
     setInit(true)
   }, [])
+
   if (!init) {
     return null
   }
-
-  const routes = user ? appRoutes : authRoutes
 
   return (
     <BrowserRouter>
