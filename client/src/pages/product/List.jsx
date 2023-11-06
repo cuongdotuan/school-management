@@ -104,13 +104,9 @@ const ProductsList = () => {
   }
 
   const handleChangePageNumber = (e) => {
-    console.log(1)
-    console.log(e.target.value)
-
     setPageInput(e.target.value)
   }
   const handleSetPageNumber = (e) => {
-    console.log(2)
     if (e.keyCode === 13) {
       if (parseInt(pageInput) > totalPages) {
         setPageNumber(1)

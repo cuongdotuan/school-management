@@ -73,7 +73,6 @@ const EditProduct = () => {
         setIsLoading(true)
         const respone = await api.get(`/sizes`)
         if (!ignore) {
-          console.log(respone.data)
           setSizes(respone.data)
         }
       } catch (error) {
@@ -128,7 +127,7 @@ const EditProduct = () => {
       >
         <Controller
           name="name"
-          defaultValue={""}
+          defaultValue=""
           control={control}
           render={({ field }) => (
             <TextField
@@ -143,7 +142,7 @@ const EditProduct = () => {
         />
         <Controller
           name="description"
-          defaultValue={""}
+          defaultValue=""
           control={control}
           render={({ field }) => (
             <TextField
@@ -158,7 +157,7 @@ const EditProduct = () => {
         />
         <Controller
           name="price"
-          defaultValue={""}
+          defaultValue=""
           control={control}
           render={({ field }) => (
             <TextField
@@ -173,7 +172,7 @@ const EditProduct = () => {
         />
         <Controller
           name="color"
-          defaultValue={""}
+          defaultValue=""
           control={control}
           render={({ field }) => (
             <TextField
@@ -186,9 +185,10 @@ const EditProduct = () => {
             />
           )}
         />
-        {/* <Controller
+        <Controller
           name="size"
           control={control}
+          defaultValue=""
           render={({ field }) => (
             <Select
               className="w-full"
@@ -209,7 +209,7 @@ const EditProduct = () => {
               })}
             </Select>
           )}
-        /> */}
+        />
         <Button
           variant="contained"
           type="submit"
