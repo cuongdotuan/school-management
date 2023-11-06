@@ -7,15 +7,14 @@ import {
   FormControl,
   InputLabel,
   MenuItem,
-  OutlinedInput,
   Select,
   TextField,
-  useTheme,
 } from "@mui/material"
 
 const EditProduct = () => {
   const [detail, setDetail] = useState(null)
   const [categories, setCategories] = useState([])
+  const [sizes, setSizes] = useState([])
   const data = useParams()
   const { setIsLoading, setSnackbar, setHeader } = useContext(AppContext)
   const navigate = useNavigate()
@@ -44,6 +43,28 @@ const EditProduct = () => {
       }
     }
     getCategory()
+    return () => {
+      ignore = true
+    }
+  }, [])
+
+  useEffect(() => {
+    setIsLoading(true)
+    let ignore = false
+    const getSizes = async () => {
+      try {
+        const respone = await api.get(`/sizes`)
+        if (!ignore) {
+          console.log(respone.data)
+          setSizes(respone.data)
+        }
+      } catch (error) {
+        console.log(error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+    getSizes()
     return () => {
       ignore = true
     }
@@ -89,6 +110,11 @@ const EditProduct = () => {
         navigate(`/product`)
       } catch (error) {
         console.log(error)
+        setSnackbar({
+          openSnackbar: true,
+          snackbarMessage: "Error",
+          snackbarSeverity: "error",
+        })
       } finally {
         setIsLoading(false)
       }
@@ -118,15 +144,28 @@ const EditProduct = () => {
           value={detail?.price || ""}
           onChange={handleChangePrice}
         />
-        <TextField
-          id="outlined-basic"
-          label="Size"
-          variant="outlined"
-          type="text"
-          className="w-full"
-          value={detail?.size || ""}
-          onChange={handleChangeSize}
-        />
+        <FormControl
+          sx={{ m: 1, minWidth: 120 }}
+          className="m-0"
+        >
+          <InputLabel id="demo-select-small-label">Size</InputLabel>
+          <Select
+            labelId="demo-select-small-label"
+            id="demo-select-small"
+            value={detail?.size || ""}
+            label="Size"
+            onChange={handleChangeSize}
+          >
+            {sizes.map((s, idx) => (
+              <MenuItem
+                key={idx}
+                value={s}
+              >
+                {s}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
         <TextField
           id="outlined-basic"
           label="Color"
