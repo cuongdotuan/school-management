@@ -44,3 +44,5 @@ export const addresses = {
   districts,
   provinces,
 }
+
+export const SIZES = ["XXXS", "XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL"]
