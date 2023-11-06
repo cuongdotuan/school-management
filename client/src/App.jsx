@@ -167,7 +167,7 @@ const Drawer = styled(MuiDrawer, {
 
 const AppLayout = () => {
   const theme = useTheme()
-  const [openLeftPanel, setOpenLeftPanel] = useState(false)
+  const [open, setOpen] = useState(false)
   const { isLoading, header, snackbar, setSnackbar } = useContext(AppContext)
   const navigate = useNavigate()
   const [anchorEl, setAnchorEl] = useState(null)
@@ -178,10 +178,10 @@ const AppLayout = () => {
   const snackbarSeverity = snackbar.snackbarSeverity
 
   const handleDrawerOpen = () => {
-    setOpenLeftPanel(true)
+    setOpen(true)
   }
   const handleDrawerClose = () => {
-    setOpenLeftPanel(false)
+    setOpen(false)
   }
 
   const handleAccountLogoClick = (event) => {
@@ -227,7 +227,7 @@ const AppLayout = () => {
         <CssBaseline />
         <AppBar
           position="fixed"
-          open={openLeftPanel}
+          open={open}
           className="bg-red-500"
         >
           <Toolbar>
@@ -289,7 +289,7 @@ const AppLayout = () => {
         </AppBar>
         <Drawer
           variant="permanent"
-          open={openLeftPanel}
+          open={open}
         >
           <DrawerHeader className="bg-red-500">
             <IconButton
