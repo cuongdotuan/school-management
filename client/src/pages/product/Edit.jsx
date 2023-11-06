@@ -190,10 +190,9 @@ const EditProduct = () => {
           control={control}
           defaultValue=""
           render={({ field }) => (
-            <Select
+            <TextField
               className="w-full"
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
+              select
               label="Size"
               {...field}
             >
@@ -207,7 +206,7 @@ const EditProduct = () => {
                   </MenuItem>
                 )
               })}
-            </Select>
+            </TextField>
           )}
         />
         <Button
