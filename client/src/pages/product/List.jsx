@@ -24,6 +24,8 @@ import {
 } from "@mui/material"
 import NavigateNextIcon from "@mui/icons-material/NavigateNext"
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore"
+import DeleteForeverIcon from "@mui/icons-material/DeleteForever"
+import EditIcon from "@mui/icons-material/Edit"
 
 let totalProducts
 let totalPages
@@ -128,19 +130,48 @@ const ProductsList = () => {
           <div className="flex justify-end mb-1">
             <span>Total Products: {totalProducts}</span>
           </div>
-          <TableContainer component={Paper}>
+          <TableContainer
+            component={Paper}
+            className="mb-3"
+          >
             <Table
               sx={{ minWidth: 700 }}
               aria-label="customized table"
             >
               <TableHead>
                 <TableRow>
-                  <StyledTableCell>#</StyledTableCell>
-                  <StyledTableCell>Name</StyledTableCell>
-                  <StyledTableCell>OriginPrice</StyledTableCell>
-                  <StyledTableCell>Price</StyledTableCell>
-                  <StyledTableCell>Size</StyledTableCell>
-                  <StyledTableCell>Color</StyledTableCell>
+                  <StyledTableCell className="text-lg">#</StyledTableCell>
+                  <StyledTableCell className="text-lg">Name</StyledTableCell>
+                  <StyledTableCell
+                    className="text-lg"
+                    align="center"
+                  >
+                    OriginPrice
+                  </StyledTableCell>
+                  <StyledTableCell
+                    className="text-lg"
+                    align="center"
+                  >
+                    Price
+                  </StyledTableCell>
+                  <StyledTableCell
+                    className="text-lg"
+                    align="center"
+                  >
+                    Size
+                  </StyledTableCell>
+                  <StyledTableCell
+                    className="text-lg"
+                    align="center"
+                  >
+                    Color
+                  </StyledTableCell>
+                  <StyledTableCell
+                    className="text-lg"
+                    align="center"
+                  >
+                    Operations
+                  </StyledTableCell>
                 </TableRow>
               </TableHead>
 
@@ -158,6 +189,7 @@ const ProductsList = () => {
                       {product.name}
                     </StyledTableCell>
                     <StyledTableCell
+                      align="center"
                       component="th"
                       scope="row"
                       className="text-lg"
@@ -165,6 +197,7 @@ const ProductsList = () => {
                       {product.originalPrice}
                     </StyledTableCell>
                     <StyledTableCell
+                      align="center"
                       component="th"
                       scope="row"
                       className="text-lg"
@@ -172,6 +205,7 @@ const ProductsList = () => {
                       {product.price}
                     </StyledTableCell>
                     <StyledTableCell
+                      align="center"
                       component="th"
                       scope="row"
                       className="text-lg"
@@ -179,11 +213,30 @@ const ProductsList = () => {
                       {product.size}
                     </StyledTableCell>
                     <StyledTableCell
+                      align="center"
                       component="th"
                       scope="row"
                       className="text-lg"
                     >
-                      <Box className={`w-5 h-5 bg-[${product.color}]`} />
+                      <Box
+                        sx={{
+                          width: 20,
+                          height: 20,
+                          backgroundColor: product.color,
+                          margin: "0 auto",
+                        }}
+                      />
+                    </StyledTableCell>
+                    <StyledTableCell align="center">
+                      <Button
+                        className="text-zinc-600"
+                        onClick={() => navigate(`/product/edit/${product._id}`)}
+                      >
+                        <EditIcon />
+                      </Button>
+                      <Button className="text-red-500">
+                        <DeleteForeverIcon />
+                      </Button>
                     </StyledTableCell>
                   </StyledTableRow>
                 ))}
@@ -191,7 +244,7 @@ const ProductsList = () => {
             </Table>
           </TableContainer>
 
-          <Box className="flex items-center justify-end">
+          <Box className="flex items-center justify-end ">
             <FormControl
               sx={{ m: 1, minWidth: 120 }}
               size="small"
