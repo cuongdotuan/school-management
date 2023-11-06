@@ -54,7 +54,9 @@ const ProductsList = () => {
   const [products, setProducts] = useState([])
   const [pageSize, setPageSize] = useState(DEFAULT_PAGINATION.PAGE_SIZE)
   const [pageNumber, setPageNumber] = useState(DEFAULT_PAGINATION.PAGE_NUMBER)
-  const [pageInput, setPageInput] = useState("")
+  const [pageInput, setPageInput] = useState(
+    `${DEFAULT_PAGINATION.PAGE_NUMBER}`
+  )
   const navigate = useNavigate()
   const { isLoading, setIsLoading, setHeader } = useContext(AppContext)
 
@@ -63,11 +65,10 @@ const ProductsList = () => {
     let ignore = false
     const getCategory = async () => {
       try {
-        const respone = await api.get(
-          `/products?pageSize=${pageSize}&pageNumber=${pageNumber}`
-        )
+        const respone = await api.get(`/products`, {
+          params: { pageSize, pageNumber },
+        })
         if (!ignore) {
-          console.log(respone.data)
           setProducts(respone.data.items)
           totalProducts = respone.data.totalItems
           totalPages = respone.data.totalPages
@@ -103,9 +104,13 @@ const ProductsList = () => {
   }
 
   const handleChangePageNumber = (e) => {
+    console.log(1)
+    console.log(e.target.value)
+
     setPageInput(e.target.value)
   }
   const handleSetPageNumber = (e) => {
+    console.log(2)
     if (e.keyCode === 13) {
       if (parseInt(pageInput) > totalPages) {
         setPageNumber(1)
@@ -141,13 +146,8 @@ const ProductsList = () => {
               <TableHead>
                 <TableRow>
                   <StyledTableCell className="text-lg">#</StyledTableCell>
+                  <StyledTableCell className="text-lg"></StyledTableCell>
                   <StyledTableCell className="text-lg">Name</StyledTableCell>
-                  <StyledTableCell
-                    className="text-lg"
-                    align="center"
-                  >
-                    OriginPrice
-                  </StyledTableCell>
                   <StyledTableCell
                     className="text-lg"
                     align="center"
@@ -158,14 +158,15 @@ const ProductsList = () => {
                     className="text-lg"
                     align="center"
                   >
-                    Size
+                    Saled Price
                   </StyledTableCell>
                   <StyledTableCell
                     className="text-lg"
                     align="center"
                   >
-                    Color
+                    Size
                   </StyledTableCell>
+
                   <StyledTableCell
                     className="text-lg"
                     align="center"
@@ -186,8 +187,20 @@ const ProductsList = () => {
                       scope="row"
                       className="text-lg"
                     >
+                      <img
+                        src={product.thumbnail}
+                        alt={product.name}
+                        className="w-6"
+                      />
+                    </StyledTableCell>
+                    <StyledTableCell
+                      component="th"
+                      scope="row"
+                      className="text-lg"
+                    >
                       {product.name}
                     </StyledTableCell>
+
                     <StyledTableCell
                       align="center"
                       component="th"
@@ -212,21 +225,7 @@ const ProductsList = () => {
                     >
                       {product.size}
                     </StyledTableCell>
-                    <StyledTableCell
-                      align="center"
-                      component="th"
-                      scope="row"
-                      className="text-lg"
-                    >
-                      <Box
-                        sx={{
-                          width: 20,
-                          height: 20,
-                          backgroundColor: product.color,
-                          margin: "0 auto",
-                        }}
-                      />
-                    </StyledTableCell>
+
                     <StyledTableCell align="center">
                       <Button
                         className="text-zinc-600"
@@ -276,7 +275,7 @@ const ProductsList = () => {
               </Button>
               <Input
                 type="number"
-                defaultValue={pageNumber}
+                value={pageInput}
                 className="w-9 "
                 onChange={handleChangePageNumber}
                 onKeyDown={handleSetPageNumber}
