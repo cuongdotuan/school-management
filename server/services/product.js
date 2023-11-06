@@ -30,7 +30,6 @@ const get = async (query) => {
   const versions = await ProductVersion.find({
     product: { $in: productIds },
   })
-    .populate("categories", "name")
     .exec()
 
   const response = products.map((p) => {
@@ -47,12 +46,10 @@ const get = async (query) => {
       _id: p._id,
       originalPrice: initVersion?.price,
       name: latestVersion?.name,
-      description: latestVersion?.description,
       price: latestVersion?.price,
       color: latestVersion?.color,
       size: latestVersion?.size,
       thumbnail: latestVersion?.thumbnail,
-      images: latestVersion?.images,
       categories: latestVersion?.categories,
     }
   })
@@ -75,7 +72,6 @@ const getDetail = async (id) => {
 
   const latestVersion = await ProductVersion.findOne({ product: id })
     .sort("-version")
-    .populate("categories", "name")
     .exec()
   if (!latestVersion) throw new Error()
 
