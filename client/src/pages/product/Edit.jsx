@@ -14,22 +14,44 @@ import {
 import { Controller, useForm } from "react-hook-form"
 
 const EditProduct = () => {
-  // const [detail, setDetail] = useState(null)
   const [categories, setCategories] = useState([])
   const [sizes, setSizes] = useState([])
-  const data = useParams()
+  const param = useParams()
   const { setIsLoading, setSnackbar, setHeader } = useContext(AppContext)
   const navigate = useNavigate()
 
   const { control, handleSubmit, reset } = useForm()
 
-  const onSubmit = (data) => console.log(data)
+  const onSubmit = (data) => {
+    const updateProduct = async () => {
+      try {
+        setIsLoading(true)
+        await api.put(`/products/${param.id}`, data)
+        setSnackbar({
+          openSnackbar: true,
+          snackbarMessage: "Success",
+          snackbarSeverity: "success",
+        })
+        navigate(`/product`)
+      } catch (error) {
+        console.log(error)
+        setSnackbar({
+          openSnackbar: true,
+          snackbarMessage: "Error",
+          snackbarSeverity: "error",
+        })
+      } finally {
+        setIsLoading(false)
+      }
+    }
+    updateProduct()
+  }
   useEffect(() => {
     let ignore = false
     const getDetail = async () => {
       try {
         setIsLoading(true)
-        const res = await api.get(`/products/${data.id}`)
+        const res = await api.get(`/products/${param.id}`)
         if (!ignore) {
           reset(res.data)
         }
@@ -93,31 +115,6 @@ const EditProduct = () => {
       setHeader(" Shop Management")
     }
   }, [])
-
-  // const onSubmit = () => {
-  //   setIsLoading(true)
-  //   const putUpdate = async () => {
-  //     try {
-  //       await api.put(`/products/${data.id}`, detail)
-  //       setSnackbar({
-  //         openSnackbar: true,
-  //         snackbarMessage: "Success",
-  //         snackbarSeverity: "success",
-  //       })
-  //       navigate(`/product`)
-  //     } catch (error) {
-  //       console.log(error)
-  //       setSnackbar({
-  //         openSnackbar: true,
-  //         snackbarMessage: "Error",
-  //         snackbarSeverity: "error",
-  //       })
-  //     } finally {
-  //       setIsLoading(false)
-  //     }
-  //   }
-  //   putUpdate()
-  // }
 
   return (
     <>
