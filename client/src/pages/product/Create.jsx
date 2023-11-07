@@ -4,122 +4,143 @@ import { useNavigate } from "react-router-dom"
 import {
   Button,
   FormControl,
+  Input,
   InputLabel,
   MenuItem,
   Select,
   TextField,
 } from "@mui/material"
+import { Controller, useForm } from "react-hook-form"
+import api from "../../api"
 
-const sizeOptions = ["XS", "S", "M", "L", "XL", "2XL"]
 const CreateProduct = () => {
-  const [name, setName] = useState("")
-  const [originalPrice, setOriginalPrice] = useState("")
-  const [price, setPrice] = useState("")
-  const [size, setSize] = useState("")
-  const [color, setColor] = useState("")
-
+  const [sizes, setSizes] = useState([])
   const { setIsLoading, setHeader, setSnackbar } = useContext(AppContext)
   const navigate = useNavigate()
+  const { control, handleSubmit } = useForm({
+    defaultValues: {
+      name: "",
+      description: "",
+      price: "",
+      color: "",
+      size: "",
+    },
+  })
+  const onSubmit = (data) => console.log(data)
 
   useEffect(() => {
-    setHeader("Create Category")
+    setHeader("Create Product")
     return () => {
       setHeader(" Shop Management")
     }
   }, [])
 
-  const onSubmit = () => {
-    console.log("submit")
-  }
-  const handleChangeName = (e) => {
-    setName(e.target.value)
-  }
-  const handleChangeOriginalPrice = (e) => {
-    setOriginalPrice(e.target.value)
-  }
-  const handleChangePrice = (e) => {
-    setPrice(e.target.value)
-  }
-  const handleChangeSize = (e) => {
-    setSize(e.target.value)
-  }
-  const handleChangeColor = (e) => {
-    setColor(e.target.value)
-  }
+  useEffect(() => {
+    let ignore = false
+    const getSizes = async () => {
+      try {
+        setIsLoading(true)
+        const respone = await api.get(`/sizes`)
+        if (!ignore) {
+          setSizes(respone.data)
+        }
+      } catch (error) {
+        console.log(error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+    getSizes()
+    return () => {
+      ignore = true
+    }
+  }, [])
+
   return (
-    <div className="w-96 mx-auto p-4 shadow-xl">
-      <h1>Create New Product</h1>
-      <div>
-        <TextField
-          id="outlined-basic"
-          label="Name"
-          variant="outlined"
-          size="small"
-          type="text"
-          className="w-full mb-2"
-          value={name}
-          onChange={handleChangeName}
-        />
-        <TextField
-          id="outlined-basic"
-          label="Original Price"
-          variant="outlined"
-          size="small"
-          type="number"
-          className="w-full mb-2"
-          value={originalPrice}
-          onChange={handleChangeOriginalPrice}
-        />
-        <TextField
-          id="outlined-basic"
-          label="Price"
-          variant="outlined"
-          size="small"
-          type="number"
-          className="w-full mb-2"
-          value={price}
-          onChange={handleChangePrice}
-        />
-        <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">Size</InputLabel>
-          <Select
-            className="mb-2"
+    <form
+      className="flex flex-col gap-4 mt-7"
+      onSubmit={handleSubmit(onSubmit)}
+    >
+      <Controller
+        name="name"
+        control={control}
+        render={({ field }) => (
+          <TextField
             size="small"
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            value={size}
+            label="Name"
+            {...field}
+          />
+        )}
+      />
+      <Controller
+        name="description"
+        control={control}
+        render={({ field }) => (
+          <TextField
+            id="outlined-multiline-flexible"
+            label="Description"
+            multiline
+            maxRows={4}
+            size="small"
+            {...field}
+          />
+        )}
+      />
+      <Controller
+        name="price"
+        control={control}
+        render={({ field }) => (
+          <TextField
+            size="small"
+            label="Price"
+            {...field}
+          />
+        )}
+      />
+      <Controller
+        name="color"
+        control={control}
+        render={({ field }) => (
+          <TextField
+            size="small"
+            label="Color"
+            {...field}
+          />
+        )}
+      />
+      <Controller
+        name="size"
+        control={control}
+        defaultValue=""
+        render={({ field }) => (
+          <TextField
+            className="w-full"
+            select
+            size="small"
             label="Size"
-            onChange={handleChangeSize}
+            {...field}
           >
-            {sizeOptions.map((size) => (
-              <MenuItem
-                key={size}
-                value={size}
-              >
-                {size}
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-        <TextField
-          id="outlined-basic"
-          label="Color"
-          variant="outlined"
-          size="small"
-          type="text"
-          className="w-full mb-2"
-          value={color}
-          onChange={handleChangeColor}
-        />
-        <Button
-          variant="contained"
-          className="w-full mt-4"
-          onClick={onSubmit}
-        >
-          Create
-        </Button>
-      </div>
-    </div>
+            {sizes.map((s) => {
+              return (
+                <MenuItem
+                  key={s}
+                  value={s}
+                >
+                  {s}
+                </MenuItem>
+              )
+            })}
+          </TextField>
+        )}
+      />
+      <Button
+        variant="contained"
+        type="submit"
+        className="w-1/2 mx-auto"
+      >
+        Create New Product
+      </Button>
+    </form>
   )
 }
 
