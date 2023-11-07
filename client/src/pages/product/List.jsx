@@ -20,6 +20,7 @@ import {
   InputLabel,
   MenuItem,
   Select,
+  Tooltip,
   Typography,
 } from "@mui/material"
 import NavigateNextIcon from "@mui/icons-material/NavigateNext"
@@ -227,10 +228,14 @@ const ProductsList = () => {
                         className="text-zinc-600"
                         onClick={() => navigate(`/product/edit/${product._id}`)}
                       >
-                        <EditIcon />
+                        <Tooltip title="Edit">
+                          <EditIcon />
+                        </Tooltip>
                       </Button>
                       <Button className="text-red-500">
-                        <DeleteForeverIcon />
+                        <Tooltip title="Delete">
+                          <DeleteForeverIcon />
+                        </Tooltip>
                       </Button>
                     </StyledTableCell>
                   </StyledTableRow>
