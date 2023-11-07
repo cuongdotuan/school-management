@@ -29,14 +29,11 @@ const get = async (query) => {
 
   const versions = await ProductVersion.find({
     product: { $in: productIds },
-  })
-    .exec()
+  }).exec()
 
   const response = products.map((p) => {
     const initVersion = versions.find(
-      (v) =>
-        v.product.toString() === p.id &&
-        v.version === DEFAULT_VERSION
+      (v) => v.product.toString() === p.id && v.version === DEFAULT_VERSION
     )
     const latestVersion = versions
       .filter((v) => v.product.toString() === p.id)
@@ -106,7 +103,7 @@ const create = async (payload) => {
     session.startTransaction()
     const newProducts = await Product.create([{}], { session })
     const newPrd = newProducts[0]
-    await ProductVersion.create([{ ...payload, product: newPrd?._id }], {
+    await ProductVersion.create([{ ...payload, _id: undefined, product: newPrd?._id }], {
       session,
     })
     await session.commitTransaction()
@@ -125,9 +122,9 @@ const update = async (id, payload) => {
     .exec()
 
   const nextVersion = latestVersion && latestVersion.version + 1
-
+ 
   await ProductVersion.create([
-    { ...payload, version: nextVersion, product: id },
+    { ...payload, _id: undefined, version: nextVersion, product: id },
   ])
 
   return id
