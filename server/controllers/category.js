@@ -25,7 +25,7 @@ const getDetail = async (req, res) => {
 const create = async (req, res) => {
   try {
     const result = await categoryService.create(req.body)
-    res.status(201).json({ _id: result })
+    res.status(201).json({ _id: result._id })
   } catch (error) {
     res.status(400).json({ code: 400, message: error.message })
   }
@@ -45,7 +45,7 @@ const update = async (req, res) => {
 
   try {
     const result = await categoryService.update(id, body)
-    res.status(201).json({ _id: result })
+    res.status(201).json({ _id: result._id })
   } catch (error) {
     res.status(400).json({ code: 400, message: error.message })
   }
@@ -64,7 +64,7 @@ const remove = async (req, res) => {
 
   try {
     const result = await categoryService.remove(id)
-    res.status(200).json({ _id: result })
+    res.status(200).json({ _id: result._id })
   } catch (error) {
     res.status(400).json({ code: 400, message: error.message })
   }
