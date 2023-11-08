@@ -1,4 +1,4 @@
-import { DEFAULT_VERSION } from "../constants.js"
+import { DEFAULT_VERSION, SIZES } from "../constants.js"
 import mongoose from "mongoose"
 const { Schema } = mongoose
 
@@ -18,13 +18,15 @@ const ProductVersionSchema = new Schema({
   },
   size: {
     type: String,
-    enum: ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    enum: SIZES,
     required: true,
   },
   thumbnail: String,
   images: [String],
-  categories: [{ type: Schema.Types.ObjectId, ref: "Category" }],
-  product: { type: Schema.Types.ObjectId, ref: "Product" },
+  categories: [
+    { type: Schema.Types.ObjectId, ref: "Category", required: true },
+  ],
+  product: { type: Schema.Types.ObjectId, ref: "Product", required: true },
   version: {
     type: Number,
     required: true,
@@ -32,6 +34,7 @@ const ProductVersionSchema = new Schema({
   },
   createdDate: {
     type: Date,
+    required: true,
     default: new Date(),
   },
 })

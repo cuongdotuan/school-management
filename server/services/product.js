@@ -9,10 +9,12 @@ import ProductVersion from "../models/productVersion.js"
 
 const get = async (query) => {
   const pageSize =
-    query.pageSize && query.pageSize > 0 ? query.pageSize : DEFAULT_PAGE_SIZE
+    query.pageSize && query.pageSize > 0
+      ? parseInt(query.pageSize)
+      : DEFAULT_PAGE_SIZE
   const pageNumber =
     query.pageNumber && query.pageNumber > 0
-      ? query.pageNumber
+      ? parseInt(query.pageNumber)
       : DEFAULT_PAGE_NUMBER
 
   const totalItems = await Product.count()
@@ -29,7 +31,9 @@ const get = async (query) => {
 
   const versions = await ProductVersion.find({
     product: { $in: productIds },
-  }).exec()
+  })
+    .populate("categories", "name _id")
+    .exec()
 
   const response = products.map((p) => {
     const initVersion = versions.find(
@@ -42,8 +46,8 @@ const get = async (query) => {
     return {
       _id: p._id,
       originalPrice: initVersion?.price,
-      name: latestVersion?.name,
       price: latestVersion?.price,
+      name: latestVersion?.name,
       color: latestVersion?.color,
       size: latestVersion?.size,
       thumbnail: latestVersion?.thumbnail,
@@ -85,9 +89,9 @@ const getDetail = async (id) => {
   const response = {
     _id: id,
     originalPrice: initVersion.price,
+    price,
     name,
     description,
-    price,
     color,
     size,
     thumbnail,
@@ -98,14 +102,40 @@ const getDetail = async (id) => {
 }
 
 const create = async (payload) => {
+  verifyProduct(payload)
+
+  const {
+    name,
+    description,
+    price,
+    color,
+    size,
+    categories,
+    thumbnail,
+    images,
+  } = payload
+
   const session = await mongoose.startSession()
   try {
     session.startTransaction()
     const newProducts = await Product.create([{}], { session })
     const newPrd = newProducts[0]
-    await ProductVersion.create([{ ...payload, _id: undefined, product: newPrd?._id }], {
-      session,
-    })
+    await ProductVersion.create(
+      [
+        {
+          name,
+          description,
+          price,
+          color,
+          size,
+          categories,
+          product: newPrd?._id,
+        },
+      ],
+      {
+        session,
+      }
+    )
     await session.commitTransaction()
     return newPrd._id
   } catch (error) {
@@ -117,14 +147,36 @@ const create = async (payload) => {
 }
 
 const update = async (id, payload) => {
+  verifyProduct(payload)
+
+  const {
+    name,
+    description,
+    price,
+    color,
+    size,
+    categories,
+    thumbnail,
+    images,
+  } = payload
+
   const latestVersion = await ProductVersion.findOne({ product: id })
     .sort("-version")
     .exec()
 
   const nextVersion = latestVersion && latestVersion.version + 1
- 
+
   await ProductVersion.create([
-    { ...payload, _id: undefined, version: nextVersion, product: id },
+    {
+      name,
+      description,
+      price,
+      color,
+      size,
+      categories,
+      version: nextVersion,
+      product: id,
+    },
   ])
 
   return id
@@ -133,6 +185,26 @@ const update = async (id, payload) => {
 const remove = async (id) => {
   const result = await Product.findByIdAndDelete(id).exec()
   return result._id
+}
+
+const verifyProduct = (product) => {
+  if (!product) throw new Error()
+  const {
+    name,
+    description,
+    price,
+    color,
+    size,
+    categories,
+    thumbnail,
+    images,
+  } = product
+  if (!name || !name.trim()) throw new Error("Name is required")
+  if (!price || price <= 0) throw new Error("Price is required")
+  if (!color || !color.trim()) throw new Error("Color is required")
+  if (!size || !size.trim()) throw new Error("Size is required")
+  if (!categories || categories.length === 0)
+    throw new Error("Categories is required")
 }
 
 const productService = { get, getDetail, create, update, remove }
