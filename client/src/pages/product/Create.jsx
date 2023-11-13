@@ -1,23 +1,11 @@
-import React, { useContext, useEffect, useState } from "react"
-import { AppContext } from "../../context"
-import { useNavigate } from "react-router-dom"
-import {
-  Box,
-  Button,
-  Checkbox,
-  FormControl,
-  Input,
-  InputLabel,
-  ListItemText,
-  MenuItem,
-  OutlinedInput,
-  Select,
-  TextField,
-} from "@mui/material"
-import { Controller, useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
+import { Box, Button, MenuItem, TextField } from "@mui/material"
+import { useContext, useEffect, useState } from "react"
+import { Controller, useForm } from "react-hook-form"
+import { useNavigate } from "react-router-dom"
 import * as yup from "yup"
 import api from "../../api"
+import { AppContext } from "../../context"
 
 const schema = yup
   .object({
@@ -30,17 +18,6 @@ const schema = yup
   })
   .required()
 
-const ITEM_HEIGHT = 48
-const ITEM_PADDING_TOP = 8
-const MenuProps = {
-  PaperProps: {
-    style: {
-      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: 250,
-    },
-  },
-}
-
 const CreateProduct = () => {
   const [categories, setCategories] = useState([])
   const [sizes, setSizes] = useState([])
@@ -51,7 +28,6 @@ const CreateProduct = () => {
     handleSubmit,
     register,
     formState: { errors },
-    getValues,
   } = useForm({
     defaultValues: {
       name: "",
@@ -286,10 +262,7 @@ const CreateProduct = () => {
               className="w-full"
               SelectProps={{
                 multiple: true,
-                renderValue: (selected) => {
-                  console.log(selected)
-                  return selected?.join(", ")
-                },
+                displayEmpty: true,
               }}
               {...field}
             >
@@ -297,11 +270,9 @@ const CreateProduct = () => {
                 <MenuItem
                   key={category._id}
                   value={category._id}
+                  sx={{ marginY: 0.4 }}
                 >
-                  <Checkbox
-                    checked={getValues("categories").indexOf(category._id) > -1}
-                  />
-                  <ListItemText primary={category.name} />
+                  <span>{category.name}</span>
                 </MenuItem>
               ))}
             </TextField>
