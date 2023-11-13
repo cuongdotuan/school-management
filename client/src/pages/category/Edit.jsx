@@ -40,26 +40,25 @@ const CategoryEdit = () => {
     putUpdate()
   }
   return (
-    <div className="w-96 mx-auto p-4 shadow-xl">
-      <div>
-        <TextField
-          id="outlined-basic"
-          label="Name"
-          variant="outlined"
-          type="text"
-          className="w-full"
-          value={detail?.name || ""}
-          onChange={handleChangeName}
-        />
+    <div className=" p-4 flex flex-col gap-3">
+      <TextField
+        id="outlined-basic"
+        label="Name"
+        variant="outlined"
+        type="text"
+        size="small"
+        className="w-full"
+        value={detail?.name || ""}
+        onChange={handleChangeName}
+      />
 
-        <Button
-          variant="contained"
-          className="w-full mt-4"
-          onClick={onSubmit}
-        >
-          Change
-        </Button>
-      </div>
+      <Button
+        variant="contained"
+        className="w-1/4 mx-auto"
+        onClick={onSubmit}
+      >
+        Change
+      </Button>
     </div>
   )
 }

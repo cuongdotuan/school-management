@@ -44,27 +44,24 @@ const CategoryCreate = () => {
     createNewCategory()
   }
   return (
-    <div className="w-96 mx-auto p-4 shadow-xl">
-      <h1>Create New Category</h1>
-      <div>
-        <TextField
-          id="outlined-basic"
-          label="Name"
-          variant="outlined"
-          size="small"
-          type="text"
-          className="w-full"
-          value={input}
-          onChange={handleChangeNameInput}
-        />
-        <Button
-          variant="contained"
-          className="w-full mt-4"
-          onClick={onSubmit}
-        >
-          Create
-        </Button>
-      </div>
+    <div className=" p-4 flex flex-col gap-3">
+      <TextField
+        id="outlined-basic"
+        label="Name"
+        variant="outlined"
+        size="small"
+        type="text"
+        className="w-full"
+        value={input}
+        onChange={handleChangeNameInput}
+      />
+      <Button
+        variant="contained"
+        className="w-1/4 mx-auto"
+        onClick={onSubmit}
+      >
+        Create New Category
+      </Button>
     </div>
   )
 }
