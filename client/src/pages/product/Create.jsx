@@ -156,129 +156,104 @@ const CreateProduct = () => {
         <p className="m-0 text-red-500">{errors.description?.message}</p>
       </Box>
 
-      <Box>
-        <Controller
-          name="price"
-          control={control}
-          render={({ field }) => (
-            <TextField
-              size="small"
-              label="Price"
-              className="w-full"
-              type="number"
-              {...field}
-              {...register("price")}
-            />
-          )}
-        />
-        <p className="m-0 text-red-500">{errors.price?.message}</p>
-      </Box>
+      <Box className="flex gap-3">
+        <Box className="flex-[3]">
+          <Controller
+            name="price"
+            control={control}
+            render={({ field }) => (
+              <TextField
+                size="small"
+                label="Price"
+                className="w-full"
+                type="number"
+                {...field}
+                {...register("price")}
+              />
+            )}
+          />
+          <p className="m-0 text-red-500">{errors.price?.message}</p>
+        </Box>
 
-      <Box>
-        <Controller
-          name="color"
-          control={control}
-          render={({ field }) => (
-            <TextField
-              size="small"
-              label="Color"
-              className="w-full"
-              {...field}
-              {...register("color")}
-            />
-          )}
-        />
-        <p className="m-0 text-red-500">{errors.color?.message}</p>
-      </Box>
+        <Box className="flex-[3]">
+          <Controller
+            name="color"
+            control={control}
+            render={({ field }) => (
+              <TextField
+                size="small"
+                label="Color"
+                className="w-full"
+                {...field}
+                {...register("color")}
+              />
+            )}
+          />
+          <p className="m-0 text-red-500">{errors.color?.message}</p>
+        </Box>
 
-      <Box>
-        <Controller
-          name="size"
-          control={control}
-          defaultValue=""
-          render={({ field }) => (
-            <TextField
-              className="w-full"
-              select
-              size="small"
-              label="Size"
-              {...field}
-              {...register("size")}
-            >
-              {sizes.map((s) => {
-                return (
+        <Box className="flex-[3]">
+          <Controller
+            name="size"
+            control={control}
+            defaultValue=""
+            render={({ field }) => (
+              <TextField
+                className="w-full"
+                select
+                size="small"
+                label="Size"
+                {...field}
+                {...register("size")}
+              >
+                {sizes.map((s) => {
+                  return (
+                    <MenuItem
+                      key={s}
+                      value={s}
+                    >
+                      {s}
+                    </MenuItem>
+                  )
+                })}
+              </TextField>
+            )}
+          />
+          <p className="m-0 text-red-500">{errors.size?.message}</p>
+        </Box>
+
+        <Box className="flex-[3]">
+          <Controller
+            name="categories"
+            control={control}
+            defaultValue={[]}
+            render={({ field }) => (
+              <TextField
+                select
+                variant="outlined"
+                label="Category"
+                size="small"
+                className="w-full"
+                SelectProps={{
+                  multiple: true,
+                  displayEmpty: true,
+                }}
+                {...field}
+              >
+                {categories.map((category) => (
                   <MenuItem
-                    key={s}
-                    value={s}
+                    key={category._id}
+                    value={category._id}
+                    sx={{ marginY: 0.4 }}
                   >
-                    {s}
+                    <span>{category.name}</span>
                   </MenuItem>
-                )
-              })}
-            </TextField>
-          )}
-        />
-        <p className="m-0 text-red-500">{errors.size?.message}</p>
-      </Box>
-
-      <Box>
-        <Controller
-          name="categories"
-          control={control}
-          defaultValue={[]}
-          render={({ field }) => (
-            // <Select
-            //   labelId="demo-multiple-checkbox-label"
-            //   id="demo-multiple-checkbox"
-            //   multiple
-            //   label="categories"
-            //   input={<OutlinedInput label="Tag" />}
-            //   renderValue={(selected) => {
-            //     return selected.join(", ")
-            //   }}
-            //   MenuProps={MenuProps}
-            //   className="w-full"
-            //   size="small"
-            //   {...field}
-            // >
-            //   {categories.map((category) => (
-            //     <MenuItem
-            //       key={category._id}
-            //       value={category._id}
-            //     >
-            //       <Checkbox
-            //         checked={getValues("categories").indexOf(category._id) > -1}
-            //       />
-            //       <ListItemText primary={category.name} />
-            //     </MenuItem>
-            //   ))}
-            // </Select>
-
-            <TextField
-              select
-              variant="outlined"
-              label="Category"
-              size="small"
-              className="w-full"
-              SelectProps={{
-                multiple: true,
-                displayEmpty: true,
-              }}
-              {...field}
-            >
-              {categories.map((category) => (
-                <MenuItem
-                  key={category._id}
-                  value={category._id}
-                  sx={{ marginY: 0.4 }}
-                >
-                  <span>{category.name}</span>
-                </MenuItem>
-              ))}
-            </TextField>
-          )}
-        />
-        <p className="m-0 text-red-500">{errors.size?.message}</p>
+                ))}
+              </TextField>
+            )}
+          />
+          <p className="m-0 text-red-500">{errors.size?.message}</p>
+        </Box>
       </Box>
 
       <Button
