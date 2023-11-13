@@ -176,6 +176,8 @@ const update = async (id, payload) => {
       categories,
       version: nextVersion,
       product: id,
+      images: latestVersion.images, //temp
+      thumbnail: latestVersion.thumbnail, //temp
     },
   ])
 
