@@ -157,7 +157,7 @@ const CreateProduct = () => {
       </Box>
 
       <Box className="flex gap-3">
-        <Box className="flex-[3]">
+        <Box className="flex-1">
           <Controller
             name="price"
             control={control}
@@ -175,7 +175,7 @@ const CreateProduct = () => {
           <p className="m-0 text-red-500">{errors.price?.message}</p>
         </Box>
 
-        <Box className="flex-[3]">
+        <Box className="flex-1">
           <Controller
             name="color"
             control={control}
@@ -192,7 +192,7 @@ const CreateProduct = () => {
           <p className="m-0 text-red-500">{errors.color?.message}</p>
         </Box>
 
-        <Box className="flex-[3]">
+        <Box className="flex-1">
           <Controller
             name="size"
             control={control}
@@ -222,7 +222,7 @@ const CreateProduct = () => {
           <p className="m-0 text-red-500">{errors.size?.message}</p>
         </Box>
 
-        <Box className="flex-[3]">
+        <Box className="flex-1">
           <Controller
             name="categories"
             control={control}
