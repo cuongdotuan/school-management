@@ -5,7 +5,7 @@ dotenv.config()
 
 const { ADMIN_USERNAME, ADMIN_PASSWORD, JWT_KEY } = process.env
 
-const TOKEN_EXPIRE_IN_SECONDS = 60 * 60 * 24
+const TOKEN_EXPIRE_IN_SECONDS = 60 * 60
 
 const login = (username, password) => {
   if (
