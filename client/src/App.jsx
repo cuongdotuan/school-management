@@ -19,18 +19,17 @@ import {
   useNavigate,
 } from "react-router-dom"
 import "./App.css"
-import Home from "./pages/Home"
-import CategoryCreate from "./pages/category/Create"
-import CategoryEdit from "./pages/category/Edit"
-import CategoryList from "./pages/category/List"
-import CustomerDetail from "./pages/customer/Detail"
-import CustomerList from "./pages/customer/List"
-import OrderDetail from "./pages/order/Detail"
-import OrderList from "./pages/order/List"
-import ProductCreate from "./pages/product/Create"
-import ProductEdit from "./pages/product/Edit"
-import ProductsList from "./pages/product/List"
-import NewList from "./pages/new/List"
+import Home from "./pages/admin/Home"
+import CategoryCreate from "./pages/admin/category/Create"
+import CategoryEdit from "./pages/admin/category/Edit"
+import CategoryList from "./pages/admin/category/List"
+import CustomerDetail from "./pages/admin/customer/Detail"
+import CustomerList from "./pages/admin/customer/List"
+import OrderDetail from "./pages/admin/order/Detail"
+import OrderList from "./pages/admin/order/List"
+import ProductCreate from "./pages/admin/product/Create"
+import ProductEdit from "./pages/admin/product/Edit"
+import ProductsList from "./pages/admin/product/List"
 
 import CategoryIcon from "@mui/icons-material/Category"
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft"
@@ -53,12 +52,16 @@ import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
 import { styled, useTheme } from "@mui/material/styles"
 import { AppContext } from "./context"
-import Login from "./pages/Login"
+import Login from "./pages/admin/Login"
 import { USER } from "./constants"
 import handleLogOut from "./helper"
 import AccountCircleIcon from "@mui/icons-material/AccountCircle"
+import Landing from "./pages/commerce/Landing"
+import NewList from "./pages/new/List"
 
-const appRoutes = [
+const commerceRoutes = [{ path: "/", element: <Landing /> }]
+
+const adminRoutes = [
   { path: "/", element: <Home /> },
   { path: "/customer", element: <CustomerList /> },
   { path: "/customer/view/:id", element: <CustomerDetail /> },
@@ -70,13 +73,11 @@ const appRoutes = [
   { path: "/category", element: <CategoryList /> },
   { path: "/category/edit/:id", element: <CategoryEdit /> },
   { path: "/category/create", element: <CategoryCreate /> },
-  { path: "/*", element: <Navigate to="/" /> },
 ]
 
 const authRoutes = [
   { path: "/", element: <Login /> },
   { path: "/new", element: <NewList /> },
-  { path: "/*", element: <Navigate to="/" /> },
 ]
 const drawerWidth = 240
 
@@ -170,10 +171,10 @@ const Drawer = styled(MuiDrawer, {
 const AppLayout = () => {
   const theme = useTheme()
   const [open, setOpen] = useState(false)
-  const { header, snackbar } = useContext(AppContext)
   const navigate = useNavigate()
   const [anchorEl, setAnchorEl] = useState(null)
-  const openAccout = Boolean(anchorEl)
+  const { header } = useContext(AppContext)
+  const openProfileMenu = !!anchorEl
 
   const handleDrawerOpen = () => {
     setOpen(true)
@@ -220,23 +221,13 @@ const AppLayout = () => {
                 Shop Management
               </Typography>
               <Box>
-                <Button
-                  id="basic-button"
-                  aria-controls={openAccout ? "basic-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={openAccout ? "true" : undefined}
-                  onClick={handleAccountLogoClick}
-                >
+                <Button onClick={handleAccountLogoClick}>
                   <AccountCircleIcon className="text-white" />
                 </Button>
                 <Menu
-                  id="basic-menu"
                   anchorEl={anchorEl}
-                  open={openAccout}
+                  open={openProfileMenu}
                   onClose={handleAccountLogoClose}
-                  MenuListProps={{
-                    "aria-labelledby": "basic-button",
-                  }}
                 >
                   <MenuItem onClick={handleAccountLogoClose}>Profile</MenuItem>
                   <MenuItem onClick={handleAccountLogoClose}>
@@ -329,56 +320,44 @@ const AppLayout = () => {
 }
 
 const App = () => {
-  const [init, setInit] = useState(false)
-  const { user, setUser, isLoading, snackbar, setSnackbar } =
-    useContext(AppContext)
+  const { user, isLoading, snackbar, setSnackbar } = useContext(AppContext)
 
-  useEffect(() => {
-    const userLocal = localStorage.getItem(USER)
-    const parsedUser = JSON.parse(userLocal)
-    if (parsedUser && !user && !init) {
-      setUser(parsedUser)
+  const handleCloseSnackbar = (e, reason) => {
+    if (reason === "clickaway") {
+      return
     }
-    setInit(true)
-  }, [])
-
-  if (!init) {
-    return null
-  }
-
-  const handleCloseSnackbar = () => {
     setSnackbar({
       openSnackbar: false,
       snackbarMessage: "",
       snackbarSeverity: undefined,
     })
   }
-  const openSnackbar = snackbar.openSnackbar
-  const snackbarMessage = snackbar.snackbarMessage
-  const snackbarSeverity = snackbar.snackbarSeverity
+  const { openSnackbar, snackbarMessage, snackbarSeverity } = snackbar
 
   return (
     <>
       {isLoading && (
-        <div className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-[10000] flex justify-center items-center text-white">
-          <Box sx={{ display: "flex" }}>
-            <CircularProgress color="primary" />
-          </Box>
-        </div>
+        <Box className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-[10000] flex justify-center items-center">
+          <CircularProgress color="primary" />
+        </Box>
       )}
 
       <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
         open={openSnackbar}
+        anchorOrigin={{ vertical: "top", horizontal: "right" }}
+        autoHideDuration={6000}
         onClose={handleCloseSnackbar}
         className="top-20 min-w-[10%]"
+        message="OK"
       >
-        <Alert
-          severity={snackbarSeverity}
-          className="w-full"
-        >
-          {snackbarMessage}
-        </Alert>
+        {openSnackbar ? (
+          <Alert
+            severity={snackbarSeverity}
+            className="w-full"
+          >
+            {snackbarMessage}
+          </Alert>
+        ) : null}
       </Snackbar>
 
       <BrowserRouter>
@@ -388,7 +367,7 @@ const App = () => {
               path="/"
               element={<AppLayout />}
             >
-              {appRoutes.map((route) => (
+              {adminRoutes.map((route) => (
                 <Route
                   key={route.path}
                   path={route.path}
@@ -405,6 +384,10 @@ const App = () => {
               />
             ))
           )}
+          <Route
+            path="/*"
+            element={<Navigate to="/" />}
+          />
         </Routes>
       </BrowserRouter>
     </>

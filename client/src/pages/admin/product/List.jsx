@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react"
-import api from "../../api"
+import api from "../../../api"
 import { useNavigate } from "react-router-dom"
-import { DEFAULT_PAGINATION, PAGE_SIZE_OPTIONS } from "../../constants"
-import { AppContext } from "../../context"
+import { DEFAULT_PAGINATION, PAGE_SIZE_OPTIONS } from "../../../constants"
+import { AppContext } from "../../../context"
 
 import { styled } from "@mui/material/styles"
 import Table from "@mui/material/Table"

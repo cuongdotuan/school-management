@@ -2,11 +2,11 @@ import React, { useContext } from "react"
 import { Box, Button, Input, Select, TextField } from "@mui/material"
 import axios from "axios"
 import { Controller, useForm } from "react-hook-form"
-import { AppContext } from "../context"
-import { TOKEN, USER } from "../constants"
+import { AppContext } from "../../context"
+import { TOKEN, USER } from "../../constants"
 
 import CircularProgress from "@mui/material/CircularProgress"
-import api from "../api"
+import api from "../../api"
 
 const Login = () => {
   const { setUser, isLoading, setIsLoading } = useContext(AppContext)

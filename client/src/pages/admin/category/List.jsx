@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
-import { AppContext } from "../../context"
+import { AppContext } from "../../../context"
 import { useNavigate } from "react-router-dom"
 
 import { Box, Button, Divider, Input, Typography } from "@mui/material"
@@ -19,8 +19,8 @@ import FormControl from "@mui/material/FormControl"
 import Select from "@mui/material/Select"
 import NavigateNextIcon from "@mui/icons-material/NavigateNext"
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore"
-import { DEFAULT_PAGINATION, PAGE_SIZE_OPTIONS } from "../../constants"
-import api from "../../api"
+import { DEFAULT_PAGINATION, PAGE_SIZE_OPTIONS } from "../../../constants"
+import api from "../../../api"
 
 let totalCategories
 let totalPages

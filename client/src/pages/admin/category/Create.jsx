@@ -1,7 +1,7 @@
 import { Button, TextField } from "@mui/material"
 import React, { useContext, useState } from "react"
-import { AppContext } from "../../context"
-import api from "../../api"
+import { AppContext } from "../../../context"
+import api from "../../../api"
 import { useNavigate } from "react-router-dom"
 import { useEffect } from "react"
 

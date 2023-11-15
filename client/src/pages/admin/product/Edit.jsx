@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import api from "../../api"
-import { AppContext } from "../../context"
+import api from "../../../api"
+import { AppContext } from "../../../context"
 import {
   Button,
   FormControl,

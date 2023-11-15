@@ -4,8 +4,8 @@ import { useContext, useEffect, useState } from "react"
 import { Controller, useForm } from "react-hook-form"
 import { useNavigate } from "react-router-dom"
 import * as yup from "yup"
-import api from "../../api"
-import { AppContext } from "../../context"
+import api from "../../../api"
+import { AppContext } from "../../../context"
 
 const schema = yup
   .object({

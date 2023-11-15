@@ -1,8 +1,8 @@
 import { Button, TextField } from "@mui/material"
 import React, { useContext, useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import api from "../../api"
-import { AppContext } from "../../context"
+import api from "../../../api"
+import { AppContext } from "../../../context"
 
 const CategoryEdit = () => {
   const [detail, setDetail] = useState(null)
@@ -64,6 +64,3 @@ const CategoryEdit = () => {
 }
 
 export default CategoryEdit
-function setSnackbar(arg0) {
-  throw new Error("Function not implemented.")
-}
