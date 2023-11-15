@@ -7,6 +7,14 @@ const categorySchema = new Schema({
     unique: true,
     required: true,
   },
+  isInNavbar: {
+    type: Boolean,
+    default: false,
+  },
+  isInFilter: {
+    type: Boolean,
+    default: false,
+  },
 })
 
 const Category = mongoose.model("Category", categorySchema)

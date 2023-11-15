@@ -19,7 +19,7 @@ const get = async (query) => {
   const items = await Category.find()
     .skip(skipItemsCount)
     .limit(pageSize)
-    .select("_id name")
+    .select("_id name isInNavbar isInFilter")
     .exec()
 
   return {

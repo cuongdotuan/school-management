@@ -39,10 +39,15 @@ try {
   provinces = JSON.parse(provincesText)
 } catch (error) {}
 
-export const addresses = {
-  wards,
-  districts,
-  provinces,
+export const ADDRESSES = {
+  WARDS: wards,
+  DISTRICTS: districts,
+  PROVINCES: provinces,
 }
 
 export const SIZES = ["XXXS", "XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL"]
+
+export const ROLES = {
+  ADMIN: "ADMIN",
+  USER: "USER",
+}
