@@ -30,6 +30,7 @@ import OrderList from "./pages/order/List"
 import ProductCreate from "./pages/product/Create"
 import ProductEdit from "./pages/product/Edit"
 import ProductsList from "./pages/product/List"
+import NewList from "./pages/new/List"
 
 import CategoryIcon from "@mui/icons-material/Category"
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft"
@@ -74,6 +75,7 @@ const appRoutes = [
 
 const authRoutes = [
   { path: "/", element: <Login /> },
+  { path: "/new", element: <NewList /> },
   { path: "/*", element: <Navigate to="/" /> },
 ]
 const drawerWidth = 240
@@ -168,14 +170,10 @@ const Drawer = styled(MuiDrawer, {
 const AppLayout = () => {
   const theme = useTheme()
   const [open, setOpen] = useState(false)
-  const { isLoading, header, snackbar, setSnackbar } = useContext(AppContext)
+  const { header, snackbar } = useContext(AppContext)
   const navigate = useNavigate()
   const [anchorEl, setAnchorEl] = useState(null)
   const openAccout = Boolean(anchorEl)
-
-  const openSnackbar = snackbar.openSnackbar
-  const snackbarMessage = snackbar.snackbarMessage
-  const snackbarSeverity = snackbar.snackbarSeverity
 
   const handleDrawerOpen = () => {
     setOpen(true)
@@ -191,38 +189,8 @@ const AppLayout = () => {
     setAnchorEl(null)
   }
 
-  const handleCloseSnackbar = () => {
-    setSnackbar({
-      openSnackbar: false,
-      snackbarMessage: "",
-      snackbarSeverity: undefined,
-    })
-  }
-
   return (
     <>
-      {isLoading && (
-        <div className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-50 flex justify-center items-center text-white">
-          <Box sx={{ display: "flex" }}>
-            <CircularProgress color="primary" />
-          </Box>
-        </div>
-      )}
-
-      <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
-        open={openSnackbar}
-        onClose={handleCloseSnackbar}
-        className="top-20 min-w-[10%]"
-      >
-        <Alert
-          severity={snackbarSeverity}
-          className="w-full"
-        >
-          {snackbarMessage}
-        </Alert>
-      </Snackbar>
-
       <Box className="flex">
         <CssBaseline />
         <AppBar
@@ -362,7 +330,8 @@ const AppLayout = () => {
 
 const App = () => {
   const [init, setInit] = useState(false)
-  const { user, setUser } = useContext(AppContext)
+  const { user, setUser, isLoading, snackbar, setSnackbar } =
+    useContext(AppContext)
 
   useEffect(() => {
     const userLocal = localStorage.getItem(USER)
@@ -377,33 +346,68 @@ const App = () => {
     return null
   }
 
+  const handleCloseSnackbar = () => {
+    setSnackbar({
+      openSnackbar: false,
+      snackbarMessage: "",
+      snackbarSeverity: undefined,
+    })
+  }
+  const openSnackbar = snackbar.openSnackbar
+  const snackbarMessage = snackbar.snackbarMessage
+  const snackbarSeverity = snackbar.snackbarSeverity
+
   return (
-    <BrowserRouter>
-      <Routes>
-        {user ? (
-          <Route
-            path="/"
-            element={<AppLayout />}
-          >
-            {appRoutes.map((route) => (
+    <>
+      {isLoading && (
+        <div className="fixed top-0 left-0 h-screen w-screen bg-zinc-900 opacity-80 z-[10000] flex justify-center items-center text-white">
+          <Box sx={{ display: "flex" }}>
+            <CircularProgress color="primary" />
+          </Box>
+        </div>
+      )}
+
+      <Snackbar
+        anchorOrigin={{ vertical: "top", horizontal: "right" }}
+        open={openSnackbar}
+        onClose={handleCloseSnackbar}
+        className="top-20 min-w-[10%]"
+      >
+        <Alert
+          severity={snackbarSeverity}
+          className="w-full"
+        >
+          {snackbarMessage}
+        </Alert>
+      </Snackbar>
+
+      <BrowserRouter>
+        <Routes>
+          {user ? (
+            <Route
+              path="/"
+              element={<AppLayout />}
+            >
+              {appRoutes.map((route) => (
+                <Route
+                  key={route.path}
+                  path={route.path}
+                  element={route.element}
+                />
+              ))}
+            </Route>
+          ) : (
+            authRoutes.map((route) => (
               <Route
                 key={route.path}
                 path={route.path}
                 element={route.element}
               />
-            ))}
-          </Route>
-        ) : (
-          authRoutes.map((route) => (
-            <Route
-              key={route.path}
-              path={route.path}
-              element={route.element}
-            />
-          ))
-        )}
-      </Routes>
-    </BrowserRouter>
+            ))
+          )}
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 
