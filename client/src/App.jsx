@@ -38,10 +38,10 @@ import DescriptionIcon from "@mui/icons-material/Description"
 import Inventory2Icon from "@mui/icons-material/Inventory2"
 import MenuIcon from "@mui/icons-material/Menu"
 import PersonIcon from "@mui/icons-material/Person"
-import MuiAppBar from "@mui/material/AppBar"
+import AppBar from "@mui/material/AppBar"
 import CssBaseline from "@mui/material/CssBaseline"
 import Divider from "@mui/material/Divider"
-import MuiDrawer from "@mui/material/Drawer"
+import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
 import List from "@mui/material/List"
 import ListItem from "@mui/material/ListItem"
@@ -103,6 +103,7 @@ const drawerItems = [
     url: "/category",
   },
 ]
+
 const openedMixin = (theme) => ({
   width: drawerWidth,
   transition: theme.transitions.create("width", {
@@ -124,63 +125,19 @@ const closedMixin = (theme) => ({
   },
 })
 
-const DrawerHeader = styled("div")(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "flex-end",
-  padding: theme.spacing(0, 1),
-  // necessary for content to be below app bar
-  ...theme.mixins.toolbar,
-}))
-
-const AppBar = styled(MuiAppBar, {
-  shouldForwardProp: (prop) => prop !== "open",
-})(({ theme, open }) => ({
-  zIndex: theme.zIndex.drawer + 1,
-  transition: theme.transitions.create(["width", "margin"], {
-    easing: theme.transitions.easing.sharp,
-    duration: theme.transitions.duration.leavingScreen,
-  }),
-  ...(open && {
-    marginLeft: drawerWidth,
-    width: `calc(100% - ${drawerWidth}px)`,
-    transition: theme.transitions.create(["width", "margin"], {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-  }),
-}))
-
-const Drawer = styled(MuiDrawer, {
-  shouldForwardProp: (prop) => prop !== "open",
-})(({ theme, open }) => ({
-  width: drawerWidth,
-  flexShrink: 0,
-  whiteSpace: "nowrap",
-  boxSizing: "border-box",
-  ...(open && {
-    ...openedMixin(theme),
-    "& .MuiDrawer-paper": openedMixin(theme),
-  }),
-  ...(!open && {
-    ...closedMixin(theme),
-    "& .MuiDrawer-paper": closedMixin(theme),
-  }),
-}))
-
 const AppLayout = () => {
   const theme = useTheme()
-  const [open, setOpen] = useState(false)
+  const [openDrawer, setOpenDrawer] = useState(false)
   const navigate = useNavigate()
   const [anchorEl, setAnchorEl] = useState(null)
   const { header } = useContext(AppContext)
   const openProfileMenu = !!anchorEl
 
   const handleDrawerOpen = () => {
-    setOpen(true)
+    setOpenDrawer(true)
   }
   const handleDrawerClose = () => {
-    setOpen(false)
+    setOpenDrawer(false)
   }
 
   const handleAccountLogoClick = (event) => {
@@ -195,9 +152,22 @@ const AppLayout = () => {
       <Box className="flex">
         <CssBaseline />
         <AppBar
-          position="fixed"
-          open={open}
-          className="bg-red-500"
+          className="bg-red-500 fixed"
+          sx={{
+            zIndex: theme.zIndex.drawer + 1,
+            transition: theme.transitions.create(["width", "margin"], {
+              easing: theme.transitions.easing.sharp,
+              duration: theme.transitions.duration.leavingScreen,
+            }),
+            ...(openDrawer && {
+              marginLeft: drawerWidth,
+              width: `calc(100% - ${drawerWidth}px)`,
+              transition: theme.transitions.create(["width", "margin"], {
+                easing: theme.transitions.easing.sharp,
+                duration: theme.transitions.duration.enteringScreen,
+              }),
+            }),
+          }}
         >
           <Toolbar>
             <IconButton
@@ -207,7 +177,7 @@ const AppLayout = () => {
               edge="start"
               sx={{
                 marginRight: 5,
-                ...(open && { display: "none" }),
+                ...(openDrawer && { display: "none" }),
               }}
             >
               <MenuIcon />
@@ -248,9 +218,24 @@ const AppLayout = () => {
         </AppBar>
         <Drawer
           variant="permanent"
-          open={open}
+          open={openDrawer}
+          className="shrink-0 whitespace-nowrap box-border"
+          sx={{
+            width: drawerWidth,
+            ...(openDrawer && {
+              ...openedMixin(theme),
+              "& .MuiDrawer-paper": openedMixin(theme),
+            }),
+            ...(!openDrawer && {
+              ...closedMixin(theme),
+              "& .MuiDrawer-paper": closedMixin(theme),
+            }),
+          }}
         >
-          <DrawerHeader className="bg-red-500">
+          <Box
+            className="bg-red-500 flex items-center justify-end"
+            sx={{ padding: theme.spacing(0, 1), ...theme.mixins.toolbar }}
+          >
             <IconButton
               onClick={handleDrawerClose}
               className="text-white"
@@ -261,7 +246,8 @@ const AppLayout = () => {
                 <ChevronLeftIcon />
               )}
             </IconButton>
-          </DrawerHeader>
+          </Box>
+
           <Divider />
 
           <List>
@@ -274,7 +260,7 @@ const AppLayout = () => {
                 <ListItemButton
                   sx={{
                     minHeight: 48,
-                    justifyContent: open ? "initial" : "center",
+                    justifyContent: openDrawer ? "initial" : "center",
                     px: 2.5,
                   }}
                   onClick={() => {
@@ -284,7 +270,7 @@ const AppLayout = () => {
                   <ListItemIcon
                     sx={{
                       minWidth: 0,
-                      mr: open ? 3 : "auto",
+                      mr: openDrawer ? 3 : "auto",
                       justifyContent: "center",
                     }}
                   >
@@ -292,7 +278,7 @@ const AppLayout = () => {
                   </ListItemIcon>
                   <ListItemText
                     primary={item.name}
-                    sx={{ opacity: open ? 1 : 0 }}
+                    sx={{ opacity: openDrawer ? 1 : 0 }}
                   />
                 </ListItemButton>
               </ListItem>
