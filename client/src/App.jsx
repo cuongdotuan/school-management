@@ -24,10 +24,12 @@ import Login from "./pages/admin/Login"
 import Landing from "./pages/commerce/Landing"
 import NewList from "./pages/new/List"
 import CommerceLayout from "./layouts/commerce"
+import Detail from "./pages/new/Detail"
 
 const commerceRoutes = [
   { path: "", element: <Landing /> },
   { path: "product", element: <NewList /> },
+  { path: "product/:id", element: <Detail /> },
 ]
 
 const adminRoutes = [
@@ -43,6 +45,8 @@ const adminRoutes = [
 ]
 
 const authRoutes = [{ path: "", element: <Login /> }]
+
+const drawerWidth = 240
 
 const App = () => {
   const { user } = useContext(AppContext)
