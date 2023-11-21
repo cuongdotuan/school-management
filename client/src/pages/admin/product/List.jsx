@@ -124,7 +124,7 @@ const ProductsList = () => {
           <div className="flex justify-end my-3">
             <Button
               className="bg-green-500 text-white text-base"
-              onClick={() => navigate(`/product/create`)}
+              onClick={() => navigate("/admin/product/create")}
             >
               Create Product
             </Button>
@@ -226,7 +226,9 @@ const ProductsList = () => {
                     <StyledTableCell align="center">
                       <Button
                         className="text-zinc-600"
-                        onClick={() => navigate(`/product/edit/${product._id}`)}
+                        onClick={() =>
+                          navigate(`/admin/product/edit/${product._id}`)
+                        }
                       >
                         <Tooltip title="Edit">
                           <EditIcon />

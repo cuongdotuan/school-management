@@ -34,7 +34,7 @@ const CategoryCreate = () => {
           snackbarMessage: "Success",
           snackbarSeverity: "success",
         })
-        navigate("/category")
+        navigate("/admin/category")
       } catch (error) {
         console.log(error)
       } finally {

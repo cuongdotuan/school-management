@@ -32,7 +32,7 @@ const EditProduct = () => {
           snackbarMessage: "Success",
           snackbarSeverity: "success",
         })
-        navigate(`/product`)
+        navigate("/admin/product")
       } catch (error) {
         console.log(error)
         setSnackbar({

@@ -114,7 +114,7 @@ const CategoryList = () => {
           <div className="flex justify-end my-3">
             <Button
               className="bg-green-500 text-white text-base"
-              onClick={() => navigate(`/category/create`)}
+              onClick={() => navigate("/admin/category/create")}
             >
               Create Category
             </Button>
@@ -160,7 +160,7 @@ const CategoryList = () => {
                       <Button
                         className="text-zinc-600"
                         onClick={() =>
-                          navigate(`/category/edit/${category._id}`)
+                          navigate(`/admin/category/edit/${category._id}`)
                         }
                       >
                         <EditIcon />
