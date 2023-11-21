@@ -87,6 +87,7 @@ const NewList = () => {
           <Box
             key={prd._id}
             className="w-[23%] mb-4 flex flex-col gap-3 cursor-pointer duration-200 hover:shadow-md hover:scale-105 "
+            onClick={() => navigate(`/new/${prd._id}`)}
           >
             <img
               src={prd.thumbnail}
