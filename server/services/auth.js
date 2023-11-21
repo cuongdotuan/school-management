@@ -29,25 +29,7 @@ const login = async (username, password) => {
     return { user: payload, token }
   }
 
-  try {
-    const user = await User.findOne({ username }).exec()
-    if (!user) throw new Error()
-    const hash = user.password
-    const isValidPassword = await argon2.verify(hash, password)
-    if (!isValidPassword) throw new Error()
-
-    const payload = {
-      username,
-      fullname: user.fullname,
-      role: ROLES.USER,
-    }
-    const token = jwt.sign(payload, JWT_KEY, {
-      expiresIn: TOKEN_EXPIRE_IN_SECONDS,
-    })
-    return { user: payload, token }
-  } catch (error) {
-    throw new Error("Invalid request")
-  }
+  throw new Error("Invalid request")
 }
 
 const authService = { login }
