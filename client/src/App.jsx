@@ -22,9 +22,9 @@ import AdminLayout from "./layouts/admin"
 import Home from "./pages/admin/Home"
 import Login from "./pages/admin/Login"
 import Landing from "./pages/commerce/Landing"
-import NewList from "./pages/new/List"
+import NewList from "./pages/commerce/List"
 import CommerceLayout from "./layouts/commerce"
-import Detail from "./pages/new/Detail"
+import Detail from "./pages/commerce/Detail"
 
 const commerceRoutes = [
   { path: "", element: <Landing /> },
