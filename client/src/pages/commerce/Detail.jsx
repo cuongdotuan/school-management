@@ -32,7 +32,7 @@ const Detail = () => {
   return (
     <>
       {product && (
-        <Box className="flex gap-5 max-w-7xl mx-auto">
+        <Box className="flex gap-5 max-w-7xl mx-auto mt-10">
           <Box className="flex-[2] flex flex-col items-end gap-1 cursor-pointer h-[600px] overflow-y-auto">
             {product.images.map((img, idx) => (
               <Box key={idx}>

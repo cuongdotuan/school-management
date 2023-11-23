@@ -82,7 +82,7 @@ const NewList = () => {
   }
   return (
     <>
-      <Box className="max-w-7xl mx-auto flex flex-wrap gap-6">
+      <Box className="max-w-7xl mx-auto flex flex-wrap gap-6 mt-10">
         {products.map((prd) => (
           <Box
             key={prd._id}
