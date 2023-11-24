@@ -5,6 +5,7 @@ import categoryController from "../controllers/category.js"
 const categoryRouter = express.Router()
 
 categoryRouter.get("/", categoryController.get)
+categoryRouter.get("/navbar", categoryController.getFromNavbar)
 categoryRouter.get("/:id", categoryController.getDetail)
 categoryRouter.post("/", userAuth, adminAuth, categoryController.create)
 categoryRouter.put("/:id", userAuth, adminAuth, categoryController.update)

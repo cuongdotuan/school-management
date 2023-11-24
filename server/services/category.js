@@ -36,6 +36,14 @@ const getDetail = async (id) => {
   return item
 }
 
+const getFromNavbar = async () => {
+  const items = await Category.find({ isInNavbar: true })
+    .select("_id name")
+    .exec()
+
+  return items
+}
+
 const create = async (payload) => {
   const { name } = payload
   if (!name || !name.trim()) throw new Error("Name is required")
@@ -60,6 +68,13 @@ const remove = async (id) => {
   return result
 }
 
-const categoryService = { get, getDetail, create, update, remove }
+const categoryService = {
+  get,
+  getDetail,
+  getFromNavbar,
+  create,
+  update,
+  remove,
+}
 
 export default categoryService

@@ -22,6 +22,15 @@ const getDetail = async (req, res) => {
   }
 }
 
+const getFromNavbar = async (req, res) => {
+  try {
+    const result = await categoryService.getFromNavbar()
+    res.status(200).json(result)
+  } catch (error) {
+    res.status(400).json({ code: 400, message: error.message })
+  }
+}
+
 const create = async (req, res) => {
   try {
     const result = await categoryService.create(req.body)
@@ -70,6 +79,6 @@ const remove = async (req, res) => {
   }
 }
 
-const categoryController = { get, getDetail, create, update, remove }
+const categoryController = { get, getDetail, getFromNavbar, create, update, remove }
 
 export default categoryController
