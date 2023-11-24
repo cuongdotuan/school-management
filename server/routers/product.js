@@ -8,6 +8,6 @@ productRouter.get("/", productController.get)
 productRouter.get("/:id", productController.getDetail)
 productRouter.post("/", userAuth, adminAuth, productController.create)
 productRouter.put("/:id", userAuth, adminAuth, productController.update)
-// productRouter.delete("/:id", userAuth, adminAuth, productController.remove)
+productRouter.delete("/:id", userAuth, adminAuth, productController.remove) 
 
 export default productRouter

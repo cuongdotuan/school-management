@@ -8,29 +8,23 @@ import mongoose from "mongoose"
 import ProductVersion from "../models/productVersion.js"
 
 const get = async (query) => {
-  const pageSize =
-    query.pageSize && query.pageSize > 0
-      ? parseInt(query.pageSize)
-      : DEFAULT_PAGE_SIZE
-  const pageNumber =
-    query.pageNumber && query.pageNumber > 0
-      ? parseInt(query.pageNumber)
-      : DEFAULT_PAGE_NUMBER
+  const { pageSize, pageNumber, category } = query
+  const size = pageSize && pageSize > 0 ? parseInt(pageSize) : DEFAULT_PAGE_SIZE
+  const number =
+    pageNumber && pageNumber > 0 ? parseInt(pageNumber) : DEFAULT_PAGE_NUMBER
 
   const totalItems = await Product.count()
-  const totalPages = Math.ceil(totalItems / pageSize)
+  const totalPages = Math.ceil(totalItems / size)
 
-  const skipItemsCount = (pageNumber - 1) * pageSize
+  const skipItemsCount = (number - 1) * size
 
-  const products = await Product.find()
-    .skip(skipItemsCount)
-    .limit(pageSize)
-    .exec()
+  const products = await Product.find().skip(skipItemsCount).limit(size).exec()
 
   const productIds = products.map((p) => p._id.toString())
 
   const versions = await ProductVersion.find({
     product: { $in: productIds },
+    // "categories._id": { $elemMatch: { $eq: "654b04a91095bc3cd5d3707b" } },
   })
     .populate("categories", "name _id")
     .exec()
@@ -57,14 +51,17 @@ const get = async (query) => {
 
   return {
     items: response,
-    pageSize,
-    pageNumber,
+    pageSize: size,
+    pageNumber: number,
     totalItems,
     totalPages,
   }
 }
 
 const getDetail = async (id) => {
+  const exist = await Product.findById(id).exec()
+  if (!exist) throw new Error()
+
   const initVersion = await ProductVersion.findOne({
     product: id,
     version: DEFAULT_VERSION,
@@ -185,8 +182,19 @@ const update = async (id, payload) => {
 }
 
 const remove = async (id) => {
-  const result = await Product.findByIdAndDelete(id).exec()
-  return result._id
+  const session = await mongoose.startSession()
+  try {
+    session.startTransaction()
+    await ProductVersion.deleteMany({ product: id }).session(session).exec()
+    const result = await Product.findByIdAndDelete(id).exec()
+    await session.commitTransaction()
+    return result._id
+  } catch (error) {
+    await session.abortTransaction()
+    throw error
+  } finally {
+    session.endSession()
+  }
 }
 
 const verifyProduct = (product) => {

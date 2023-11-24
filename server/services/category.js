@@ -2,19 +2,16 @@ import { DEFAULT_PAGE_NUMBER, DEFAULT_PAGE_SIZE } from "../constants.js"
 import Category from "../models/category.js"
 
 const get = async (query) => {
-  const pageSize =
-    query.pageSize && query.pageSize > 0
-      ? parseInt(query.pageSize)
-      : DEFAULT_PAGE_SIZE
-  const pageNumber =
-    query.pageNumber && query.pageNumber > 0
-      ? parseInt(query.pageNumber)
-      : DEFAULT_PAGE_NUMBER
+  const { pageSize, pageNumber, category } = query
+
+  const size = pageSize && pageSize > 0 ? parseInt(pageSize) : DEFAULT_PAGE_SIZE
+  const number =
+    pageNumber && pageNumber > 0 ? parseInt(pageNumber) : DEFAULT_PAGE_NUMBER
 
   const totalItems = await Category.count()
-  const totalPages = Math.ceil(totalItems / pageSize)
+  const totalPages = Math.ceil(totalItems / size)
 
-  const skipItemsCount = (pageNumber - 1) * pageSize
+  const skipItemsCount = (number - 1) * size
 
   const items = await Category.find()
     .skip(skipItemsCount)
@@ -24,8 +21,8 @@ const get = async (query) => {
 
   return {
     items,
-    pageSize,
-    pageNumber,
+    pageSize: size,
+    pageNumber: number,
     totalItems,
     totalPages,
   }
