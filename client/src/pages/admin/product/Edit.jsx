@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom"
 import api from "../../../api"
 import { AppContext } from "../../../context"
 import {
+  Box,
   Button,
   FormControl,
   Input,
@@ -130,6 +131,7 @@ const EditProduct = () => {
             <TextField
               id="outlined-basic"
               label="Name"
+              size="small"
               variant="outlined"
               type="text"
               className="w-full"
@@ -152,60 +154,106 @@ const EditProduct = () => {
             />
           )}
         />
-        <Controller
-          name="price"
-          defaultValue=""
-          control={control}
-          render={({ field }) => (
-            <TextField
-              id="outlined-basic"
-              label="Price"
-              variant="outlined"
-              type="number"
-              className="w-full"
-              {...field}
+        <Box className="flex gap-3">
+          <Box className="flex-1">
+            <Controller
+              name="price"
+              defaultValue=""
+              control={control}
+              render={({ field }) => (
+                <TextField
+                  id="outlined-basic"
+                  label="Price"
+                  size="small"
+                  variant="outlined"
+                  type="number"
+                  className="w-full"
+                  {...field}
+                />
+              )}
             />
-          )}
-        />
-        <Controller
-          name="color"
-          defaultValue=""
-          control={control}
-          render={({ field }) => (
-            <TextField
-              id="outlined-basic"
-              label="Color"
-              variant="outlined"
-              type="text"
-              className="w-full"
-              {...field}
+          </Box>
+
+          <Box className="flex-1">
+            <Controller
+              name="color"
+              defaultValue=""
+              control={control}
+              render={({ field }) => (
+                <TextField
+                  id="outlined-basic"
+                  label="Color"
+                  size="small"
+                  variant="outlined"
+                  type="text"
+                  className="w-full"
+                  {...field}
+                />
+              )}
             />
-          )}
-        />
-        <Controller
-          name="size"
-          control={control}
-          defaultValue=""
-          render={({ field }) => (
-            <TextField
-              className="w-full"
-              select
-              label="Size"
-              {...field}
-            >
-              {sizes.map((s) => {
-                return (
-                  <MenuItem
-                    key={s}
-                    value={s}
-                  >
-                    {s}
-                  </MenuItem>
-                )
-              })}
-            </TextField>
-          )}
-        />
+          </Box>
+
+          <Box className="flex-1">
+            <Controller
+              name="size"
+              control={control}
+              defaultValue=""
+              render={({ field }) => (
+                <TextField
+                  className="w-full"
+                  select
+                  label="Size"
+                  size="small"
+                  {...field}
+                >
+                  {sizes.map((s) => {
+                    return (
+                      <MenuItem
+                        key={s}
+                        value={s}
+                      >
+                        {s}
+                      </MenuItem>
+                    )
+                  })}
+                </TextField>
+              )}
+            />
+          </Box>
+
+          <Box className="flex-1">
+            <Controller
+              name="categories"
+              control={control}
+              defaultValue={[]}
+              render={({ field }) => (
+                <TextField
+                  select
+                  variant="outlined"
+                  label="Category"
+                  size="small"
+                  className="w-full"
+                  SelectProps={{
+                    multiple: true,
+                    displayEmpty: true,
+                  }}
+                  {...field}
+                >
+                  {categories.map((category) => (
+                    <MenuItem
+                      key={category._id}
+                      value={category._id}
+                      sx={{ marginY: 0.4 }}
+                    >
+                      <span>{category.name}</span>
+                    </MenuItem>
+                  ))}
+                </TextField>
+              )}
+            />
+          </Box>
+        </Box>
+
         <Button
           variant="contained"
           type="submit"

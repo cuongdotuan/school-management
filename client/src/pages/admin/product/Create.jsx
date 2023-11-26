@@ -146,7 +146,7 @@ const CreateProduct = () => {
               label="Description"
               className="w-full"
               multiline
-              maxRows={4}
+              rows={4}
               size="small"
               {...field}
               {...register("description")}
