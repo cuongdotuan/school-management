@@ -12,7 +12,27 @@ import EmailIcon from "@mui/icons-material/Email"
 import FacebookIcon from "@mui/icons-material/Facebook"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import YouTubeIcon from "@mui/icons-material/YouTube"
+import { useEffect, useState } from "react"
+import api from "../api"
 const CommerceLayout = () => {
+  const [categoriesNavbar, setCategoriesNavber] = useState([])
+  useEffect(() => {
+    let ignore = false
+    const getCategoriesInNavbar = async () => {
+      try {
+        const res = await api.get(`/categories/navbar`)
+        if (!ignore) {
+          setCategoriesNavber(res.data)
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getCategoriesInNavbar()
+    return () => {
+      ignore = false
+    }
+  })
   return (
     <>
       <Box className="bg-zinc-400 fixed top-0 left-0 w-full h-24 z-50">
@@ -46,20 +66,16 @@ const CommerceLayout = () => {
               >
                 {"Products"}
               </Link>
-              <Link
-                href="#"
-                underline="none"
-                color="black"
-              >
-                {"Top"}
-              </Link>
-              <Link
-                href="#"
-                underline="none"
-                color="black"
-              >
-                {"Bottom"}
-              </Link>
+              {categoriesNavbar.map((category, idx) => (
+                <Link
+                  key={idx}
+                  href="#"
+                  underline="none"
+                  color="black"
+                >
+                  {category.name}
+                </Link>
+              ))}
               <Link
                 href="#"
                 underline="none"
@@ -137,7 +153,7 @@ const CommerceLayout = () => {
               </Box>
             </Box>
 
-            <Box className="flex-1 flex flex-col gap-2">
+            <Box className="flex-1 flex flex-col gap-3">
               <Typography className="text-2xl">Policy</Typography>
               <Link
                 href="#"
