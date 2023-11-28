@@ -95,13 +95,17 @@ const ProductsList = () => {
 
   const handleChangePageSize = (event) => {
     setPageSize(event.target.value)
+    setPageNumber(1)
+    setPageInput("1")
   }
   const handleClickNextPage = () => {
     setPageNumber(pageNumber + 1)
+    setPageInput(`${parseInt(pageInput) + 1}`)
   }
 
   const handleClickPrevPage = () => {
     setPageNumber(pageNumber - 1)
+    setPageInput(`${parseInt(pageInput) - 1}`)
   }
 
   const handleChangePageNumber = (e) => {
@@ -111,6 +115,7 @@ const ProductsList = () => {
     if (e.keyCode === 13) {
       if (parseInt(pageInput) > totalPages) {
         setPageNumber(1)
+        setPageInput("1")
         return
       }
       setPageNumber(parseInt(pageInput))
