@@ -32,7 +32,7 @@ const CommerceLayout = () => {
     return () => {
       ignore = false
     }
-  })
+  }, [])
   return (
     <>
       <Box className="bg-zinc-400 fixed top-0 left-0 w-full h-24 z-50">
@@ -53,14 +53,14 @@ const CommerceLayout = () => {
             </Typography>
             <Box className="flex justify-around items-center ">
               <Link
-                href="#"
+                href="/"
                 underline="none"
                 color="black"
               >
                 {"Home"}
               </Link>
               <Link
-                href="#"
+                href="/product"
                 underline="none"
                 color="black"
               >

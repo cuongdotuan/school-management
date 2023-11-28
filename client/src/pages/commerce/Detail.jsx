@@ -1,13 +1,15 @@
 import { Box, Button, Divider, Typography } from "@mui/material"
-import React, { useEffect, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import api from "../../api"
+import { AppContext } from "../../context"
 
 const Detail = () => {
   const [product, setProduct] = useState(null)
   const [imgIndex, setImgIndex] = useState(0)
   const param = useParams()
-
+  const store = useContext(AppContext)
+  const { cart, setCart, setSnackbar } = store
   useEffect(() => {
     let ignore = false
     const getProductDetail = async () => {
@@ -26,8 +28,27 @@ const Detail = () => {
       ignore = true
     }
   }, [])
+
   const handleChangeIndexImage = (idx) => {
     setImgIndex(idx)
+  }
+
+  const addToCart = () => {
+    const foundProduct = cart.find((p) => p._id === product._id)
+    if (!foundProduct) {
+      const newProduct = { ...product, quantity: 1 }
+      setCart([...cart, newProduct])
+      return
+    }
+
+    const newProducts = cart.map((p) => {
+      if (p._id === product._id) {
+        const newProduct = { ...p, quantity: p.quantity + 1 }
+        return newProduct
+      }
+      return p
+    })
+    setCart(newProducts)
   }
   return (
     <>
@@ -64,13 +85,7 @@ const Detail = () => {
                 <Typography className="text-xl py-2">
                   $ {product.price}
                 </Typography>
-                <Button
-                  variant="contained"
-                  color="success"
-                  className="w-full my-4 bg-green-500"
-                >
-                  add to cart
-                </Button>
+                <Box className="h-[2px] bg-gradient-to-r from-purple-500 to-pink-500" />
               </>
             ) : (
               <>
@@ -84,15 +99,16 @@ const Detail = () => {
                   Save: $ {product.originalPrice - product.price}
                 </Typography>
                 <Box className="h-[2px] bg-gradient-to-r from-purple-500 to-pink-500" />
-                <Button
-                  variant="contained"
-                  color="success"
-                  className="w-full my-4 bg-green-500"
-                >
-                  add to cart
-                </Button>
               </>
             )}
+            <Button
+              variant="contained"
+              color="success"
+              className="w-full my-4 bg-green-500"
+              onClick={addToCart}
+            >
+              add to cart
+            </Button>
 
             <Typography>{product.description}</Typography>
           </Box>

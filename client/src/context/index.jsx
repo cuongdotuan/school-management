@@ -1,7 +1,17 @@
-import { createContext, useState } from "react"
+import { createContext, useEffect, useState } from "react"
 import { USER } from "..//constants"
+import { CART } from "../helper"
 
 export const AppContext = createContext(null)
+
+let initCart = []
+try {
+  const localCart = localStorage.getItem(CART)
+  const parsed = JSON.parse(localCart)
+  if (parsed) {
+    initCart = parsed
+  }
+} catch {}
 
 const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null)
@@ -12,6 +22,11 @@ const AppProvider = ({ children }) => {
     snackbarMessage: "",
     snackbarSeverity: undefined,
   })
+
+  const [cart, setCart] = useState(initCart)
+  useEffect(() => {
+    localStorage.setItem(CART, JSON.stringify(cart))
+  }, [cart])
 
   try {
     const userLocal = localStorage.getItem(USER)
@@ -32,6 +47,8 @@ const AppProvider = ({ children }) => {
         setHeader,
         snackbar,
         setSnackbar,
+        cart,
+        setCart,
       }}
     >
       {children}

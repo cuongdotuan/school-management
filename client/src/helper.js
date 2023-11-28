@@ -6,4 +6,5 @@ const handleLogOut = () => {
   window.location.href = "/admin"
 }
 
+export const CART = "CART"
 export default handleLogOut
