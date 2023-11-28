@@ -7,6 +7,14 @@ import {
 import mongoose from "mongoose"
 import ProductVersion from "../models/productVersion.js"
 
+const MOCKED_THUMBNAIL =
+  "https://media.gucci.com/style/White_South_0_160_316x316/1695142859/774548_ZAO9F_1000_001_100_0000_Light-Technical-fabric-coat.jpg"
+const MOCKED_IMAGES = [
+  "https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1695142859/774548_ZAO9F_1000_002_100_0000_Light-Technical-fabric-coat.jpg",
+  "https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1695142863/774548_ZAO9F_1000_007_100_0000_Light-Technical-fabric-coat.jpg",
+  "https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1695142864/774548_ZAO9F_1000_011_100_0000_Light-Technical-fabric-coat.jpg",
+]
+
 const get = async (query) => {
   const { pageSize, pageNumber, category } = query
   const size = pageSize && pageSize > 0 ? parseInt(pageSize) : DEFAULT_PAGE_SIZE
@@ -101,17 +109,6 @@ const getDetail = async (id) => {
 const create = async (payload) => {
   verifyProduct(payload)
 
-  const {
-    name,
-    description,
-    price,
-    color,
-    size,
-    categories,
-    thumbnail,
-    images,
-  } = payload
-
   const session = await mongoose.startSession()
   try {
     session.startTransaction()
@@ -120,13 +117,10 @@ const create = async (payload) => {
     await ProductVersion.create(
       [
         {
-          name,
-          description,
-          price,
-          color,
-          size,
-          categories,
+          ...payload,
           product: newPrd?._id,
+          thumbnail: MOCKED_THUMBNAIL, //temp
+          images: MOCKED_IMAGES, //temp
         },
       ],
       {
@@ -146,17 +140,6 @@ const create = async (payload) => {
 const update = async (id, payload) => {
   verifyProduct(payload)
 
-  const {
-    name,
-    description,
-    price,
-    color,
-    size,
-    categories,
-    thumbnail,
-    images,
-  } = payload
-
   const latestVersion = await ProductVersion.findOne({ product: id })
     .sort("-version")
     .exec()
@@ -165,12 +148,7 @@ const update = async (id, payload) => {
 
   await ProductVersion.create([
     {
-      name,
-      description,
-      price,
-      color,
-      size,
-      categories,
+      ...payload,
       version: nextVersion,
       product: id,
       images: latestVersion.images, //temp

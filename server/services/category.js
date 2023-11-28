@@ -29,7 +29,7 @@ const get = async (query) => {
 }
 
 const getDetail = async (id) => {
-  const item = await Category.findById(id).select("_id name").exec()
+  const item = await Category.findById(id).select("_id name isInNavbar isInFilter").exec()
   return item
 }
 
@@ -46,8 +46,7 @@ const create = async (payload) => {
   if (!name || !name.trim()) throw new Error("Name is required")
   const exist = await Category.findOne({ name }).exec()
   if (exist) throw new Error("Duplicate name")
-  const newCategory = { name }
-  const result = await Category.create(newCategory)
+  const result = await Category.create(payload)
   return result
 }
 
@@ -56,7 +55,7 @@ const update = async (id, payload) => {
   if (!name || !name.trim()) throw new Error("Name is required")
   const exist = await Category.findOne({ name, _id: { $ne: id } }).exec()
   if (exist) throw new Error("Duplicate name")
-  const result = await Category.findByIdAndUpdate(id, { name }).exec()
+  const result = await Category.findByIdAndUpdate(id, payload).exec()
   return result
 }
 
