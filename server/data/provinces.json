@@ -3,5 +3,10 @@
     "fullName": "Thành phố Hà Nội",
     "id": 1,
     "name": "Hà Nội"
+  },
+  {
+    "fullName": "Thành phố Hồ Chí Minh",
+    "id": 79,
+    "name": "TP Hồ Chí Minh"
   }
 ]
