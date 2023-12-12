@@ -146,7 +146,7 @@ const CommerceLayout = () => {
 
               <Box className="flex items-center gap-1">
                 <CardGiftcardIcon />
-                Free shipping for orders over 500$
+                Gift for orders over 1000$
               </Box>
             </Box>
 
