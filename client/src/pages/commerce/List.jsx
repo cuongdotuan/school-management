@@ -3,7 +3,14 @@ import { AppContext } from "../../context"
 import api from "../../api"
 import { DEFAULT_PAGINATION } from "../../constants"
 import { useNavigate } from "react-router-dom"
-import { Box, Button, CircularProgress, Typography } from "@mui/material"
+import {
+  Box,
+  Button,
+  CircularProgress,
+  Tooltip,
+  Typography,
+  Zoom,
+} from "@mui/material"
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown"
 let totalPages
 const pageSize = 12
@@ -61,19 +68,6 @@ const NewList = () => {
     }
   }, [pageNumber])
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     const loading = document.getElementById("loading")
-  //     const isInViewport = elementInViewport(loading)
-  //     if (isInViewport && !fetching) {
-  //       setPageNumber((pageNumber) => pageNumber + 1)
-  //       setFetching(true)
-  //     }
-  //     console.log(isInViewport)
-  //   })
-
-  // }, [])
-
   const fetchMore = () => {
     if (!fetching) {
       setPageNumber((pageNumber) => pageNumber + 1)
@@ -92,26 +86,34 @@ const NewList = () => {
             <img
               src={prd.thumbnail}
               alt=""
-              className="w-full object-cover"
+              className="w-full  flex-1 object-cover"
             />
-            <Box className="mx-2">
-              <Typography className="uppercase text-base">
-                {prd.name}
-              </Typography>
+            <Tooltip
+              title={prd.name}
+              placement="top"
+              TransitionComponent={Zoom}
+            >
+              <Box className="mx-2">
+                <Typography className="uppercase text-base inline-block w-60 whitespace-nowrap overflow-hidden text-ellipsis">
+                  {prd.name}
+                </Typography>
 
-              {prd.price === prd.originalPrice ? (
-                <Typography className="font-medium">$ {prd.price}</Typography>
-              ) : (
-                <Box className="flex gap-5">
-                  <Typography className="font-medium">
-                    $ {prd.originalPrice}
-                  </Typography>
-                  <Typography className="line-through text-zinc-400 italic">
+                {prd.price === prd.originalPrice ? (
+                  <Typography className="font-medium text-zinc-600">
                     $ {prd.price}
                   </Typography>
-                </Box>
-              )}
-            </Box>
+                ) : (
+                  <Box className="flex gap-5">
+                    <Typography className="font-medium">
+                      $ {prd.originalPrice}
+                    </Typography>
+                    <Typography className="line-through text-zinc-400 italic">
+                      $ {prd.price}
+                    </Typography>
+                  </Box>
+                )}
+              </Box>
+            </Tooltip>
 
             <Button
               color="secondary"
@@ -130,12 +132,15 @@ const NewList = () => {
       )}
 
       {!fetching && pageNumber < totalPages && (
-        <Box
-          className="flex justify-center items-center cursor-pointer mb-5"
-          onClick={fetchMore}
-        >
-          <Typography className="text-lg text-zinc-600">See more...</Typography>
-          <ArrowDropDownIcon className="text-lg text-zinc-600" />
+        <Box className="flex items-center justify-center">
+          <Button
+            className="flex justify-center items-center  mb-5 bg-white rounded-full  border-solid border-2 border-black text-black"
+            onClick={fetchMore}
+            variant="contained"
+          >
+            <Typography className="text-lg ">See more...</Typography>
+            <ArrowDropDownIcon className="text-lg " />
+          </Button>
         </Box>
       )}
     </>
