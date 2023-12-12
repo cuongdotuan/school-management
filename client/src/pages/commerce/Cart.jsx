@@ -18,7 +18,7 @@ import {
   styled,
   tableCellClasses,
 } from "@mui/material"
-import React, { useContext } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import RemoveIcon from "@mui/icons-material/Remove"
 import AddIcon from "@mui/icons-material/Add"
 import ClearIcon from "@mui/icons-material/Clear"
@@ -26,12 +26,7 @@ import { AppContext } from "../../context"
 import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as yup from "yup"
-
-const city = [
-  { id: 1, name: "Ha Noi" },
-  { id: 2, name: "Da Nang" },
-  { id: 3, name: "TP Ho Chi Minh" },
-]
+import api from "../../api"
 
 const schema = yup
   .object({
@@ -45,9 +40,9 @@ const schema = yup
       })
       .required("Phone number is require"),
     email: yup.string().email("Wrong syntax"),
-    city: yup.number().required("Ward is require"),
-    district: yup.string().required("District is require"),
-    ward: yup.string().required("Ward is require"),
+    city: yup.number().required("City is require"),
+    district: yup.number().required("District is require"),
+    ward: yup.number().required("Ward is require"),
     note: yup.string(),
   })
   .required()
@@ -73,10 +68,15 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }))
 
 const Cart = () => {
+  const [cities, setCities] = useState([])
+  const [districts, setDistricts] = useState([])
+  const [wards, setWards] = useState([])
+
   const navigate = useNavigate()
   const { cart, setCart } = useContext(AppContext)
   const {
-    control,
+    watch,
+    setValue,
     handleSubmit,
     register,
     formState: { errors },
@@ -86,20 +86,34 @@ const Cart = () => {
       lastName: "",
       phone: "",
       email: "",
-      city: 10,
-      district: "",
-      ward: "",
+      city: null,
+      district: null,
+      ward: null,
       note: "",
     },
     resolver: yupResolver(schema),
   })
+  const selectedCity = watch("city")
+  const selectedDistrict = watch("district")
+
   const onSubmit = (data) => console.log(data)
 
   let totalPrice = 0
   for (let p of cart) {
     totalPrice = totalPrice + p.quantity * p.price
   }
-
+  let feeShipping
+  switch (selectedCity) {
+    case 1:
+      feeShipping = 5
+      break
+    case 79:
+      feeShipping = 10
+      break
+    default:
+      feeShipping = 0
+      break
+  }
   const handleRemove = (id) => {
     const confirmRemove = confirm("Do you want to remove this item?")
     if (confirmRemove) {
@@ -144,6 +158,63 @@ const Cart = () => {
     })
     setCart(newProducts)
   }
+
+  useEffect(() => {
+    let ignore = false
+    const getCity = async () => {
+      try {
+        const res = await api.get(`/provinces`)
+        if (!ignore) {
+          setCities(res.data)
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getCity()
+    return () => {
+      ignore = true
+    }
+  }, [])
+
+  useEffect(() => {
+    let ignore = false
+    const getDistrict = async () => {
+      try {
+        const res = await api.get(`/districts?provinceId=${selectedCity}`)
+        if (!ignore) {
+          setValue("district", null)
+          setDistricts(res.data)
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getDistrict()
+    return () => {
+      ignore = true
+    }
+  }, [selectedCity])
+
+  useEffect(() => {
+    let ignore = false
+    const getWard = async () => {
+      try {
+        const res = await api.get(`/wards?districtId=${selectedDistrict}`)
+
+        if (!ignore) {
+          setValue("ward", null)
+          setWards(res.data)
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getWard()
+    return () => {
+      ignore = true
+    }
+  }, [selectedCity, selectedDistrict])
 
   return (
     <>
@@ -301,7 +372,7 @@ const Cart = () => {
                   select
                   label="City"
                   size="small"
-                  defaultValue={0}
+                  defaultValue={""}
                   SelectProps={{
                     MenuProps: {
                       disableScrollLock: true,
@@ -309,39 +380,67 @@ const Cart = () => {
                   }}
                   {...register("city")}
                 >
-                  {city.map((c) => (
+                  {cities.map((c) => (
                     <MenuItem
-                      key={c.name}
+                      key={c.id}
                       value={c.id}
                     >
-                      {c.name}
+                      {c.fullName}
                     </MenuItem>
                   ))}
                 </TextField>
               </Box>
               <Box className="flex-1">
                 <TextField
-                  className="w-full"
-                  size="small"
+                  className="w-full bg-white"
+                  id="outlined-select-currency"
+                  select
                   label="District"
-                  sx={{ backgroundColor: "white" }}
+                  size="small"
+                  defaultValue={""}
+                  SelectProps={{
+                    MenuProps: {
+                      disableScrollLock: true,
+                      sx: { height: 600 },
+                    },
+                  }}
                   {...register("district")}
-                />
-                <Typography className="text-red-500">
-                  {errors.district?.message}
-                </Typography>
+                >
+                  {districts.map((d) => (
+                    <MenuItem
+                      key={d.id}
+                      value={d.id}
+                    >
+                      {d.fullName}
+                    </MenuItem>
+                  ))}
+                </TextField>
               </Box>
               <Box className="flex-1">
                 <TextField
-                  className="w-full"
-                  size="small"
+                  className="w-full bg-white"
+                  id="outlined-select-currency"
+                  select
                   label="Ward"
-                  sx={{ backgroundColor: "white" }}
+                  size="small"
+                  defaultValue={""}
+                  SelectProps={{
+                    MenuProps: {
+                      disableScrollLock: true,
+                      sx: { height: 600 },
+                    },
+                  }}
                   {...register("ward")}
-                />
-                <Typography className="text-red-500">
-                  {errors.ward?.message}
-                </Typography>
+                >
+                  {wards.map((w) => (
+                    <MenuItem
+                      key={w.id}
+                      value={w.id}
+                    >
+                      {w.fullName}
+                    </MenuItem>
+                  ))}
+                </TextField>
               </Box>
             </Box>
             <Box className="flex">
@@ -365,14 +464,16 @@ const Cart = () => {
 
                 <Box className="flex justify-between">
                   <Typography>Shipping Fee</Typography>
-                  <Typography>$ </Typography>
+                  <Typography>$ {feeShipping}</Typography>
                 </Box>
 
                 <Box className="flex justify-between">
                   <Typography className="font-medium text-lg">
                     Final Price
                   </Typography>
-                  <Typography className="font-medium text-lg">$ </Typography>
+                  <Typography className="font-medium text-lg">
+                    $ {totalPrice + feeShipping}
+                  </Typography>
                 </Box>
               </Box>
             </Box>
