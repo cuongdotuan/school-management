@@ -25,11 +25,13 @@ import Landing from "./pages/commerce/Landing"
 import NewList from "./pages/commerce/List"
 import CommerceLayout from "./layouts/commerce"
 import Detail from "./pages/commerce/Detail"
+import Cart from "./pages/commerce/Cart"
 
 const commerceRoutes = [
   { path: "", element: <Landing /> },
   { path: "product", element: <NewList /> },
   { path: "product/:id", element: <Detail /> },
+  { path: "cart", element: <Cart /> },
 ]
 
 const adminRoutes = [

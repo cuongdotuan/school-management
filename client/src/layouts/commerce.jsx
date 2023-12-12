@@ -1,4 +1,4 @@
-import { Box, Typography, Link, Divider } from "@mui/material"
+import { Box, Typography, Link, Divider, Badge } from "@mui/material"
 import { Outlet } from "react-router-dom"
 import LocalShippingIcon from "@mui/icons-material/LocalShipping"
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard"
@@ -12,10 +12,13 @@ import EmailIcon from "@mui/icons-material/Email"
 import FacebookIcon from "@mui/icons-material/Facebook"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import YouTubeIcon from "@mui/icons-material/YouTube"
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import api from "../api"
+
+import { AppContext } from "../context"
 const CommerceLayout = () => {
   const [categoriesNavbar, setCategoriesNavber] = useState([])
+  const { cart } = useContext(AppContext)
   useEffect(() => {
     let ignore = false
     const getCategoriesInNavbar = async () => {
@@ -40,11 +43,11 @@ const CommerceLayout = () => {
           <Box className="flex flex-1 gap-5 pl-8">
             <Typography className="text-sm font-medium flex items-center gap-1">
               <LocationOnIcon className="text-base" />
-              ĐỊA CHỈ: VIỆT NAM
+              LOCATION: VIỆT NAM
             </Typography>
             <Typography className="text-sm font-medium flex items-center gap-1">
               <LocalPhoneIcon className="text-base" />
-              ĐIỆN THOẠI: 0961222333
+              PHONE: 0961222333
             </Typography>
           </Box>
           <Box className="flex-[2] flex flex-col gap-3">
@@ -103,10 +106,23 @@ const CommerceLayout = () => {
             <Typography className="flex items-center">
               <SearchIcon className="text-base" />
             </Typography>
-            <Typography className="text-sm font-medium flex items-center gap-1">
-              <LocalMallIcon className="text-base" />
-              GIỎ HÀNG
-            </Typography>
+            <Link
+              href="/cart"
+              underline="none"
+              color="black"
+              className="text-sm font-medium flex items-center gap-3"
+            >
+              <Badge
+                badgeContent={cart.length}
+                color="primary"
+              >
+                <LocalMallIcon
+                  color="action"
+                  className="text-black text-xl font-medium"
+                />
+              </Badge>
+              <Typography className="text-sm font-medium">CART</Typography>
+            </Link>
           </Box>
         </Box>
       </Box>
