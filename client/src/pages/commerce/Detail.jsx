@@ -38,6 +38,11 @@ const Detail = () => {
     if (!foundProduct) {
       const newProduct = { ...product, quantity: 1 }
       setCart([...cart, newProduct])
+      setSnackbar({
+        openSnackbar: true,
+        snackbarMessage: "Success",
+        snackbarSeverity: "success",
+      })
       return
     }
 
@@ -49,6 +54,11 @@ const Detail = () => {
       return p
     })
     setCart(newProducts)
+    setSnackbar({
+      openSnackbar: true,
+      snackbarMessage: "Success",
+      snackbarSeverity: "success",
+    })
   }
   return (
     <>
